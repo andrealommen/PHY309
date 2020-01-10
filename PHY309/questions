@@ -1,0 +1,16 @@
+Why do I have to do git push -u origin master?
+Can I do a shortcut push when I'm just tweaking? - oh maybe that's what jaycu does...
+
+x 1. Get Jekyll
+x 2. Create separate documents for the separate pages (I think you've got two grids - one in excel and one in word - that's confusing)
+	And you need a way to update the grid - so however you get from excel to the web page, you should document
+	it so that you can do it again (unless you think updating the markdown directly is okay)
+/ 3. Make everything link to each other
+	So you'll have course description, grid, and then each assignment will be linked from the grid - probably just to box.  So I could do that now - put each assignment in box.  So then you just need course description linked to grid and main and grid to course description and main
+4. Make a document directory that holds all the assignments (box is fine - that makes it easy to change)
+This is where I stopped. A pdf works fine, but maybe box would be easier for changing them. I wouldn't be saving them as PDFs. So I think try the box link idea - might not be as nice because you might not be able to go back with your browser.
+4. Serve it all to git and try git gui
+5. Link all of this on your web page.
+
+
+then make the one for 104 (maybe that's tomorrow)
