@@ -22,8 +22,8 @@ title: Andrea Lommen's Courses
 email: alommen 'at' haverford 'dot' edu
 description: >- # this means to ignore newlines until "baseurl:"
     Since 2020 I've been creating all of my course websites here.
-baseurl: "courses" # the subpath of your site, e.g. /blog
-url: "courses" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "PHY309" # the subpath of your site, e.g. /blog
+url: "PHY309" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  andrealommen
 
 # Build settings
