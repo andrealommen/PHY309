@@ -1,0 +1,3 @@
+git add .
+git commit -m "Added stuff"
+git push origin gh-pages
