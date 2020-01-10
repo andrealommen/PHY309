@@ -8,6 +8,8 @@ Instructor:  Andrea Lommen, KINSC L108, alommen 'at' haverford 'dot' edu
 
 Textbook:  Introduction to Electrodynamics by David J. Griffiths
 
+You: Are awesome
+
 # References  
 Several other electrodynamics texts will be placed on reserve in the White Science Library. These will include Electromagnetic Fields and Waves by Lorrain and Corson, which is comparable in level to your text, and Classical Electrodynamics by J. D. Jackson, which has been the standard introductory graduate text for years. Also on reserve is Electricity and Magnetism:  Berkeley Series Volume 2 by Purcell for those who feel a bit rusty or would benefit from a somewhat lower-level treatment.
 
