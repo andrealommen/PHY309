@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: PHY309: Advanced Electromagnetism
+title: "PHY309: Advanced Electromagnetism"
 email: alommen 'at' haverford 'dot' edu
 description: >- # this means to ignore newlines until "baseurl:"
     This page is hosted by github and created using Jekyll. To 
