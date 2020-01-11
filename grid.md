@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Grid
-permalink: /PHY309/Grid/
+permalink: /Grid/
 ---
 
 |Week starting..   | Monday            | Wednesday                                                                                                                     | Friday                                                                                      |
