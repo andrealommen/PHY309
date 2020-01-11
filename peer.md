@@ -42,7 +42,6 @@ For each problem:
 	<ul>
             <li>	Identify the place or places where the solution took a wrong turn.   Describe those in words so that your colleague understands.  Also </li> 
             <li>	If possible, describe a way that they could have known that the mistake had happened. (These are often much easier to see in hindsight, but nonetheless, you will find that you can acquire the skill of finding your own mistakes.) </li>
-        </ul>
    *    Was the logic sound and did they explain their logic?  Each step should be explained so that the reader (you) can know what they were thinking.
         * If so, tell them what in particular helped you understand their logic.
         * If not, articulate what you are missing, and offer a suggestion for how to make it clearer to the reader next time.
