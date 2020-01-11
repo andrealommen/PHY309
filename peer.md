@@ -28,7 +28,8 @@ Also, everyone is in this class to learn, and instead of having that experience 
 On the day the problem set is due, everyone brings their own solution set to class. They label it with the last four numbers of their student ID.  No name.  I collect them all and then redistribute them so everyone has someone else’s. I hand out a rubric sheet for you to fill out. We will go through the whole problem set checking things off together. If you have a question about something you can circle the check mark and I’ll look at it later. 
 
 Among the things on the checklist/rubric will be:
-*	For each problem:
+<br>
+For each problem:
    *	Is the main point/conclusion of the problem articulated?  (Everyone will have been asked to state the main point of each problem when they write their solutions.) 
    *	Articulate what the student has done very well: Some examples are:
         *	You have done a good job describing your work.
@@ -37,12 +38,12 @@ Among the things on the checklist/rubric will be:
         *	Your diagram of the problem is very helpful.
         *	I learned a different way to think about the problem from reading your solution.
    *	Did they get the right answer?
-       	*	If not -> 
-*	Identify the place or places where the solution took a wrong turn.   Describe those in words so that your colleague understands.  Also 
-*	If possible, describe a way that they could have known that the mistake had happened. (These are often much easier to see in hindsight, but nonetheless, you will find that you can acquire the skill of finding your own mistakes.)
-*	Was the logic sound and did they explain their logic?  Each step should be explained so that the reader (you) can know what they were thinking.
-        *	If so, tell them what in particular helped you understand their logic.
-        *	If not, articulate what you are missing, and offer a suggestion for how to make it clearer to the reader next time.
+        * If not -> 
+               *	Identify the place or places where the solution took a wrong turn.   Describe those in words so that your colleague understands.  Also 
+               *	If possible, describe a way that they could have known that the mistake had happened. (These are often much easier to see in hindsight, but nonetheless, you will find that you can acquire the skill of finding your own mistakes.)
+        *	Was the logic sound and did they explain their logic?  Each step should be explained so that the reader (you) can know what they were thinking.
+                *	If so, tell them what in particular helped you understand their logic.
+                *	If not, articulate what you are missing, and offer a suggestion for how to make it clearer to the reader next time.
 
 Everything you write will be on a separate sheet of paper (the rubric sheet), not on the student’s work, so that I can alter it if necessary.
 
