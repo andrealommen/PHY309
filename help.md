@@ -8,7 +8,7 @@ permalink: /help/
 Do you suffer from FOMOOOWMP (Fear of Meeting one-on-one with my professor)?
 Watch this [video.](https://www.youtube.com/watch?v=yQq1-_ujXrM) 
 
-Andrea's Office Hours
+# Andrea's Office Hours
 
 Regular office hours: 
 
@@ -24,4 +24,4 @@ Extra Office hours:
 
 And I might have some weekend sessions as well.
 
-TA Office Hours:
+# TA Office Hours:
