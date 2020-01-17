@@ -19,7 +19,7 @@ Regular office hours:
 
 
 Extra Office hours:
-* Tuesday, Feb 4: 4-8pm, KINSC H205
+* Tuesday, Feb 4: 4-6:30pm, KINSC H205
 * Wednesday, Feb 5: 5-8pm, KINSC H205
 
 And I might have some weekend sessions as well.
