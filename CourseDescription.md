@@ -6,7 +6,7 @@ permalink: /description/
 
 Instructor:  Andrea Lommen, KINSC L108, alommen 'at' haverford 'dot' edu
 
-Textbook:  Introduction to Electrodynamics by David J. Griffiths
+Textbook:  Introduction to Electrodynamics by David J. Griffiths, 4th edition
 
 Thank you to Steve Boughn for much of this content.
 
