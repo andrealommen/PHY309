@@ -1,0 +1,4 @@
+---
+title: Lectures
+layout: page
+---
