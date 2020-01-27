@@ -11,5 +11,5 @@ permalink: /lectures
 [Dirac Delta Function](/PHY309/lectures/dirac)<br>
 [Potentials and Boundary Conditions](/PHY309/lectures/potentials)<br>
 ### Chapter 2: Electrostatics ###
-[Andrea's Crash Course in Chapter 2](/PHY309/lectures/allChapt2)<br>
+[Andrea's Crash Course in Chapter 2](/PHY309/lectures/chapt2)<br>
 [Electric Field](/PHY309/lectures/electric)<br>
