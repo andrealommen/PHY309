@@ -37,6 +37,7 @@ plugins:
 # If you comment this whole thing out it will just put everything 
 # in, in an order I don't understand.
 header_pages: 
+  - announcements.md
   - CourseDescription.md
   - grid.md
   - lectures/index.md
