@@ -1,0 +1,28 @@
+To get latex to run I had to modify page.html in _layouts
+I used these instructions
+http://www.iangoodfellow.com/blog/jekyll/markdown/tex/2016/11/07/latex-in-markdown.html
+
+To get hashtags to appear just put quotes around the thing.
+
+Sub lettered items aren't worth it.  You can do it with html, but then you can't put 
+the latex inside the html. 
+
+To get it to continue numbered lists, put anything you want not numbered indented by 4 spaces. Indent matters a lot in markdown.  That's one way they get around having lots
+of <weird/ commands.>
+
+When I was trying to do css I put it in the _layout/page.html file and then definitely did something!  That might be a way to do something in the future.  You can definitely add styles there (like how I added the latex in markdown stuff above.)
+
+Aha!  I've been making "permalinks" which overrides the directory thing - that's why
+I think the following is annoying. I need to fix that. ....
+I think I want to use "category" instead of "permalink"
+jekyll treats directories in an annoying way. The local "_config.yml" has to have an empty string for "baseurl" but the one on git has to have "PHY309". And I haven't figured out yet how to do the subdirectory with assignments in it. 
+And then the links in grid.md need to have the official path of the file as seen in the yaml forematter, not the actual location on git or locally. so "href = assignments/a1" rather than href = assignments/A1.md"
+
+It actually comes out right on github when I have  the href in grid
+to "/PHY309/assignments/a1" or  PHY309/assignments/A2.pdf
+and in the front matter of A1.md it says permalink /assignments/a1
+
+It just doesn't come out right locally, but that's okay.
+
+I can change the header contents and order in _config.yml!!
+(see 309 _config.yml for example)

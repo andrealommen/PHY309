@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "The Electric Field"
-permalink: "lectures/electric"
+permalink: "/lectures/electric"
 ---
 
 You'll notice I didn't even put Coulomb's law in my crash course.  It's not that fun. Coulomb's law is technically an equation for Force, but I like the one

@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     This page is hosted by github and created using Jekyll. To 
     get back to my Haverford page go to 
     https://www.haverford.edu/users/alommen
-baseurl: "PHY309" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  andrealommen
 
@@ -39,6 +39,7 @@ plugins:
 header_pages: 
   - CourseDescription.md
   - grid.md
+  - lectures/index.md
   - help.md
   - honor.md
   - diversity.md
