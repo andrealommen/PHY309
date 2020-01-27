@@ -1,6 +1,6 @@
 ---
 title: Assignments
 layout: page
-permalink: /assignments
+permalink: /assignments/
 ---
-[Assignment #1](/PHY309/assignments/a1)<br>
+[Assignment #1](/PHY309/assignments/hw1)<br>
