@@ -12,7 +12,7 @@ Important point: I'm going on and on about the divergence and the curl,
 because Maxwell's equations specify the divergence and the curl of the
 E- and the B- fields.
 
-**The Helmholtz Theorem**
+### The Helmholtz Theorem
 
 So one question you could ask is....
 
@@ -27,13 +27,13 @@ Yes.
 
 In other words, we need **boundary conditions** in order to specify the field in many cases. We'll get to boundary conditions officially in chapter 3 when we talk about potentials more. 
 
-**Scalar Potential**
+### Scalar Potential
 
 If the curl of a field (say **E**) vanishes everywhere, then **E** can be
 written as the gradient of a scalar potential (V):
 
 $$
-\nabla \times \vec{E} = \vec{0}  ~~~  \rightarrow ~~~~ E = -\nabla V.
+\nabla \times \vec{E} = \vec{0}  ~~~  \rightarrow ~~~~ \vec{E} = -\nabla V.
 $$
 
 Griffiths wants to make sure you know this is true for ANY curl-less
@@ -67,7 +67,7 @@ electric field, but I don't think I appreciated that a changing $$\vec{B}$$
 would produce a curl-full E-field!! I'm looking forward to learning more
 about that.)
 
-**Vector Potential**
+### Vector Potential
 AKA the potential that gives you $$\vec{B}$$.
 
 If a vector field (say $$\vec{B}$$ for example) is divergence-less, i.e.
@@ -78,7 +78,7 @@ $$
 \vec{B} = \nabla \times \vec{A}
 $$
 
-where $$\vec{A}$$ is called the *scalar potential.*
+where $$\vec{A}$$ is called the *vector potential.*
 
 Is $$\vec{B}$$ always divergence-less? Yes, that's Maxwell's 2nd equation:
 
@@ -91,7 +91,7 @@ ever found, that formula will change. It makes sense, right?  that without
 a magnetic "charge" you can't get that perfect diverging field that we
 think of for an electric charge.) 
 
-**Two things to notice about the above**
+### Two things to notice about the above
 
 In both cases, i.e. $$\vec{E} = \nabla V$$ and $$\vec{B} = \nabla \times \vec{A}$$ the field is the derivative of some other function, which means that there's
 an arbitrary element that can be added to $$V$$ or $$\vec{A}$$ the will not 
@@ -102,13 +102,13 @@ is mathematically (and therefore without exception) zero.)
 Notice why you need that caveat that these things can only be expressed
 as the gradient (curl) of a scalar (vector)... if the curl (divergence) is zero... 
 
-**E-field case**
+### E-field case
 We need $$\nabla \times \vec{E} = 0$$ (most of the time, by physics) and the curl of
 a gradient is 0 (all of the time, by math).  So if $$\nabla \times \vec{E} \ne 0$$
 but $$\nabla \times (\nabla V) = 0$$ then we can't express $$E$$ as $$\nabla V$$.
 
-**B-field case**
-Similar we need $$\nabla \cdot \vec{B} = 0$$ (all of the time, by Maxwell's
+### B-field case
+Similarly we need $$\nabla \cdot \vec{B} = 0$$ (all of the time, by Maxwell's
 equations, by physics) and the
 divergence $$\nabla \cdot (\nabla \times \vec{A}) = 0$$ (all of the time, by
 math). So $$\nabla \cdot \vec{B}$$ isn't 0, then it's a problem if
