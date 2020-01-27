@@ -24,7 +24,7 @@ $$\vec{R}$$ points from $$q$$ to $$\vec{r}$$.
 If you have a collection of charges then you sum this equation up (but just notice it's the same equation...)
 
 $$
-\vec{E} = \frac{1}{4\pi \epsilon_0}\Sigma_{i=1}^n \frac{q_i}{R_i}^2\hat{R}_i
+\vec{E} = \frac{1}{4\pi \epsilon_0}\Sigma_{i=1}^n \frac{q_i}{R_i^2}\hat{R}_i
 $$
 
 And if you have a charge distribution you do the integral... (but please...it's the same equation...)
