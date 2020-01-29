@@ -35,3 +35,5 @@ $$
 
 Let's do an example!!
 Example 2.2 page 64. 
+
+---------For reference, we did not actually get to do the example in class-------------
