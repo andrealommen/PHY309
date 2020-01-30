@@ -16,4 +16,5 @@ permalink: /lectures
 [Andrea's Crash Course in Chapter 2](/PHY309/lectures/chapt2)<br>
 [Electric Field](/PHY309/lectures/electric)<br>
 [Divergence and Curl of Electric Field, Gauss's Law](/PHY309/lectures/divcurlE)<br>
+[Potential, Work, Energy](/PHY309/lectures/PotentialWorkEnergy)<br>
 
