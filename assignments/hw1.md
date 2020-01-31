@@ -6,14 +6,29 @@ permalink: "/assignments/hw1"
 
 Reading: Griffiths, Chapter 1 and Chapter 2, sections 1-4.
 
-1. Griffiths, Chapter 1, Problem 1.12.
+1. Griffiths, Chapter 1, Problem 1.12.<br>
+*Main point: This problem helped me think less abstractly
+about the gradient by applying it to topography. Looking for
+the top of the hill amounts to finding the location of zero
+slope.  That actually completely makes sense to me when thinking
+about topography.*
 
-2. Griffiths, Chapter 1, Problem 1.33
+2. Griffiths, Chapter 1, Problem 1.33 <br>
+*Main point: This problem helped me think about the mechanics
+of the divergence theorem, how to think about dotting the 
+vector into the area, and integrating it over the volume, etc.
+It also reminded me that it's really
+true for any vector, i.e. it's pure math, not physics.*
 
 3. Suppose a fluid rotates about the axis such that velocity of flow at any 
 point is given by (in cylindrical coordinates)
-where the speed $$v(s)$$ is a function of $$s$$ only. A model that approximates 
-vortices in viscous fluids is the Rankine vortex for which  
+
+    $$
+    v=v(s)\hat{\phi}
+    $$
+
+    where the speed $$v(s)$$ is a function of $$s$$ only. A model that approximates 
+    vortices in viscous fluids is the Rankine vortex for which  
 
     $$
     \nabla \times \vec{v} = 
@@ -23,16 +38,30 @@ vortices in viscous fluids is the Rankine vortex for which
     $$
 
     where $$\omega$$ is constant. 
-        (a) What is the radial velocity profile, $$v(s)$$, for a Rankine vortex?  Note: Assume that $$v(s)$$ is continuous at $$s = R$$.
-        (b) Evaluate the “circulation”,$$\oint \vec{v}\cdot \vec{dl}$$ , for this flow as a function of $$s$$. 
+        (a) What is the radial velocity profile, $$v(s)$$, for a Rankine vortex? Note: Assume that $$v(s)$$ is continuous at $$s = R$$.
+        (b) Evaluate the “circulation”,$$\oint \vec{v}\cdot \vec{dl}$$ , for this flow as a function of $$s$$. <br> 
+    *Main point: This one reminded me how to deal with the
+    curl in cylindrical coordinates (it's inthe back of your book by
+    the way.) I also got practice apply Stokes' theorem.* 
 
 4. An infinitely long wire, stretching along the $$z$$ axis, is uniformly charged to l
 Coulombs/meter. Find the electric field intensity outside the wire by: 
     a) using Gauss’s Law;
     b) integrating Coulomb’s Law directly, and 
-    c) computing the potential directly and then taking the gradient. In method c), show that the mathematics breaks down and give an explanation for this. Can you find a way around the problem?
+    c) computing the potential directly and then taking the gradient. In method c), show that the mathematics breaks down and give an explanation for this. Can you find a way around the problem? <br>
+*Main point: First and foremost this one convinced me I should 
+apply Gauss' Law when I can. Second, doing the problem multiple
+ways was a pretty fun way to check my answer. Third, I gained
+confidence using Columb's law and using the potential.*
 
-5. Griffiths, Chapter 2, Problem 2.6.
+5. Griffiths, Chapter 2, Problem 2.6. <br>
+*Main point: I practiced setting up integrals to use Coulomb's
+law.  I also learned how to check the limits to make sure my
+answer is consistent. (This will be very valuable throughout
+this class.)*
+
+    ----For 6 through 10 I'd like you to write your own "main point"
+    at the end of each of your solutions.-----
 
 6. Griffiths, Chapter 2, Problem 2.15.
 

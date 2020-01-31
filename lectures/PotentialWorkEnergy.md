@@ -81,8 +81,7 @@ $$
 You can see how it goes right - the integral gives you a -1, but then the potential
 has a minus sign in it, so it's positive again.
 
-
-So let's put some things together here.  Gauss' law aka
+So let's put some things together here.  Gauss' law, aka
 $$
 \oint \vec{E} \cdot d\vec{a} = \frac{1}{\epsilon_0} Q_{\rm encl}
 $$
@@ -106,7 +105,7 @@ to $$R$$, and then you'll add to that the integral of the field from $$R$$
 down to $$r$$. You'll get the fields from Gauss' law. It'll look like this:
 
 $$
-V(r) = \frac{-1}{4\pi\epsilon_0} \int_\infty^R \frac{q}{{r^\prime}^2}dr^\prime - \int_R^r 0 dr^\prime 
+V(r) = \frac{-1}{4\pi\epsilon_0} \int_\infty^R \frac{q}{r^\prime}^2dr^\prime - \int_R^r (0) dr^\prime 
 $$
 
 Two integrals. We know the field inside is zero by Gauss' Law.  And we know
