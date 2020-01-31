@@ -274,3 +274,4 @@ When you have a charge distribution instead of a collection of point charges it 
 
 $$
 W= \frac{1}{2}\int\rhoVd\tau
+$$
