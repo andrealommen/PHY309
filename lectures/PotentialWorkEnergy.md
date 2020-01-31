@@ -113,3 +113,164 @@ the field outside is the field of a point charge, from Gauss' Law. We do
 an in integral over each different piece.
 
 Now vote again. Is the potential inside the radio R also zero?
+
+#### Work
+
+Let's skip ahead a little so that we can confront *work* and answer this question about the
+1/2 in the definition for work.
+
+So I think everyone at least vaguely remembers from 106 or a 106-like class that if
+you multiply the potential at a particular point by a charge, that is the amount of work
+required to place that charge at that point. (And by the above discussion, we are assuming
+that the potential was calculated using infinity as a reference point, and that we are
+bringing the charge in from infinity.)
+
+$$
+W = q V
+$$
+
+or if you have a collection of charges then...
+
+$$
+W = \frac{1}{2}\int \rho V d\tau
+$$
+
+(Those two formula are in the "Andrea's crash course for Chapter 2" document which I 
+encourage you to use.)
+
+So let's tackle this 1/2. (Page 92-93 of Griffiths)
+
+The potential due to a point charge $$q_1$$ is
+
+$$
+V_1(r) = \frac{1}{4\pi\epsilon_0}\left(\frac{q_1}{R}\right)
+$$
+
+where $$R$$ is the same as Griffith's script r, and is the difference between the position
+of the point charge at the point where you're calculating the potential.  Notice in the 
+case of potential it's just the distance between those.
+
+So then the work required to put a point charge $$q_2$$ at that location is
+
+$$
+W_2=q_2V_1(r) = \frac{1}{4\pi\epsilon_0}q_2\left(\frac{q_1}{R}\right)
+$$
+
+$$R$$ was the distance between the point charge $$q_1$$ and the place we're calculating the
+potential, so actually that distance $$R$$ is the distance between charge $$q_1$$ and $$q_2$$
+so let's call that $$R_{12}$$ now. 
+
+$$
+W_2=q_2V_1(r) = \frac{1}{4\pi\epsilon_0}q_2\left(\frac{q_1}{R_{12}}\right)
+$$
+
+Now let's add charge $$q_3$$.  This requires an amount of energy 
+
+$$
+W_3 = q_3V_{12}
+$$
+
+where $$V_{12}$$ is the potential due to the presence of charges 1 and 2. (Griffiths makes 
+the point that you need to nail down the charges as you place them so that they don't move
+around.)
+
+$$
+W_3 = q_3\left[\frac{1}{4\pi\epsilon_0}\left(\frac{q_1}{R_{13}}\right)
++ \frac{1}{4\pi\epsilon_0}\left(\frac{q_2}{R_{23}}\right)\right]
+$$
+
+which we can write a little bit more succinctly..
+
+$$
+W_3 = \frac{1}{4\pi\epsilon_0}q_3\left[\left(\frac{q_1}{R_{13}}\right)
++ \left(\frac{q_2}{R_{23}}\right)\right]
+$$
+
+we can add a fourth charge the same way...
+
+$$
+W_4 = \frac{1}{4\pi\epsilon_0}q_4\left[
+\left(\frac{q_1}{R_{14}}\right)
++ \left(\frac{q_2}{R_{24}}\right)
++ \left(\frac{q_3}{R_{34}}\right)
+\right]
+$$
+
+So then the TOTAL work to assemble the 4 charges is the sum of
+
+$$
+W = W_2 + W_3 + W_4 = 
+\frac{1}{4\pi\epsilon_0}\left[
+\left(\frac{q_1q_2}{R_{12}}\right)
++ \left(\frac{q_1q_3}{R_{13}}\right)
++ \left(\frac{q_2q_3}{R_{23}}\right)
++ \left(\frac{q_1q_4}{R_{14}}\right)
++ \left(\frac{q_2q_4}{R_{24}}\right)
++ \left(\frac{q_3q_4}{R_{34}}\right)
+\right]
+$$
+
+So can you see the rule emerging?
+
+$$
+W = 
+\frac{1}{4\pi\epsilon_0}
+\sum_{i=1}^{i=n}
+\sum_{j>i}^{j=n}
+\frac{q_iq_j}{R_{ij}}
+$$
+
+The $$j>i$$ rule makes it so you don't count any pair twice.  So actually we could just
+let it count every pair twice and then divide by 2.
+
+$$
+W = 
+\frac{1}{2}
+\frac{1}{4\pi\epsilon_0}
+\sum_{i=1}^{i=n}
+\sum_{j \neq i}^{j=n}
+\left(\frac{q_iq_j}{R_{ij}}\right)
+$$
+
+We can pull the $$q_i$$ out of the second sum, because that sum is over j.
+
+$$
+W = 
+\frac{1}{2}
+\frac{1}{4\pi\epsilon_0}
+\sum_{i=1}^{i=n} q_i
+\sum_{j \neq i}^{j=n}
+\left(\frac{q_j}{R_{ij}}\right)
+$$
+
+And put the $${4\pi\epsilon_0}$$ in a differen place so you can see what I'm about to do..
+
+$$
+W = 
+\left(\sum_{i=1}^{i=n} q_i\right)
+\left(\sum_{j \neq i}^{j=n}
+\frac{1}{4\pi\epsilon_0}
+\frac{q_j}{R_{ij}}\right)
+$$
+
+Aha!!  The term in parenthesis is the potential $$V(\vec{r})$$ due to all the OTHER charges
+besides $$i$$.   That's what we get because of the $$1/2$$.  In the original expression we
+had to make sure that we were assembling them and only counting the work for the new pairs
+we added, but now because of the $$1/2$$, we can ask, for each particle, what's the sum of
+the potentials of **all** the other particles.  And then divide by $$2$$.
+
+This is easier to write:
+
+$$
+W = \frac{1}{2}\sum_{i=1}^{i=n}q_iV(\vec{r_i})
+$$
+
+where $$V(\vec{r}_i)$$ is the potential at the point $$\vec{r}_i$$ where you're putting the $$i$$th
+particle.
+
+So that's where the $$\frac{1}{2}$$ comes from.
+
+When you have a charge distribution instead of a collection of point charges it looks like this:
+
+$$
+W= \frac{1}{2}\int\rhoVd\tau
