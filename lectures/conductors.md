@@ -29,7 +29,7 @@ But if you have a question about whether we can really say that
 you're right to question it.
 
 All that really says is that the flux summed over the surface
-is equal to $$4\pi q$$.  If we can argue that the field $$\vec{E}$$
+is equal to $$\frac{q}{\epsilon_0}$$.  If we can argue that the field $$\vec{E}$$
 is constant over a spherical surface centered at the origin then
 we could say that 
 $$
