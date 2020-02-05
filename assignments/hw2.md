@@ -8,7 +8,7 @@ Reading: Griffiths; Chapter 2, section 5 and Chapter 3, sections 1 and 2
 
 Don't forget to finish each problem by writing the main point.
 
-You may use Mathematica unless otherwise stated.
+You may only use Mathematica on #7.  I don't actually think you need it on any of the problems, so don't take that as a sign that I think #7 is harder than the others.
 
 ______________________________________________________________________________
 
