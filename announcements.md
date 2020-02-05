@@ -4,6 +4,14 @@ title:  Announcements
 permalink: /announcements/
 ---
 
+Wednesday, February 5:
+* Workshop on Saturday about creating a good work environment for yourself. We pay you $30. Sign up at this link:
+[https://forms.haverford.edu/view.php?id=681048](https://forms.haverford.edu/view.php?id=681048)
+
+* Colloquium Friday at 4:30 pm "A Window into Exoplanet Magnetism with Brown Dwarf Exo-Aurorae", Melodie Kao, Sharpless auditorium
+
+* Summer Research meeting tonight 5:00-6:30, H109, dinner!
+
 Wednesday, January 29:
 * I think realistically we'll be able to grade about three of the problems from the homework in class.  Maybe as the semester goes on we'll get better at it.  The rest of them will be graded by a Bryn Mawr grad student. I will be checking over everything, both what you do and what the grader does, before I decide on an actual grade.
 * Saturday, February 8 from 9:30-12:30 there's a workshop with Melodie Kao called: Practical Skills for Emerging Scholars: Navigating Personal Boundaries to Set Yourself and Your Community up for Success <br> 
