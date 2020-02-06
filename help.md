@@ -13,7 +13,7 @@ Watch this [video.](https://www.youtube.com/watch?v=yQq1-_ujXrM)
 Regular office hours: 
 
 * Monday 2:15-4pm every other week starting January 27 (L108)
-(so Jan 27, Feb 10, Feb 24, Mar 9, Mar 23, Apr 7, Apr 21)
+(so Jan 27, (sorry I have to cancel this one: Feb 10), Feb 24, Mar 9, Mar 23, Apr 7, Apr 21)
 * Tuesday 4-7pm (roughly, but check below and/or google calendar for details) every other week starting February 4 (H204)
 (so Feb 4, Feb 18, Mar 3, Mar 17, Mar 31, Apr 14, Apr 28)
 
