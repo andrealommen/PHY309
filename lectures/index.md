@@ -18,4 +18,4 @@ permalink: /lectures
 [Divergence and Curl of Electric Field, Gauss's Law](/PHY309/lectures/divcurlE)<br>
 [Potential, Work, Energy](/PHY309/lectures/PotentialWorkEnergy)<br>
 [Boundary Conditions and Conductors](/PHY309/lectures/conductors)<br>
-
+[Laplace's Equation and the Method of Images](/PHY309/lectures/laplace)<br>
