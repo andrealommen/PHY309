@@ -74,7 +74,7 @@ this class.)*
     b) What type of motion does the electron execute in the radial direction?
     c) What is the frequency of this motion for a typical atomic radius of 1 angstrom (0.1 nm)?
     d) What is the frequency of an electron that is in a circular orbit about the center?  Interesting, no?
-    e) How does this frequency compare with that of the fundamental Lyman a transition in
+    e) How does this frequency compare with that of the fundamental Lyman $$\alpha$$ transition in
 hydrogen? The wavelength of a Lyman $$\alpha$$ photon is 121.6 nm.
 
 10. Find the charge distribution (i.e., the charge density) that produces the Yukawa potential (a model for the nuclear force), i.e.,
