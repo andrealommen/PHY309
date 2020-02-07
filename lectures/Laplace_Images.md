@@ -12,7 +12,7 @@ Announcements
 
 ---------------------------------------
 
-Announce office hours Sunday from ????
+Announce office hours Sunday from 5-6:30 (I can stay later if we're still talking.)
 
 Announce lunch right after this with Melodie, colloquium, workshop.
 
@@ -87,7 +87,9 @@ Some interesting things to notice:
 
 In three dimensions, what does it mean to specify the potential on the boundaries? It means to specify it on the surface.
 
-**First uniqueness theorem: ** The solution to Laplace's equation in some volume $$\mathscr{V}$$ is uniquely determined if the $$V$$ (the potential) is specified on the boundary surface $$S$$. 
+**First uniqueness theorem:** 
+
+The solution to Laplace's equation in some volume $$\mathscr{V}$$ is uniquely determined if the $$V$$ (the potential) is specified on the boundary surface $$S$$. 
 
 You can get it by analogy to the one dimensional case, right?
 
@@ -116,7 +118,8 @@ Brings us to the question I asked at the beginning of class:
 We hold a charge $$q$$ a distance $$d$$ above an infinite grounded conducting plane.  What's the potential in the region above the plane?
 
 This uses the second uniqueness theorem (but similar to the first):
-**Second uniqueness theorem: ** In a volume $$\mathscr{V}$$ surrounded by
+
+**Second uniqueness theorem:** In a volume $$\mathscr{V}$$ surrounded by
 conductors and containing a specified charge density $$\rho$$, the electric
 field is uniquely determined if the *total charge* on each conductor is given.
 
