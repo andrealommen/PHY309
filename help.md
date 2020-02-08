@@ -15,7 +15,7 @@ Regular office hours:
 * Monday 2:15-4pm every other week starting January 27 (L108)
 (so Jan 27, (sorry I have to cancel this one: Feb 10), Feb 24, Mar 9, Mar 23, Apr 7, Apr 21)
 * Tuesday 4-7pm (roughly, but check below and/or google calendar for details) every other week starting February 4 (H204)
-(so Feb 4, Feb 18, Mar 3, Mar 17, Mar 31, Apr 14, Apr 28)
+(so Feb 4, Feb 18, Mar 3 (see below), Mar 17, Mar 31, Apr 14, Apr 28)
 
 
 Extra Office hours: (all in H204)
@@ -23,7 +23,7 @@ Extra Office hours: (all in H204)
 * Wednesday, Feb 5: 5-8pm
 * Tuesday, Feb 18: 4-6:30pm
 * Monday, Feb 24: 5:30-8pm
-* Tuesday, Mar 3: 4-7pm
+* Tuesday, Mar 3: 4-4:45pm, 7-8:30pm
 * Thursday, March 19: 6-9pm
 * Monday, March 23: 5:30-8pm
 * Tuesday, March 31: 6-8pm
