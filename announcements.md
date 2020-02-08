@@ -4,6 +4,19 @@ title:  Announcements
 permalink: /announcements/
 ---
 
+
+Friday, February 7:
+Office hours Sunday from 5-6:30 (I can stay later if we're still talking.)
+
+Lunch right after this with Melodie, colloquium, workshop.
+
+What you should expect from the environment in physics.
+* mutual respect
+* welcoming spaces
+* honoring difference...all the differences you can think of
+* integrity
+
+
 Wednesday, February 5:
 * Workshop on Saturday about creating a good work environment for yourself. We pay you $30. Sign up at this link:
 [https://forms.haverford.edu/view.php?id=681048](https://forms.haverford.edu/view.php?id=681048)

@@ -8,15 +8,9 @@ Question for the beginning of class:
 
 We hold a charge $$q$$ a distance $$d$$ above an infinite grounded conducting plane.  What's the potential in the region above the plane?
 
-Announcements
 
 ---------------------------------------
 
-Announce office hours Sunday from 5-6:30 (I can stay later if we're still talking.)
-
-Announce lunch right after this with Melodie, colloquium, workshop.
-
-Talk briefly about this problem set.
 
 What you should expect from the environment in physics.
 * mutual respect
