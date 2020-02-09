@@ -43,7 +43,11 @@ uniform electric field $$\vec{E}_0$$. The direction of  $$\vec{E}_0$$
 is perpendicular to the axis of the cylinder. Find the potential at points exterior to the
 cylinder, and also find the charge density on the cylinder.
 
+![Cylindrical Conductor in Uniform E-field](HW3prob6.png){:class="img-responsive"}
+
 6.    **By yourself without other students** Suppose a point dipole of strength, $$p$$, 
 is placed at the center of a spherical cavity in a grounded conductor.
 Solve for the potential everywhere in the cavity. Find
 the charge density on the surface of the cavity.
+
+![Dipole in a Spherical Cavity](HW3prob7.png){:class="img-responsive"}
