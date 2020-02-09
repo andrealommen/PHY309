@@ -33,7 +33,7 @@ point is given by (in cylindrical coordinates)
     $$
     \nabla \times \vec{v} = 
     \begin{cases} \omega \hat{z}, & \text{if } s < R\\
-                 0,              & \text{if } s \>= R \\
+                 0,              & \text{if } s \geq R \\
     \end{cases}
     $$
 
