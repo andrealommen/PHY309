@@ -25,6 +25,14 @@ $$ 3 \times 10^6$$ volts/meter.
 
 4.   Suppose the two cylinders in the previous problem are of length, $$L$$, and have nearly the same radii, i.e. $$\frac{(b – a)}{b} << 1$$. Further suppose that the inner cylinder is displaced along the axis so that its end is a distance, $$x$$, from the end of the outer cylinder. Assume that a charge $$Q$$ is placed on the outer cylinder and that a charge
 $$–Q$$ is placed on the inner cylinder. How do you think the charge is distributed on the two conductors? Compute the force on the inner cylinder. Is it sucked in or pushed out of the outer cylinder?  From your solution you will see that the analysis breaks down when $$x = L$$ and $$x = 0$$.  Speculate as to why this occurs.
+*Hint: Calculate the energy stored in the capacitor (or work done to bring
+the pieces together) as a function of $$x$$ using the
+results of problem #3. 
+Recall energy in a capactor is $$\frac{1}{2}QV$$ just like $$W = \frac{1}{2}\int \rho V$$.  Then use $$F = -\frac{dw}{dx}$$, 
+i.e. the negative of the derivative with
+respect to $$x$$ of
+the work is the force required to to increase $$x$$.  Also, there are a bunch of minus signs floating around.  I found it helpful to think about which direction I expected the force to be so
+that I could check your answer.*
 
 5.   A point charge, $$Q$$, is placed equidistant between two parallel, grounded, conducting plates separated by a distance, $$D$$. Assume the sizes of the plates are much larger than their separation.
 
