@@ -36,9 +36,11 @@ that I could check your answer.*
 
 5.   A point charge, $$Q$$, is placed equidistant between two parallel, grounded, conducting plates separated by a distance, $$D$$. Assume the sizes of the plates are much larger than their separation.
 
-       a) What are the strengths and positions of the image charges which will give the potential everywhere between the plates? (There are many, many of them!)
+       a) What are the strengths and positions of the image charges which will give the potential everywhere between the plates? (There are many, many of them! Also notice that I did **not** say to find the potential everywhere.)
 
-       b) Find an expression for the surface charge density on either plate at the point adjacent to the charge.  (Have you ever run into Catalan’s Constant before?)
+       b) Find an expression for the surface charge density on either plate at the point adjacent to the charge.  (The sum you just found is called Catalan’s Constant.) *Hint: Somewhat unexpectedly (at least to me) this problem is easier to do in terms of electric field instead of 
+potential.  Remember to get the surface charge density on a conductor you just multiply the
+field by $$\epsilon_0$$, so you really only need the electric field at the point in question*. 
 
 6.   Example 3.2 on page 128 of Griffiths locates the appropriate image charge for the case of a point charge outside a grounded conducting sphere. What are the magnitudes and positions of the image charges (there are two of them) for the case of a point charge outside an isolated, neutral, conducting sphere?  What is the potential of the sphere?
 
