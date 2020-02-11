@@ -42,6 +42,7 @@ header_pages:
   - grid.md
   - lectures/index.md
   - peer.md
+  - common.md
   - help.md
   - honor.md
   - diversity.md
