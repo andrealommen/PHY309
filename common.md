@@ -10,17 +10,17 @@ permalink: /common/
 ## Tip for dealing with integrals over the volume, i.e.:
 
 $$
-Q_{encl} = \int_0^a \rho d\tau
+Q_{encl} = \int_0^a \rho(r) d\tau
 $$
 
 ### Short version of my tip:
 
-If the the function you're integrating over (e.g. charge density $$\rho$$) only depends
+If the the function you're integrating over (e.g. charge density $$\rho(r)$$) only depends
 on $$r$$ then don't integrate over both $$\phi$$ and $$\theta$$, just
 say
 
 $$
-Q_{encl} = \int_0^a \rho 4\pi r^2 dr
+Q_{encl} = \int_0^a \rho(r) 4\pi r^2 dr
 $$
 
 ### Long version of my tip:
@@ -28,7 +28,7 @@ $$
 Lots of you said (on #6 on the HW):
 
 $$
-Q_{encl} = \int_0^a\int_0^\pi \int_0^{2\pi} \rho r^2 \sin\theta d\theta d\phi dr
+Q_{encl} = \int_0^a\int_0^\pi \int_0^{2\pi} \rho(r) r^2 \sin\theta d\theta d\phi dr
 $$
 
 which is absolutely correct, but you totally don't need to go through that trouble.
@@ -44,10 +44,10 @@ $$4\pi r^2 dr$$ is a perfect, differentially small volume element, as long as wh
 Another version I saw was
 
 $$
-Q_{encl} = \int_0^a \rho dr ~~~~~{\rm this~is~wrong}
+Q_{encl} = \int_0^a \rho(r) dr ~~~~~{\rm this~is~wrong}
 $$
 
-That version is actually incorrect. $$\rho$$ is a charge per volume, so in order to get charge you need to integrate over the volume.  You can get a clue
+That version is actually incorrect. $$\rho(r)$$ is a charge per volume, so in order to get charge you need to integrate over the volume.  You can get a clue
 about whether you're integrating over something reasonable by looking at its
 units. $$dr$$ only has units of length, so it can't be a volume.  $$4 \pi r^2 dr$$ has units of length cubed, so it's a volume.  
 
