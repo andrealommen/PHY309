@@ -238,3 +238,8 @@ I suspect a is the first term.  b is terms 2-5, c is terms 6-10, and d is terms 
 ![Griffiths Figure 3.18-19](Figures/Figure3.18-19.png){:class="img-responsive"}
 
 Okay so now let's look back at the problem I gave you at the beginning of class.  Talk with your neighbor and sketch out a plan for doing it.
+
+# Separation of Variables in Spherical Coordinates
+Separation of Variables in Spherical Coordinates leads to the 
+Legendre Polynomials, so I have put that with the next lecture "Multipole
+Expansion (and Legendre Polynomials)"
