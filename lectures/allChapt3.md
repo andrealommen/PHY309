@@ -41,8 +41,10 @@ get solutions that are products of exponentials and/or sinusoids.
 In spherical coordinates this works, too, as long as you have azimuthal
 symmetry (i.e. nothing in the problem involves $$\phi$$) You end up with Legendre Polynomials in the function of $$\theta$$. 
 
+You'll be doing the cylindrical version of separation of variables for homework.
+
 ### Multipole Expansion
-If you're interested in the potential outside of the charge distribution,
+If you're interested in the potential outside of a particular charge distribution,
 the multipole expansion is useful because it'll tell you what the 
 dominant term in the potential is...the next leading term...etc.
 The general solution to Coulomb's law (at the top of this page) actually

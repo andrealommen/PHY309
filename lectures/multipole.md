@@ -167,13 +167,73 @@ get to the Legendre Polynomials.
 
 The problem is...
 
-Get them up V on the bottom of page 1
+Positive charge +Q is distributed uniformly along the $$z$$ axis from $$-a$$ to
+$$a$$. Show:
 
-Then show what you set epsilon equal to
+$$
+V(r,\theta) = \frac{Q}{4\pi \epsilon_0} \frac{1}{r} \left[ 1 + \frac{1}{3} \left(\frac{a}{r}\right)^2 P_2(\cos\theta) + \frac{1}{5}\left(\frac{a}{r}\right)^4 P_4(\cos\theta) + ...\right]
+$$
 
-and show it's small
+We start by writing down the potential (nothing fancy - just using $$V = Q/4\pi\epsilon_0R$$
 
-Then show that this gives you a polynomial that you can integrate, albeit a little bit of a pain...
+$$
+V = \frac{1}{4\pi\epsilon_0}\int_{-a}^a \frac{\lambda dz}{R}
+$$
+
+where $$\vec{R} = \vec{r} - \vec{r}^\prime$$
+
+When Griffiths does this he uses the *law of cosines* but I actually just
+like to use vector algebra.
+
+$$
+\vec{r} = r\cos\theta \hat{s} + r\sin\theta \hat{z}
+$$
+
+$$
+\vec{r}^\prime = z\hat{z}
+$$
+
+So then
+
+$$
+\vec{R} = r\sin\theta \hat{s} + r\sin\theta \hat{z} - z\hat{z}
+$$
+
+And then we can easily get the magnitude of $$R$$.
+
+$$
+R = (r^2 \sin^2\theta + (r\cos\theta -z)^2)^{1/2}
+$$
+
+$$
+R = (r^2 \sin^2\theta + r^2\cos^2\theta -2rz\cos\theta + z^2)^{1/2}
+$$
+
+$$
+R = (r^2  -2rz\cos\theta + z^2)^{1/2}
+$$
+
+$$
+R = r \left[1 -2\frac{z}{r}\cos\theta + \left(\frac{z}{r}\right)^2\right]^{1/2}
+$$
+
+We let $$\epsilon$$ be:
+
+$$
+\epsilon = -2\frac{z}{r}\cos\theta + \left(\frac{z}{r}\right)^2\right]
+
+As long is $$r>>z$$ then $$\epsilon$$ is small.
+
+Now we can rewrite our integral...
+
+$$
+V = \frac{1}{4\pi\epsilon_0}\int_{-a}^a \frac{\lambda dz}{r(1 - \epsilon)^{1/2}}
+$$
+
+You can expand out the $$1/(1 - \epsilon)^{1/2}$$ in a Taylor's series. Griffiths does something very similar in the book. Once you collect all the terms,
+you'll notice you have Legendre Polynomials.
+
+This gives you a polynomial that you can integrate, albeit a little bit of a pain...
 
 
 ## Two punchlines
@@ -186,7 +246,7 @@ V(r, \theta) = \sum_{l=0}^{l=\infty} \left(A_lR^2 + \frac{B_l}{r^{l+1}}\right) P
 $$
 
 The same Legendre Polynomials arise as soon as you expand $$1/R$$ in terms
-of $$r&\prime/r$$ , in other words when you're calculating the potential
+of $$r^\prime/r$$ , in other words when you're calculating the potential
 some distance away from the source. In this case there's actually
 just a solution for the potential that looks like this:
 
