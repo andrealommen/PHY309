@@ -18,5 +18,8 @@ permalink: /lectures
 [Divergence and Curl of Electric Field, Gauss's Law](/PHY309/lectures/divcurlE)<br>
 [Potential, Work, Energy](/PHY309/lectures/PotentialWorkEnergy)<br>
 [Boundary Conditions and Conductors](/PHY309/lectures/conductors)<br>
+### Chapter 3: Potentials ###
+[Andrea's Crash Course in Chapter 3](/PHY309/lectures/chapt3)<br>
 [Laplace's Equation and the Method of Images](/PHY309/lectures/laplace)<br>
 [Separation of Variables](/PHY309/lectures/separation)<br>
+[Multipole Expansion ](/PHY309/lectures/multipole)<br>
