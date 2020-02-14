@@ -15,12 +15,13 @@ ______________________________________________________________________________
 
 1.   Griffiths, Chapter 3, Problem 1.16. Replace the question in square brackets with “See if you can come up with a simple way of determining the potential at the center of the cube.”
 
-2.   Griffiths, Problem 3.44.
+2.   Griffiths, Problem 3.44.  I started this one in class.  Be sure to see my Multipole notes from chapter 3.
 
      **The next three questions involve solving Laplace’s Equation in cylindrical coordinates.**
 
 3.   Separate Laplace’s equation in cylindrical coordinates and find three ordinary 
-differential equations in $$s$$, $$f$$, and $$z$$. (The s equation is Bessel’s equation and 
+differential equations in $$s$$, $$f$$, and $$z$$. (The $$s$$ equation is Bessel’s 
+equation and 
 solutions to it are called Bessel Functions.) *Note: this is a little trickier 
 than in Cartesian Coordinates so be careful!*
 

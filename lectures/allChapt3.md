@@ -10,8 +10,10 @@ There are multiple ways to compute the potential, and each is suited to a differ
 I would consider this a last resort unless you've got a point charge.
 
 $$
-V(r) = \frac{1}{4\pi\epsilon_0}\int \frac{1}{R}\rho(\vec{r}^\prime d\tau^\prime.
+V(r) = \frac{1}{4\pi\epsilon_0}\int \frac{1}{R}\rho(\vec{r}^\prime) d\tau^\prime.
 $$
+
+where as always $$R = \vec{r} - \vec{r}^\prime$$.
 
 ### Integrating Poisson's (or Laplace's) equation's twice to get the potential
 This works great in one dimension when you have boundary conditions, 
@@ -51,3 +53,9 @@ The general solution to Coulomb's law (at the top of this page) actually
 naturally gets you Legendre Polynomials.  Note that you don't need boundary
 conditions to use a multipole expansion, because the multipole expansion
 is actually a formula for the potential given a particular charge distribution.
+
+When would you do this?  (Ethan asked this question after class on Friday). Here's
+my tentative answer (we may want to adjust it over the course of the semester). If
+you have a weird charge distribution and you don't actually want the exact
+potential, but just an approximation, this would be a good method.  You would only
+keep the first couple of terms.
