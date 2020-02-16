@@ -19,6 +19,8 @@ ______________________________________________________________________________
 	(b)	What is the torque on 2 due to 1?
 	(c)	What is the force on 2 due to 1?
 
+![Assignment4#1 Two Dipoles](TwoDipolesAssignment4_1.png){:class="img-responsive"}
+
 2.	Griffiths, Chapter 4, Problem 4.20.
 
 3.	A linear dielectric sphere of radius $$R$$ with uniform dielectric constant, $$\epsilon$$, is polarized so that $$\vec{P} = \frac{K}{r}\hat{r}$$, where $$K$$ is a constant.
