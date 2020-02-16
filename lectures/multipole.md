@@ -53,7 +53,7 @@ where $$P_l(\cos\theta)$$ are the Legendre polynomials.
 
 $$
 P_0(x) = 1\\
-p_1(x) = x \\
+P_1(x) = x \\
 P_2(x) = (3x^2 -1)/2\\
 p_3(x) = (5x^3 - 3x)/2
 $$
@@ -62,13 +62,13 @@ I don't actually recognize them until I put in the $$\cos\theta$$ and
 then they start to look familiar to me
 
 $$
-P_0(\cos(\theta))) = 1\\
-P_1(\cos(\theta))) = \cos(\theta)) \\
-P_2(\cos(\theta))) = 3\cos^2(\theta) -1)/2\\
-p_3(\cos(\theta))) = 5\cos^3(\theta) - 3\cos(\theta)))/2 
+P_0(\cos\theta) = 1\\
+P_1(\cos\theta) = \cos\theta \\
+P_2(\cos\theta) = (3\cos^2\theta -1)/2\\
+p_3(\cos\theta) = (5\cos^3\theta - 3\cos\theta)/2 
 $$
 
-So let's just remember how this worked in the case of Cartesian
+So let's just remember how separation of variables worked in the case of Cartesian
 coordinates, because I think we're more familiar with the sines
 and cosines and exponentials that entered there.
 
@@ -174,7 +174,7 @@ $$
 V(r,\theta) = \frac{Q}{4\pi \epsilon_0} \frac{1}{r} \left[ 1 + \frac{1}{3} \left(\frac{a}{r}\right)^2 P_2(\cos\theta) + \frac{1}{5}\left(\frac{a}{r}\right)^4 P_4(\cos\theta) + ...\right]
 $$
 
-We start by writing down the potential (nothing fancy - just using $$V = Q/4\pi\epsilon_0R$$
+We start by writing down the potential (nothing fancy - just using $$V = Q/4\pi\epsilon_0R$$)
 
 $$
 V = \frac{1}{4\pi\epsilon_0}\int_{-a}^a \frac{\lambda dz}{R}
