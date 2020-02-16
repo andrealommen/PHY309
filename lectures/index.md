@@ -23,3 +23,7 @@ permalink: /lectures
 [Laplace's Equation and the Method of Images](/PHY309/lectures/laplace)<br>
 [Separation of Variables](/PHY309/lectures/separation)<br>
 [Multipole Expansion ](/PHY309/lectures/multipole)<br>
+### Chapter 4: Electric Fields in Matter ###
+[Andrea's Crash Course in Chapter 4](/PHY309/lectures/chapt4)<br>
+[Polarization](/PHY309/lectures/polarization)<br>
+[Displacement](/PHY309/lectures/displacement)<br>

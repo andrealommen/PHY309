@@ -252,7 +252,7 @@ some distance away from the source.
 The potential that looks like this:
 
 $$
-V(P) = \frac{1}{4\pi\epsilon_0} \sum_{n=0}^\infty \frac{1}{r^(n+1} \int (r^\prime)^nP_n(\cos\theta) \rho d\tau
+V(P) = \frac{1}{4\pi\epsilon_0} \sum_{n=0}^\infty \frac{1}{r^{n+1}} \int (r^\prime)^nP_n(\cos\theta) \rho d\tau
 $$
 
 This is a sum over integrals over $$P_n$$'s.  Each term in the sum
@@ -273,3 +273,124 @@ as long as $$r>r^\prime$$ then this sum exact solution of the potential.
 
 This way of finding the potential is a little different than the other
 ways we've talked about recently because you don't need boundary conditions.  Rather, you just need the charge distribution.
+
+-----------------------------------------------------------
+## Dipoles
+(We didn't get to talk about this in class at all.)
+
+I wanted to include some notes on dipoles, because we didn't get to
+talk about them in class at all and they figure **prominently** in the
+polarization chapter.
+
+Part of the answer to Ethan's question "when would I use this?" is that
+we often use the dominant term in the series as an approximation to the
+potential everywhere.  This might seem like a strange thing to do when
+given modern computing, we can easily calculate the potential exactly,
+everywhere.  I have two responses to that. 
+
+(1) Sometimes you can't!  Suppose
+you have a solid material composed of neutral atoms and you want to calculate
+the bulk properties of the material. Calculating the potential everywhere
+is actually not what you want, and it's also impossible, because there
+are too many charges (electrons and protons).  Rather, you want to know how can you model the
+material approximately so as to understand the bulk properties.  In this case
+you will likely model the atoms as dipoles, the 2nd term in the
+approximation. (For a neutral atoms the monopole term is zero, because
+it's proportional to the total charge.)
+
+(2) Sometimes the problem you're trying to solve requires an approximation.  I was thinking of Nathan and their work with sound in theatres.  If they've got a
+theatre with a weird column in the middle of it that dominates the way
+the sound reverberates through the theatre.  Let's say the theatre has
+the budget only to build two additional structures to change the resonant
+properties of the theatre.  Nathan actually wouldn't want to know the details
+of the effect everywhere in the theatre. Rather, if the reverberant properties
+of the theatre can be expressed as the sum of an infinite series, they
+want the dominant term, and they want to mitigate for that dominant term
+using their two additional structures.  
+
+Let's look at the dipole term because it figures so prominently in Chapter 4. Recall that all the terms in the multipole approximation are $$\frac{1}{4\pi\epsilon_0 r^{n+1}}$$ times the integral of $$r^{\prime n} P_n\cos{\theta}$$ times
+the charge density $$\rho(\vec{r}^\prime)$$ over the whole volume of the
+charge distribution.
+
+So the 0th term is our old friend the potential of a single charge. Recall $$P_0(x) = 1$$
+
+$$
+V_{\rm monopole} = \frac{1}{4\pi\epsilon_0} \frac{1}{r} \int (r^\prime)^0P_0(\cos\theta) \rho d\tau^\prime
+$$
+
+$$
+V_{\rm monopole} = \frac{1}{4\pi\epsilon_0} \frac{1}{r} \int \rho d\tau^\prime
+$$
+
+$$
+V = \frac{1}{4\pi\epsilon_0} \frac{1}{r} Q
+$$
+
+
+So if the total charge (like on an atom) is zero then the dipole term
+dominates. Let's look at that term:
+
+$$
+V_{\rm dipole} = \frac{1}{4\pi\epsilon_0} \frac{1}{r^2} \int (r^\prime)^1P_1(\cos\theta) \rho d\tau^\prime
+$$
+
+$$
+V_{\rm dipole} = \frac{1}{4\pi\epsilon_0} \frac{1}{r^2} \int r^\prime\cos\theta \rho d\tau^\prime
+$$
+
+So that integral is called the **dipole moment** of the distribution, $$\vec{p}$$,
+
+$$
+\vec{p} = \int r^\prime\cos\theta \rho d\tau^\prime
+$$
+
+Notice that it doesn't depend on where you are trying to calculate the
+potential, i.e. it doesn't depend on $$\vec{r}$$, but rather only depends
+on the source coordinate $$\vec{r^\prime}$$.
+
+You may remember from PHY106 that you had a formula for a dipole
+
+$$
+\vec{p} = q\vec{d}
+$$
+
+where $$d$$ is the distance between two charges $$+q$$ and $$-q$$
+and the vector points from the negative charge to the positive charge. 
+
+Those two definitions are the same thing!  We could practice
+using delta functions in order to show that they are the same.  For
+two point charges at $$x=0$$ and $$x=a$$ we can write the charge
+density like this:
+
+$$
+\rho(x,y,z) = -q\delta(0,0,0) +  q\delta(a,0,0)
+$$
+
+Now let's put that into the integral:
+
+$$
+\vec{p} = \int r^\prime\cos\theta \left(-q\delta(0,0,0) +  q\delta(a,0,0)\right) d\tau^\prime
+$$
+
+We have a mix of coordinate systems, but the integral is so easy with the
+delta functions we don't even have to convert our charge density into
+spherical coordinates.  We just evaluate the integrand at the two
+points $$(0,0,0)$$ and $$(a,0,0)$$. The first term is super boring and goes
+to zero right away. The second term leaves us with something...
+
+$$
+\vec{p} =  qa\hat{x}
+$$
+
+which is what we remembered it should be from PHY106.  Yay!!
+
+And the field due to the dipole is:
+
+$$
+V_{\rm dip} = \frac{1}{4\pi\epsilon_0} \frac{\vec{p}\cdot\hat{r}}{r^2}
+$$
+
+So notice (a) that the potential of a dipole drops off like $$r^2$$ instead
+of just $$r$$ like it did for a point charge. (b) That the potential
+is maximized in the direction that the dipole moment points.
+
