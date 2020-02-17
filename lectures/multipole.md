@@ -243,8 +243,14 @@ In spherical coordinates Laplace's equation is separable (with azimuthal
 symmetry) and gives you solutions that look like this:
 
 $$
-V(r, \theta) = \sum_{l=0}^{l=\infty} \left(A_lR^2 + \frac{B_l}{r^{l+1}}\right) P_l(\cos \theta)
+V(r, \theta) = \sum_{l=0}^{l=\infty} \left(A_lR^2 + \frac{B_l}{r^{l+1}}\right) P_l(\cos \alpha)
 $$
+
+where $$\alpha$$ is the angle between $$\vec{r}$$ and $$\vec{r}^\prime$$.
+(In the example we did above, we had the charge laid out along the $$z$$ axis
+so the angle was $$\theta$$.  In general, though, the angle that belongs
+there is the one in between the source and the point you're evaluating the
+potential.
 
 The same Legendre Polynomials arise as soon as you expand $$1/R$$ in terms
 of $$r^\prime/r$$ , in other words when you're calculating the potential
@@ -252,7 +258,7 @@ some distance away from the source.
 The potential that looks like this:
 
 $$
-V(P) = \frac{1}{4\pi\epsilon_0} \sum_{n=0}^\infty \frac{1}{r^{n+1}} \int (r^\prime)^nP_n(\cos\theta) \rho d\tau
+V(P) = \frac{1}{4\pi\epsilon_0} \sum_{n=0}^\infty \frac{1}{r^{n+1}} \int (r^\prime)^nP_n(\cos\alpha) \rho d\tau
 $$
 
 This is a sum over integrals over $$P_n$$'s.  Each term in the sum
@@ -308,15 +314,18 @@ of the theatre can be expressed as the sum of an infinite series, they
 want the dominant term, and they want to mitigate for that dominant term
 using their two additional structures.  
 
-Let's look at the dipole term because it figures so prominently in Chapter 4. Recall that all the terms in the multipole approximation are $$\frac{1}{4\pi\epsilon_0 r^{n+1}}$$ times the integral of $$r^{\prime n} P_n\cos{\theta}$$ times
+Let's look at the dipole term because it figures so prominently in Chapter 4. Recall that all the terms in the multipole approximation are $$\frac{1}{4\pi\epsilon_0 r^{n+1}}$$ times the integral of $$r^{\prime n} P_n\cos{\alpha}$$ times
 the charge density $$\rho(\vec{r}^\prime)$$ over the whole volume of the
 charge distribution.
 
 So the 0th term is our old friend the potential of a single charge. Recall $$P_0(x) = 1$$
 
 $$
-V_{\rm monopole} = \frac{1}{4\pi\epsilon_0} \frac{1}{r} \int (r^\prime)^0P_0(\cos\theta) \rho d\tau^\prime
+V_{\rm monopole} = \frac{1}{4\pi\epsilon_0} \frac{1}{r} \int (r^\prime)^0P_0(\cos\alpha) \rho d\tau^\prime
 $$
+
+where $\alpha$ is the angle the dipole vector makes with the vector pointing to
+the place you're evaluating the potential.
 
 $$
 V_{\rm monopole} = \frac{1}{4\pi\epsilon_0} \frac{1}{r} \int \rho d\tau^\prime
@@ -331,22 +340,67 @@ So if the total charge (like on an atom) is zero then the dipole term
 dominates. Let's look at that term:
 
 $$
-V_{\rm dipole} = \frac{1}{4\pi\epsilon_0} \frac{1}{r^2} \int (r^\prime)^1P_1(\cos\theta) \rho d\tau^\prime
+V_{\rm dipole} = \frac{1}{4\pi\epsilon_0} \frac{1}{r^2} \int (r^\prime)^1P_1(\cos\alpha) \rho d\tau^\prime
 $$
 
-$$
-V_{\rm dipole} = \frac{1}{4\pi\epsilon_0} \frac{1}{r^2} \int r^\prime\cos\theta \rho d\tau^\prime
-$$
-
-So that integral is called the **dipole moment** of the distribution, $$\vec{p}$$,
+where $$\alpha$$ is the angle between $$\vec{r}$$ and $$\hat{r}$$ (so at the moment this
+integral depends upon the place you're evaluating the potential.)
 
 $$
-\vec{p} = \int r^\prime\cos\theta \rho d\tau^\prime
+V_{\rm dipole} = \frac{1}{4\pi\epsilon_0} \frac{1}{r^2} \int r^\prime\cos\alpha \rho d\tau^\prime
 $$
 
-Notice that it doesn't depend on where you are trying to calculate the
+So that integral, without the $$\cos\alpha$$ in it, (and WITH a vector on $$r^\prime$$)  
+is called the **dipole moment** of the distribution, $$\vec{p}$$,
+
+$$
+\vec{p} = \int \vec{r}^\prime \rho d\tau^\prime
+$$
+
+-------Here's how I went wrong in class today------------------
+(For the record, what Shufan said was totally correct.)
+In class today I defined the dipole moment this way.
+
+$$
+\vec{p} = \int r^\prime\cos\theta \rho d\tau^\prime  ~~~~~{\rm~Wrong~Formula}
+$$
+
+It's wrong (a) because it's not clear how $$p$$ is a vector, because nothing on
+the right-hand-side is a vector, and (b) because it's not clear what coordinate
+system $$\theta$$ is in.  It turns out once you remember how that angle is defined
+it solves problem (a) as well as (b).  The angle that should be there is called 
+$$\alpha$$ by Griffiths and is officially in neither coordinate system.  Rather
+it's the angle between $$\vec{r}$$ and $$\vec{r}^\prime$$.  In the example we
+did above the source was all on the z-axis so in fact $$\alpha$$ was always
+$$\theta$$ in spherical coordinates. In general though the angle is the one we'd
+get in this equation:
+
+$$
+\hat{r}\cdot\vec{r}^\prime = r^\prime \cos\alpha
+$$
+
+so in fact we can use that relationship to take the angle out of the integral
+explicitly.  We define
+
+$$
+\vec{p} = \int \vec{r}^\prime \rho d\tau^\prime
+$$
+
+and then we get the same angle $$\cos\alpha$$ back by dotting $$\vec{p}$$ with
+$$\hat{r}$$.
+
+So now we can define the potential of a dipole as
+
+$$
+V(\vec{r}) = \frac{1}{4\pi\epsilon_0} \frac{\vec{p}\cdot\hat{r}}{r^2}
+$$
+
+Notice that the dipole moment doesn't depend on where you are trying to calculate the
 potential, i.e. it doesn't depend on $$\vec{r}$$, but rather only depends
-on the source coordinate $$\vec{r^\prime}$$.
+on the source coordinate $$\vec{r^\prime}$$.  The location where you're
+trying to calculate the potential comes in the distance between dipole and the
+calculation point in the denominator, and in the dot product between those
+two directions.
 
 You may remember from PHY106 that you had a formula for a dipole
 
@@ -363,13 +417,13 @@ two point charges at $$x=0$$ and $$x=a$$ we can write the charge
 density like this:
 
 $$
-\rho(x,y,z) = -q\delta(0,0,0) +  q\delta(a,0,0)
+\rho(x,y,z) = -q\delta(x,y,z) +  q\delta(x-a,y,z)
 $$
 
 Now let's put that into the integral:
 
 $$
-\vec{p} = \int r^\prime\cos\theta \left(-q\delta(0,0,0) +  q\delta(a,0,0)\right) d\tau^\prime
+\vec{p} = \int \vec{r}^\prime \left(-q\delta(x,y,z) +  q\delta(x-a,y,z)\right) d\tau^\prime
 $$
 
 We have a mix of coordinate systems, but the integral is so easy with the

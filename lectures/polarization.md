@@ -76,7 +76,14 @@ $$
 section we'll add the applied field to the induced field and get the total
 field.)
 
-So how do you get the field of this polarizaed object?   It's a whole
+We're switching gears here. Above we were concerned about how much
+of a dipole moment would be caused by a particular field, and what
+force and torque there would be on that dipole by that field.  Now we
+assume that the dipole nature of the material is set (stapled in??) by
+what means we don't know.  And we ask, what's the potential of this polarized
+object?
+
+So how do you get the field of this polarized object?   It's a whole
 bunch of little dipoles pointing all in roughly the same direction. 
 
 Imagine a volume of dipoles, all lined up.  The stuff in the middle
@@ -88,7 +95,7 @@ You can write this as an effective surface charge on the material like
 this:
 
 $$
-\sigma_b \equiv \vec{P}\cdot\vec{n}
+\sigma_b \equiv \vec{P}\cdot\hat{n}
 $$
 
 where $$\vec{n}$$ is the normal to the surface.   So if $$\vec{P}$$ and
