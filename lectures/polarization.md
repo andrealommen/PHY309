@@ -119,7 +119,7 @@ we actually rigorously calculate the field of the polarized material.
 For a single dipole:
 
 $$
-V(\vec{r}) = \frac{1}{4\pi\epsilon_0} \frac{\vec{p}\cdot\vec{\mathscr{r}}}{\mathscr{r}^2}
+V(\vec{r}) = \frac{1}{4\pi\epsilon_0} \frac{\vec{p}\cdot\hat{\mathscr{r}}}{\mathscr{r}^2}
 $$
 
 where $$\vec{\mathscr{r}}$$ is the vector from the dipole to the point where we
@@ -131,7 +131,7 @@ per volume.  Whenever you have a zillion of anything you need an integral.
 So if we integrate $$P$$ over the volume we can use the same formula:
 
 $$
-V(\vec{r}) = \frac{1}{4\pi\epsilon_0} \int_{\mathscr{V}}\frac{\vec{P}(\vec{r}^\prime)\cdot\vec{\mathscr{r}}}{\mathscr{r}^2} d\tau^\prime
+V(\vec{r}) = \frac{1}{4\pi\epsilon_0} \int_{\mathscr{V}}\frac{\vec{P}(\vec{r}^\prime)\cdot\hat{\mathscr{r}}}{\mathscr{r}^2} d\tau^\prime
 $$
 
 Remember we're only integrating over $$r^\prime$$ but $$\mathscr{r}$$ depends
