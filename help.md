@@ -21,7 +21,7 @@ Regular office hours:
 Extra Office hours: (all in H204)
 * Tuesday, Feb 4: 4-6:30pm
 * Wednesday, Feb 5: 5-8pm
-* Tuesday, Feb 18: 4-6:30pm
+* Tuesday, Feb 18: 1:30-3:45 and 5:15-6:40 location: TBD
 * Monday, Feb 24: 5:30-8pm
 * Tuesday, Mar 3: 4-4:45pm, 7-8:30pm
 * Thursday, March 19: 6-9pm
