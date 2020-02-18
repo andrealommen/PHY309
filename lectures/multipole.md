@@ -96,7 +96,7 @@ any azimuthally symmetric angular function as the sum of them.)
 So now we have:
 
 $$
-V(r, \theta) = \sum_{l=0}^{l=\infty} \left(A_lR^2 + \frac{B_l}{r^{l+1}}\right) P_l(\cos \theta)
+V(r, \theta) = \sum_{l=0}^{l=\infty} \left(A_lr^2 + \frac{B_l}{r^{l+1}}\right) P_l(\cos \theta)
 $$
 
 and as before, we use boundary conditions to figure out what the $$A_l$$'s
@@ -243,7 +243,7 @@ In spherical coordinates Laplace's equation is separable (with azimuthal
 symmetry) and gives you solutions that look like this:
 
 $$
-V(r, \theta) = \sum_{l=0}^{l=\infty} \left(A_lR^2 + \frac{B_l}{r^{l+1}}\right) P_l(\cos \alpha)
+V(r, \theta) = \sum_{l=0}^{l=\infty} \left(A_lr^2 + \frac{B_l}{r^{l+1}}\right) P_l(\cos \alpha)
 $$
 
 where $$\alpha$$ is the angle between $$\vec{r}$$ and $$\vec{r}^\prime$$.
@@ -258,7 +258,7 @@ some distance away from the source.
 The potential that looks like this:
 
 $$
-V(P) = \frac{1}{4\pi\epsilon_0} \sum_{n=0}^\infty \frac{1}{r^{n+1}} \int (r^\prime)^nP_n(\cos\alpha) \rho d\tau
+V(P) = \frac{1}{4\pi\epsilon_0} \sum_{n=0}^\infty \frac{1}{r^{n+1}} \int (r^\prime)^nP_n(\cos\alpha) \rho d\tau^\prime
 $$
 
 This is a sum over integrals over $$P_n$$'s.  Each term in the sum
