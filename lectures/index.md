@@ -26,4 +26,6 @@ permalink: /lectures
 ### Chapter 4: Electric Fields in Matter ###
 [Andrea's Crash Course in Chapter 4](/PHY309/lectures/chapt4)<br>
 [Polarization](/PHY309/lectures/polarization)<br>
+[Debrief HW3](/PHY309/lectures/debrief)<br>
+[Summary of Course so Far](/PHY309/lectures/CumulativeSummary1)<br>
 [Displacement](/PHY309/lectures/displacement)<br>
