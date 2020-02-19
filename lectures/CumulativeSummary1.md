@@ -38,10 +38,11 @@ where $$d\vec{l}$$ points along the path you're taking from $$a$$ to $$b$$.
 At the surface of a conductor:
 
 $$
-\sigma = \epsilon_0 \vec{E}  
+\vec{E} =  \frac{\sigma}{\epsilon_0} \hat{n}  
 $$
 
-where the $$\rho$$ is positive if the E-field points out of the surface.  That
+Notice the surface charge density $$\sigma$$ is positive if the E-field points 
+out of the surface.  That
 makes sense, right?  because E-field lines should start on positive charges.
 
 and
