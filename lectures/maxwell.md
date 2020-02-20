@@ -10,6 +10,12 @@ $$
 \nabla \cdot \vec{E} = \frac{1}{\epsilon_0} \rho
 $$
 
+or the displacement version:
+
+$$
+\nabla \cdot \vec{D} = \rho_f 
+$$
+
 (no name...no magnetic monopoles?)
 
 $$
