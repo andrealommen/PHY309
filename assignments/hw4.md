@@ -40,5 +40,3 @@ $$
   
 5.	If the space between two long, charged coaxial cylindrical conductors were filled with a dielectric, how would the permittivity have to depend on the distance, $$s$$, from the axis in order that the electric field intensity be independent of $$s$$?
 
-6.	(double credit) A long cylindrical dielectric rod of radius $$R$$ is placed perpendicular to an externally applied, constant electric field, $$E_0\hat{x}$$  . Solve for the potential, both inside and outside the rod. Choose the potential at the center of the cylinder to be $$0$$.  (See assignment #3, problem 5.)
-
