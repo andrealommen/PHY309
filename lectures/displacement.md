@@ -19,9 +19,6 @@ you can do your homework this weekend.):
 
 * How do you tell which term in a multipole is dominant?  
 
-This is a great question.  There are a bunch of answers. 
-* If the total charge is zero then the monopole term vanishes. 
-
 * How does the derivation for the potential of a dipole connect to the
 multipole expansion?
 
@@ -30,6 +27,26 @@ was V_0/6?  Why??
 
 Doing #6 as an image charge was fun. Check out my notes.  Best part - you get
 the same answer.
+
+## Last time:
+(on Monday in this case) we talked about polarization in a material and we
+got:
+
+$$
+V = \frac{1}{4\pi\epsilon_0} \oint_\mathscr{S} \frac{\sigma_b}{\mathscr{r}}da^\prime  + \frac{1}{4\pi\epsilon_0} \int_\mathscr{V} \frac{\rho_b}{\mathscr{r}} d\tau^\prime
+$$
+
+where
+
+$$
+\sigma_b \equiv \vec{P}\cdot\hat{n}
+$$
+
+and
+
+$$
+\rho_b \equiv -\nabla\cdot\vec{P}
+$$
 
 ## The Electric Displacement
 
