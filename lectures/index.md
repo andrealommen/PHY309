@@ -6,6 +6,7 @@ permalink: /lectures
 ### For reference ###
 [All the Fundamental Theorems Together](/PHY309/lectures/derivatives)<br>
 [Maxwell's Equations](/PHY309/lectures/maxwell)<br>
+[Minus Signs](/PHY309/lectures/minus_signs)<br>
 ### Chapter 1: Vector Analysis ### 
 [Gradients Theorem](/PHY309/lectures/grad)<br>
 [Divergence Theorem](/PHY309/lectures/div)<br>
@@ -27,5 +28,9 @@ permalink: /lectures
 [Andrea's Crash Course in Chapter 4](/PHY309/lectures/chapt4)<br>
 [Polarization](/PHY309/lectures/polarization)<br>
 [Debrief HW3](/PHY309/lectures/debrief)<br>
-[Summary of Course so Far](/PHY309/lectures/CumulativeSummary1)<br>
 [Displacement](/PHY309/lectures/displacement)<br>
+### One-third of the way through the course, we reflect...
+[Summary of Course so Far](/PHY309/lectures/CumulativeSummary1)<br>
+[Survey Results](/PHY309/lectures/Survey.html)<br>
+### Chapter 5: Magnetostatics ###
+[Lorentz and Biot-Savart](lorentz.md) <br>
