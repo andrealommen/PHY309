@@ -33,4 +33,4 @@ permalink: /lectures
 [Summary of Course so Far](/PHY309/lectures/CumulativeSummary1)<br>
 [Survey Results](/PHY309/lectures/Survey.html)<br>
 ### Chapter 5: Magnetostatics ###
-[Lorentz and Biot-Savart](lorentz.md) <br>
+[Lorentz and Biot-Savart](/PHY309/lectures/lorentz) <br>
