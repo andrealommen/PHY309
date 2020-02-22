@@ -11,9 +11,9 @@ Watch this [video.](https://www.youtube.com/watch?v=yQq1-_ujXrM)
 # Andrea's Office Hours
 
 Weekly office hours (every week!): 
-Tuesday: 1:05-1:35
-Wednesday: 3:15-3:45
-Friday: 1:15-1:45
+* Tuesday: 1:05-1:35
+* Wednesday: 3:15-3:45
+* Friday: 1:15-1:45
 
 Every other week office hours:
 * Monday 2:15-4pm every other week starting January 27 (L108)
