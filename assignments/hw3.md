@@ -13,27 +13,29 @@ Don't forget to finish each problem by writing the main point.
 
 ______________________________________________________________________________
 
-1.   Griffiths, Chapter 3, Problem 1.16. Replace the question in square brackets with “See if you can come up with a simple way of determining the potential at the center of the cube.”
+1.   Griffiths, Chapter 3, Problem 3.16. Replace the question in square brackets with “See if you can come up with a simple way of determining the potential at the center of the cube.”
 
 2.   Griffiths, Problem 3.44.  I started this one in class.  Be sure to see my Multipole notes from chapter 3.
 
      **The next three questions involve solving Laplace’s Equation in cylindrical coordinates.**
 
+-----In 2022 we'll do 3 and 4 as group-work in class and you'll be responsible for 5------
+
 3.   Separate Laplace’s equation in cylindrical coordinates and find three ordinary 
-differential equations in $$s$$, $$f$$, and $$z$$. (The $$s$$ equation is Bessel’s 
+differential equations in $$s$$, $$\phi$$, and $$z$$. (The $$s$$ equation is Bessel’s 
 equation and 
 solutions to it are called Bessel Functions.) *Note: this is a little trickier 
 than in Cartesian Coordinates so be careful!*
 
 4.   Assume that a potential which satisfies Laplace’s equation is independent of the cylindrical coordinate, $$z$$.
 
-     (a) Solve the remaining two equations ($$s$$ and $$f$$) in terms of the separation constant. 
-     *Hints: Guess a radial function that is a power of $$s$$. Also the separation constant in the $$f$$ equation must be negative. Why?*
+     (a) Solve the remaining two equations ($$s$$ and $$\phi$$) in terms of the separation constant. 
+     *Hints: Guess a radial function that is a power of $$s$$. Also the separation constant in the $$\phi$$ equation must be negative. Why?*
 
      (b) Use the fact that the angular function must be single-valued to place a condition on the
 separation constant.
 
-     (c) Using parts (a) and (b), write down the general solution of $$v(s, f)$$. The terms in the expansion
+     (c) Using parts (a) and (b), write down the general solution of $$v(s, \phi)$$. The terms in the expansion
 are called cylindrical harmonics. Note: one must treat the case when the separation
 constant is zero as a separate case. You’ll have to go back to the “$$s$$” equation to get a
 solution in this case.

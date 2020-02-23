@@ -14,12 +14,12 @@ Don't forget to finish each problem by writing the main point.
 
 ______________________________________________________________________________
 
-1.	Suppose two point dipoles are separated by a distance, $$r$$, as shown in the figure below, i.e. $$\vec{p}_1$$  is in the $$\hat{z}$$ direction and $$\vec{p}_2$$ is in the $$\hat{x}$$ direction.
+![Assignment4#1 Two Dipoles](TwoDipolesAssignment4_1.png){:class="img-responsive"}
+
+1.	Suppose two point dipoles are separated by a distance, $$r$$, as shown in the figure above, i.e. $$\vec{p}_1$$  is in the $$\hat{z}$$ direction and $$\vec{p}_2$$ is in the $$\hat{x}$$ direction.
 	(a)	Calculate the energy of the system.
 	(b)	What is the torque on 2 due to 1?
 	(c)	What is the force on 2 due to 1?
-
-![Assignment4#1 Two Dipoles](TwoDipolesAssignment4_1.png){:class="img-responsive"}
 
 2.	Griffiths, Chapter 4, Problem 4.20.
 
