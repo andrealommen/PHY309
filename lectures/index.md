@@ -29,6 +29,7 @@ permalink: /lectures
 [Polarization](/PHY309/lectures/polarization)<br>
 [Debrief HW3](/PHY309/lectures/debrief)<br>
 [Displacement](/PHY309/lectures/displacement)<br>
+[Boundary Values in the Presence of a Dielectric](/PHY309/lectures/boundaryD)<br>
 ### One-third of the way through the course, we reflect...
 [Summary of Course so Far](/PHY309/lectures/CumulativeSummary1)<br>
 [Survey Results](/PHY309/lectures/Survey.html)<br>
