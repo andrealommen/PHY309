@@ -30,6 +30,7 @@ permalink: /lectures
 [Debrief HW3](/PHY309/lectures/debrief)<br>
 [Displacement](/PHY309/lectures/displacement)<br>
 [Boundary Values in the Presence of a Dielectric](/PHY309/lectures/boundaryD)<br>
+[Final Words (Rant?) on Displacement](/PHY309/lectures/final_words_displacement)<br>
 ### One-third of the way through the course, we reflect...
 [Summary of Course so Far](/PHY309/lectures/CumulativeSummary1)<br>
 [Survey Results](/PHY309/lectures/Survey.html)<br>
