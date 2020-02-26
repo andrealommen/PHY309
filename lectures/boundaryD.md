@@ -87,7 +87,7 @@ So to get a little more mathematical but not precise...
 * Outside the sphere I expect $$V = -Es\cos\theta + A\cos \theta/r^2$$
 where $$A$$ is something we have to figure out. (it turns out not to be the potential of a dipole, which
 I still don't understand - so that $$r^2$$ isn't right.)
-* Inside the sphere I expect $$V = (-{\rm small~~fraction} Es\cos\theta$$.
+* Inside the sphere I expect $$V = (-{\rm small~~fraction}) Es\cos\theta$$.
 * The $$A$$ and the small fraction must depend upon the dielectric constant of the material. If
 the dielectric constant is 1 then I should get that the potential is $$-Es\cos\theta$$ everywhere, so
 if the dielectric constant is 1 then $$A=0$$ and the small fraction should be 1.
