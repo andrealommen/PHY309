@@ -23,7 +23,7 @@ ______________________________________________________________________________
 
 2.	Griffiths, Chapter 4, Problem 4.20.
 
-3.	A linear dielectric sphere of radius $$R$$ with uniform dielectric constant, $$\epsilon$$, is polarized so that $$\vec{P} = \frac{K}{r}\hat{r}$$, where $$K$$ is a constant.
+3.	A linear dielectric sphere of radius $$R$$ with uniform dielectric constant, $$\epsilon_r$$, is polarized so that $$\vec{P} = \frac{K}{r}\hat{r}$$, where $$K$$ is a constant.
 
 	(a)	Calculate the volume and the surface density of bound charge.
 
