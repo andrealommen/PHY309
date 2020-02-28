@@ -17,3 +17,5 @@ I will pick from these types of problems:
 * Dielectric problem. One obvious one is using the D version of Gauss's Law and then find E, and then find potential.
 * Method of Images (unlikely to make you write out solution, but you'd have to be able to come up with the Image charges and explain what criteria you used to find them, and how you would use them to find the field)
 * The field of a dipole.
+* Poisson's Equation/Laplace's Equation
+* Calculating the Energy of a charge distribution
