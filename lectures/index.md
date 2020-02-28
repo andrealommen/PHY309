@@ -35,5 +35,8 @@ permalink: /lectures
 ### One-third of the way through the course, we reflect...
 [Summary of Course so Far](/PHY309/lectures/CumulativeSummary1)<br>
 [Survey Results](/PHY309/lectures/Survey.html)<br>
+### First Exam 
+[What will be the format of the 1st exam?](/PHY309/lectures/firstexam)<br>
+[First Exam](/PHY309/lectures/firstexam)<br>
 ### Chapter 5: Magnetostatics ###
 [Lorentz and Biot-Savart](/PHY309/lectures/lorentz) <br>
