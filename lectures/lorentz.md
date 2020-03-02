@@ -78,7 +78,13 @@ $$
 You can find the direction of $$\vec{B}$$ using the right hand rule. 
 
 
+In groups:
+
 Problem 5.12, page 212:
 
 Suppose you have two infinite straight line charges $$\lambda$$, a distance $$d$$ apart, moving along at a constant speed $$v$$ (Fig. 5.24). How fast would $$v$$ have to be in order for the magnetic attraction to balance the electrical repulsion?  Work out the actual number... is this a reasonable sort of speed?
 
+This problem was super cool, because the answer is the speed of light.  We 
+talked about how this equalling of magnitudes of forces is the same equalling
+of magnitudes that allows an electromagnetic wave to travel.  It can
+only travel at $$c$$ because that's where the magnitudes are equal.
