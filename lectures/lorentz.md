@@ -19,7 +19,12 @@ $$
 The most interest result of the Lorentz force or the magnetic force is that
 it causes things to go in circles, and the magnetic force can do no work.
 
-The version of this with currents instead of charges (which is way more useful is)
+(Show magnetic field pointing into the board, and velocity pointing to the right).
+
+If you don't have just one charge, but a line of charge (for example) then
+you can integrate over it. (We're getting toward current - that's what we
+almost always mean by a line of charge moving at some velocity along
+the line.)
 
 $$
 F_{mag} = \int (\lambda dl) (\vec{v} \times \vec{B})
@@ -56,16 +61,21 @@ to be useful:
 (the magnetic field of a steady current)
 
 $$
-\vec{B}(P) = \frac{\mu_0}{4\pi} \int \frac{\vec{I} \times \hat{\mathscr{r}}}{\mathscr{r}^2}dl = \frac{\mu_0}{4\pi}I \int \frac{\vec{dl} \times \hat{\mathscr{r}}}{\mathscr{r}^2}
+\vec{B}(\vec{r}) = \frac{\mu_0}{4\pi} \int \frac{\vec{I} \times \hat{\mathscr{r}}}{\mathscr{r}^2}dl^\prime = \frac{\mu_0}{4\pi}I \int \frac{\vec{dl^\prime} \times \hat{\mathscr{r}}}{\mathscr{r}^2}
 $$
 
-If you integrate this over an infinite line charge (which Griffiths does on page 209)
+$$\mu_0$$ is the permeability of free space. $$\mathscr{r}$$ is the vector
+from the source point to the point $$\vec{r}$$.
+
+If you integrate this over an infinite line charge (which Griffiths does on page 225)
 you get something that would be much easier to get using Ampere's Law, which
 we haven't gotten to yet...
 
 $$
 B = \frac{\mu_0 I}{2\pi d}
 $$
+
+You can find the direction of $$\vec{B}$$ using the right hand rule. 
 
 
 Problem 5.12, page 212:
