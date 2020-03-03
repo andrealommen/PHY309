@@ -83,6 +83,6 @@ in different regions that needs to be clear symbolically.
 
 
 
-![Charge configuration #2](figures/Number2.png){:class="img-responsive"}
-![Charged conducting sphere surrounded by dielectric shell #3](figures/Number3.png){:class="img-responsive"}
-![Dipole in spherical cavity in dielectric medium #4](figures/Number4.png){:class="img-responsive"}
+![Charge configuration #2](Figures/Number2.png){:class="img-responsive"}
+![Charged conducting sphere surrounded by dielectric shell #3](Figures/Number3.png){:class="img-responsive"}
+![Dipole in spherical cavity in dielectric medium #4](Figures/Number4.png){:class="img-responsive"}
