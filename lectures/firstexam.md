@@ -10,13 +10,14 @@ Friday, March 6th.
 Instructions: 
 You may choose 3 contiguous hours to work on this exam.  You may use your notes, the book, and anything found at andrealommen.github.io/PHY309.  If you wish to take a 15-minute break during the exam (which I recommend) you may then take 3 hours and 15 minutes to work on the exam.
 
-I have some extra office hours listed on the "help" tab of the web page.
+I have some extra office hours listed on the "Help!" tab of the web page.
 
 You may use Mathematica if you wish but you must follow the rules for making it readable.
 
-Please write your answers on paper (or print them), staple them with the problems in order 1 to 4, put the last 4 
-digits of your SID on your paper (**not your name**) and place the completed exam
-in the lock box by my office L108 in the KINSC..
+Please print this sheet, sign it, and staple it to the front of your exam. I'm going to turn the sheet to the back and grade your exam without looking at your name, so please only write your SID on the sheets with your work on them.
+
+Please write your answers on paper (or print them), staple them with the problems in order 1 to 4, signed cover sheet on top, and place the completed exam
+in the lock box by my office L108 in the KINSC.
 
 There are 4 problems.  
 
@@ -24,7 +25,12 @@ Please email me when you are starting the exam.
 
 I accept full responsibility under the Haverford College Honor System for my conduct on the examination.
 
+
 Signed____________________________________________________________________
+
+
+Exam begins here:
+-----------------------------------------------------------------------------
 
 1.	(5 points)
 	Suppose that in cylindrical coordinates the potential, $$V$$, is everywhere represented by 
