@@ -84,7 +84,7 @@ an inhomogeneous dielectric constant given by $$\epsilon_r = B/r^2$$ (see figure
 	(d)     Explain how you would use the boundary conditions to find the potential everywhere.  Since I am **not** asking you to solve for the potential I need you to be mathematically explicit about how you would use (a) and (b) to find $$V$$.  I need constants to be labeled well, i.e. if they are different
 in different regions that needs to be clear symbolically. 
 
-	(e)     What do you expect the solution to look like (this should be two symbolic equations, one for each region, with some unknown constants)?  In particular, how do you expect those constants to depend upon $$\epsilon_r$$?  What whould the solution look like as $$\epsilon_r -> \infty$$?
+	(e)     What do you expect the solution to look like (this should be two symbolic equations, one for each region, with some unknown constants)?  In particular, how do you expect those constants to depend upon $$\epsilon_r$$?  What whould the solution in the dielectric look like as $$\epsilon_r \to \infty$$?
 
 
 
