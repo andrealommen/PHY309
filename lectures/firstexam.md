@@ -75,7 +75,7 @@ an inhomogeneous dielectric constant given by $$\epsilon_r = B/r^2$$ (see figure
 
 4. (12 points total) Suppose a dipole of strength, $$p$$, is placed at the center of a spherical cavity in an otherwise homogeneous dielectric medium with dielectric constant $$\epsilon_r$$ (see figure below). 
 
-	(a)     Sketch a picture of what you expect the surface charge distribution on the sphere to look like both on the inner and outer edge.
+	(a)     Sketch a picture of what you expect the surface charge (bound charge) distribution on the sphere to look like.
 
 	(b)     What is the most general form of the potential everywhere?
 
