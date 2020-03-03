@@ -14,7 +14,7 @@ permalink: /Grid/
 | February 24, 2020 | Chapter 4: Sec 3: Electric Displacement (continued)    | Review for midterm         | <a href='/PHY309/assignments/hw4' >Assignment \#04 </a>  due and one problem graded in class ...maybe      |
 | March 2, 2020     | Chapter 5: Sec 1-2    | FIRST MIDTERM \(take\-home\)  Chapter 5: Sec 3-4    | FIRST MIDTERM \(take\-home\)  Chapter 6: Sec 1-2 |
 | March 9, 2020     | SPRING BREAK  |   | |
-| March 16, 2020    | Chapter 6: Sec 3-4   | Chapter 7: Sec 1\-2   | <a href='/PHY309/assignments/A5.pdf' >Assignment \#05 </a>  Chapter 7: Sec 3-4 | 
+| March 16, 2020    | Chapter 6: Sec 3-4   | Chapter 7: Sec 1\-2   | <a href='/PHY309/assignments/hw5' >Assignment \#05 </a>  Chapter 7: Sec 3-4 | 
 | March 23, 2020    | Chapter 8   | <a href='/PHY309/assignments/A6.pdf' >Assignment \#06 </a>  due and graded in class   | Chapter 8     |
 | March 30, 2020    | Review for midterm        | <a href='/PHY309/assignments/A7.pdf' >Assignment \#07 </a>  due and graded in class     | Review for midterm  |
 | April 6, 2020     | SECOND MIDTERM \(take\-home\) Chapter 9: Sec 1: EM Waves         | SECOND MIDTERM \(take\-home\) Chapter 9: Sec 3: EM Waves in Matter   | Chapter 9: Sec 3-4: Dispersion, Waveguides         |
