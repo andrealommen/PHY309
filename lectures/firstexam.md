@@ -14,10 +14,10 @@ I have some extra office hours listed on the "Help!" tab of the web page.
 
 You may use Mathematica if you wish but you must follow the rules for making it readable.
 
-Please print this sheet, sign it, and staple it to the front of your exam. I'm going to turn the sheet to the back and grade your exam without looking at your name, so please only write your SID on the sheets with your work on them.
+**Please print this sheet, sign it, and staple it to the front of your exam. I'm going to turn the sheet to the back and grade your exam without looking at your name, so please only write your SID on the sheets with your work on them.**
 
-Please write your answers on paper (or print them), staple them with the problems in order 1 to 4, signed cover sheet on top, and place the completed exam
-in the lock box by my office L108 in the KINSC.
+**Please write your answers on paper (or print them), staple them with the problems in order 1 to 4, signed cover sheet on top, and place the completed exam
+in the lock box by my office L108 in the KINSC.**
 
 There are 4 problems.  
 
