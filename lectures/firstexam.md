@@ -14,8 +14,8 @@ I have some extra office hours listed on the "help" tab of the web page.
 
 You may use Mathematica if you wish but you must follow the rules for making it readable.
 
-Please write your answers on paper, staple them with the problems in order 1 to 4, put the last 4 
-digits of your SID and place the completed exam
+Please write your answers on paper (or print them), staple them with the problems in order 1 to 4, put the last 4 
+digits of your SID on your paper (**not your name**) and place the completed exam
 in the lock box by my office L108 in the KINSC..
 
 There are 4 problems.  
@@ -24,7 +24,7 @@ Please email me when you are starting the exam.
 
 I accept full responsibility under the Haverford College Honor System for my conduct on the examination.
 
-Signed_____________________________________________
+Signed____________________________________________________________________
 
 1.	(5 points)
 	Suppose that in cylindrical coordinates the potential, $$V$$, is everywhere represented by 
