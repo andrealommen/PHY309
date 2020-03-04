@@ -4,6 +4,8 @@ title:  "First exam"
 permalink: "/lectures/firstexam"
 ---
 
+[Click here for a pdf of this page](firstexam.pdf)
+
 The exam will be available on this page at noon on Tuesday, March 3rd, and will be due at 4pm on
 Friday, March 6th.
 
