@@ -31,7 +31,7 @@ force would be zero.  So in general, the two wires running parallel will
 attract each other.
 
 ## Where we're going today
-* Ampere's Law $$ \oint \vec{b}\cdot d\vec{l} = \mu_0 I_{enc} $$
+* Ampere's Law $$ \oint \vec{B}\cdot d\vec{l} = \mu_0 I_{enc} $$
 * Review of Maxwell's equations
 * Vector Potential  $$\vec{B} = \nabla \times \vec{A}$$
 Comment about vector potential:  it's not quite as useful NOW as the
@@ -65,7 +65,7 @@ We can use this to compute the closed-line integral of B around a circular
 path around a straight-line current $$I$$ of radius $$s$$..
 
 $$
-\oint \vec{b}\cdot d\vec{l} = \oint \frac{\mu_0 I}{2\pi s} dl
+\oint \vec{B}\cdot d\vec{l} = \oint \frac{\mu_0 I}{2\pi s} dl
 $$
 
 $$
@@ -75,7 +75,7 @@ $$
 But $$\oint dl$$ is just $$2\pi s$$ so now we have
 
 $$
-\oint \vec{b}\cdot d\vec{l} = \mu_0 I
+\oint \vec{B}\cdot d\vec{l} = \mu_0 I
 $$
 
 Notice that the integral is independent of the radius $$s$$.  It would
@@ -87,7 +87,7 @@ of B around it is $$\mu_0$$ times the current enclosed.
 That's Ampere's law...
 
 $$
-\oint \vec{b}\cdot d\vec{l} = \mu_0 I_{enc}
+\oint \vec{B}\cdot d\vec{l} = \mu_0 I_{enc}
 $$
 
 Compare to Gauss' law...
@@ -117,7 +117,7 @@ $$
 Putting it all together we have...
 
 $$
-\oint \vec{b}\cdot d\vec{l} =  \int\vec{J}\cdot d\vec{a}
+\oint \vec{B}\cdot d\vec{l} =  \int\vec{J}\cdot d\vec{a}
 $$
 
 We can use the curl theorem on the left side (in the opposite direction we
@@ -245,8 +245,64 @@ Note this is really three equations, one for each component of $$\vec{A}$$.
 I think you should guess the boundary conditions.  What do you
 think they are?
 
+Here are the two E-field boundary conditions that you can find
+analogies to:
+* V is continuous everywhere (because it's the integral of something)
+* E_perp is discontinuous across surface charge
+* E_parallel is continuous across surface charge
+
+$$
+\vec{E}_{above} - \vec{E}_{below} = \frac{\sigma}{\epsilon_0} \hat{n}
+$$
+
+(Reminder if "below" was inside a conductor than $$\vec{E}_{below}$$
+is 0 and the expression above reduces to a more familiar one for
+the relationship between E and rho on a conductor.)
+
 Ans: 
 * A is continuous
 * B perp is continuous!! (I think they can get that one)
-* B parallel is dependent upon K 
+* B parallel is discontinuous
+
+Formally:
+
+We use the integral form of (B field is divergenceless) 
+$$
+\nabla \cdot \vec{B} = 0
+$$
+
+We apply the divergence theorem...
+
+$$
+\int_V (\nabla \cdot \vec{v})d\tau = \oint_S \vec{v}\cdot d\vec{a}
+$$
+
+to get...
+
+$$
+\oint\vec{B}\cdot d\vec{a} = 0
+$$
+
+And then we can draw a little pillbox like we did before for E...
+
+E is not divergenceless so the right side of that equation wasn't
+zero, and there was a discontinuity in E across the boundary.
+B is divergenceless, to now we get:
+
+$$
+B_{above}^\perp = B_{below}^\perp
+$$
+
+To get the tangential components, we run an Amperian loop perpedicular to
+the surface current....
+
+$$
+\oint \vec{B}\cdot d\vec{l} = (B_{above}^\par - B_{below}^\par)l = \mu_0 I_{enc} = \mu_0 K l
+$$
+
+where $$K$$ is the surface current.  (Current per area, so surface charge
+density times velocity).
+
+![Griffiths Figure 5.5](Figures/Figure5.5.png){:class="img-responsive"}
+
 
