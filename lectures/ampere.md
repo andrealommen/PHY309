@@ -241,6 +241,11 @@ B just like we did for E.
 
 Note this is really three equations, one for each component of $$\vec{A}$$.
 
+
+$$Eq. (7) and the “vector potential” W(r) by Eq. (8).
+Furthermore, the potentials themselves are unique if they vanish as r → ∞ and W is
+in a gauge where ∇ · W = 0.
+
 ## Boundary conditions 
 I think you should guess the boundary conditions.  What do you
 think they are?
@@ -248,8 +253,8 @@ think they are?
 Here are the two E-field boundary conditions that you can find
 analogies to:
 * V is continuous everywhere (because it's the integral of something)
-* E_perp is discontinuous across surface charge
 * E_parallel is continuous across surface charge
+* E_perp is discontinuous across surface charge (as below)
 
 $$
 \vec{E}_{above} - \vec{E}_{below} = \frac{\sigma}{\epsilon_0} \hat{n}
@@ -259,22 +264,24 @@ $$
 is 0 and the expression above reduces to a more familiar one for
 the relationship between E and rho on a conductor.)
 
-Ans: 
+### For the magnetic field and its associated vector potential...
 * A is continuous
-* B perp is continuous!! (I think they can get that one)
+* B perp is continuous!! 
 * B parallel is discontinuous
 
-Formally:
+Let's look at how we get that formally, though, because I think it's really
+useful to see how it related to Maxwell's equations.  The boundary conditions
+are a direct result of Maxwell's equations.
 
 We use the integral form of (B field is divergenceless) 
 $$
 \nabla \cdot \vec{B} = 0
 $$
 
-We apply the divergence theorem...
+We apply the divergence theorem... (shown below for an arbitrary vector T)
 
 $$
-\int_V (\nabla \cdot \vec{v})d\tau = \oint_S \vec{v}\cdot d\vec{a}
+\int_V (\nabla \cdot \vec{T})d\tau = \oint_S \vec{T}\cdot d\vec{a}
 $$
 
 to get...
@@ -285,24 +292,63 @@ $$
 
 And then we can draw a little pillbox like we did before for E...
 
+![Griffiths Figure 5.49](Figures/Figure5.49.png){:class="img-responsive"}
+
+And only the component of B that is perpendicular to the top and bottom
+surface of the box will contribute, so we'll get $$B_{\perp, top}$$ times
+the area minus.....etc.
+
 E is not divergenceless so the right side of that equation wasn't
-zero, and there was a discontinuity in E across the boundary.
-B is divergenceless, to now we get:
+zero when we did this before, and there was a discontinuity in E across the boundary.
+Now, however, B is divergenceless, so now we get:
 
 $$
 B_{above}^\perp = B_{below}^\perp
 $$
 
-To get the tangential components, we run an Amperian loop perpedicular to
-the surface current....
+Punchline: The $$B_\perp$$ boundary condition comes from the rule about no
+magnetic monopoles, i.e. $$\nabla \cdot \vec{B} = 0$$.
+
+To get the rule about the tangential components of $$\vec{B}$$, we need the 
+integral version of Ampere's law:
 
 $$
-\oint \vec{B}\cdot d\vec{l} = (B_{above}^\par - B_{below}^\par)l = \mu_0 I_{enc} = \mu_0 K l
+\oint \vec{B}\cdot d\vec{l} = \mu_0 I_{enc}
 $$
 
-where $$K$$ is the surface current.  (Current per area, so surface charge
-density times velocity).
+We run an Amperian loop perpedicular to the surface current....
 
 ![Griffiths Figure 5.5](Figures/Figure5.5.png){:class="img-responsive"}
 
+$$
+\oint \vec{B}\cdot d\vec{l} = (B_{above}^\|| - B_{below}^\||)l = \mu_0 I_{enc} = \mu_0 K l
+$$
 
+where $$\vec{K}$$ is the surface current.  (Current per area, so surface charge
+density times velocity).
+
+
+### End Note about the vanishing vector potential and Helmholtz Theorem
+In 2020 we got into an interesting discussion about whether we could count
+on $$\vec{A}$$ to vanish at infinity. $$V$$ is only known to a additive
+constant, and so we can choose $$V$$ to be zero at infinity.  $$\vec{A}$$
+however, is known only to an additive vector whose gradient is zero (because
+the curl of a gradient is zero).  And
+we choose the ``gauge" where $$\nabla \cdot \vec{A} = 0$$.  
+
+Does this give us enough freedom to choose $$\vec{A}$$ to vanish at
+infinity.....?
+
+It looks like it does.  If you look at examples 5.11 and 5.12 in the book, you'll
+see that both of those solutions for $$\vec{A}$$ vanish at infinity.
+
+Here's Helmholtz Theorem in case it helps answer this question:
+If the divergence D(r) and curl C(r) of a vector function F(r) are specified, and if
+they both go to zero faster than $$1/r^2$$ as $$r \to \infty$$ , and if F(r) itself tends to zero as
+$$r \to \infty$$, then F(r) is uniquely given by 
+
+$$
+F = −\nabla U + \nabla \times W,
+$$
+
+in U(r) is the scalar potential and W is the vector potential.
