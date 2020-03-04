@@ -41,3 +41,4 @@ permalink: /lectures
 [First Exam](/PHY309/lectures/firstexam)<br>
 ### Chapter 5: Magnetostatics ###
 [Lorentz and Biot-Savart](/PHY309/lectures/lorentz) <br>
+[Ampere's Law and the Vector Potential](/PHY309/lectures/ampere)<br>
