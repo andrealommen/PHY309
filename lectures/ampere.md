@@ -31,7 +31,7 @@ force would be zero.  So in general, the two wires running parallel will
 attract each other.
 
 ## Where we're going today
-* Ampere's Law $$ \oint \vec{b}\cdot\d\vec{l} = \mu_0 I_{enc} $$
+* Ampere's Law $$ \oint \vec{b}\cdot d\vec{l} = \mu_0 I_{enc} $$
 * Review of Maxwell's equations
 * Vector Potential  $$\vec{B} = \nabla \times \vec{A}$$
 Comment about vector potential:  it's not quite as useful NOW as the
@@ -65,7 +65,7 @@ We can use this to compute the closed-line integral of B around a circular
 path around a straight-line current $$I$$ of radius $$s$$..
 
 $$
-\oint \vec{b}\cdot\d\vec{l} = \oint \frac{\mu_0 I}{2\pi s} dl
+\oint \vec{b}\cdot d\vec{l} = \oint \frac{\mu_0 I}{2\pi s} dl
 $$
 
 $$
@@ -75,7 +75,7 @@ $$
 But $$\oint dl$$ is just $$2\pi s$$ so now we have
 
 $$
-\oint \vec{b}\cdot\d\vec{l} = \mu_0 I
+\oint \vec{b}\cdot d\vec{l} = \mu_0 I
 $$
 
 Notice that the integral is independent of the radius $$s$$.  It would
@@ -87,7 +87,7 @@ of B around it is $$\mu_0$$ times the current enclosed.
 That's Ampere's law...
 
 $$
-\oint \vec{b}\cdot\d\vec{l} = \mu_0 I_{enc}
+\oint \vec{b}\cdot d\vec{l} = \mu_0 I_{enc}
 $$
 
 Compare to Gauss' law...
@@ -117,7 +117,7 @@ $$
 Putting it all together we have...
 
 $$
-\oint \vec{b}\cdot\d\vec{l} =  \int\vec{J}\cdot d\vec{a}
+\oint \vec{b}\cdot d\vec{l} =  \int\vec{J}\cdot d\vec{a}
 $$
 
 We can use the curl theorem on the left side (in the opposite direction we
