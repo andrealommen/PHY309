@@ -40,5 +40,6 @@ permalink: /lectures
 [Practice Problems for 1st exam](/PHY309/lectures/practice_problems_1st)<br>
 [First Exam](/PHY309/lectures/firstexam)<br>
 ### Chapter 5: Magnetostatics ###
+[Andrea's Crash Course in Chapter 5](/PHY309/lectures/chapt5)<br>
 [Lorentz and Biot-Savart](/PHY309/lectures/lorentz) <br>
 [Ampere's Law and the Vector Potential](/PHY309/lectures/ampere)<br>
