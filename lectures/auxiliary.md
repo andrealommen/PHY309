@@ -189,3 +189,20 @@ $$s$$.  You can expect the little current loops to cancel out completely
 if one is bigger than the other.  And if the inner one is smaller than the 
 outer one then the part that ends up not cancelling will be going in the opposite
 direction as the current loops.
+
+#### Boundary Conditions
+(I don't actually think we'll get a chance to talk about these in class, but
+I put them here for reference.)
+
+The boundary conditions on $$\vec{H}$$ are:
+
+$$
+H_{above}^\perp - H_{below}^\perp = M_{above}^\perp - M_{below}^\perp  
+$$
+
+$$
+\vec{H}_{above}^\| - \vec{H}_{below}^\| = \vec{K}_f \times \hat{n}
+$$
+
+(Notice that the perpendicular boundary conditions are not vectors, because
+$$\vec{H}_\perp$$ is only one direction, but $$\vec{H}_\|$$ is a vector in two dimensions.)
