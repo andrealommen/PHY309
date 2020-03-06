@@ -42,13 +42,34 @@ don't rely on it for quantitative results.
 We saw in chapter 4 that an electric field can induce polarization
 in individual atoms by sending all the electrons to one side and
 all the nuclei to the other.  How would you guess a magnetic field
-induces magnetism in an atom?  You have all the pieces you need.
+induces magnetism in an atom?  
 
-Hints: (a) You can think of the electron's orbit as a current. (b) Current
-is charge times velocity.
+There are actually (at least) two answers. The one you've probably heard of
+more is that that a magnetic field can make the spins of an electron
+align with the magnetic field (see the torque equation above, it's effect
+is to align the dipole moment with the field).  
 
-Ans: The presence of the magnetic field can make the electron speed
-up in its orbit.
+**Why does an electron spinning have a magnetic dipole moment?**  Well, it's
+like a spinning sphere of charge.
+
+The spin alignment with the magnetic field creates an additional magnetic
+field in the same direction.   This is called paramagnetism.  Para in latin means
+"defense, protection agains".  I'm not sure I would've called it that.
+
+**What about the "current" of the electron going around the nucleus?**
+(Spoiler alert/punchline. This gives you diamagnetism, where the magnetization
+is opposite the applied field. Why???  That doesn't make any sense!!  It does
+actually.  It turns out that it's hard to actually change the orientation of
+an orbit, so the torque that happens in paramagnetism isn't the most
+important thing.  The most important thing is the increase in velocity of
+the electron.)
+
+See if you can come up with what the magnetic dipole of an electron in an orbit would
+be.
+Ans: You can think of the electron's orbit as a current. Let's look at that!! Current
+is charge per time, or linear current density times velocity. $$I = \lambda v = ev/2\pi R$$.  
+And magnetic moment is Ia, where a is the area. 
+The area is $$\pi R^2$$. So the magnetic moment of an electron orbit is....
 
 In case you're bothered by that (because I told you magnetic fields
 can't do work, so they can't speed a particle up).... A changing
@@ -110,6 +131,7 @@ $$
 $$
 
 Notice the change in $$\vec{m}$$ is opposite the direction of $$\vec{B}$$.
+This is called diamagnetism.
 
 ### How does this produce an overall magnetic field in the materials?
 
