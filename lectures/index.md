@@ -44,5 +44,8 @@ permalink: /lectures
 [Lorentz and Biot-Savart](/PHY309/lectures/lorentz) <br>
 [Ampere's Law and the Vector Potential](/PHY309/lectures/ampere)<br>
 ### Chapter 6: Magnetic Fields in Matter	 ###
+[Andrea's Crash Course in Chapter 6](/PHY309/lectures/chapt6)<br>
 [Magnetization and the Field of a Magnetized Object](/PHY309/lectures/magnetized_matter)<br>
 [The Auxiliary Field](/PHY309/lectures/auxiliary)<br>
+### Chapter 7: Electrodynamics
+[Electromotive Force and Induction](/PHY309/lectures/induction)<br>
