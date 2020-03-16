@@ -157,7 +157,7 @@ is determined by the acceleration due to the electric field and
 the time in between collisions, like this:
 
 $$
-v_{ave} = \frac{1}{2} at^2
+v_{ave} = \frac{1}{2} at
 $$
 
 where $$a$$ is the acceleration due to the field and $$t$$ 
@@ -165,7 +165,7 @@ is $$\frac{\lambda}{v_{thermal}}$$.
 
 
 $$
-v_{ave} = \frac{1}{2} \frac{qE}{m_e}\left(\frac{\lambda}{v_{thermal}}\right)^2
+v_{ave} = \frac{1}{2} \frac{qE}{m_e}\left(\frac{\lambda}{v_{thermal}}\right)
 $$
 
 where $$a$$ is the acceleration due to the field and $$t$$ 
@@ -176,7 +176,7 @@ charge per electron).  So now we can put it all together...
 
 
 $$
-\vec{J} = nfq\vec{v}_{ave} = \left(\frac{nf\lambda q^2}{2m_e v_{thermal}}\right)^2 \vec{E}
+\vec{J} = nfq\vec{v}_{ave} = \left(\frac{nf\lambda q^2}{2m_e v_{thermal}}\right) \vec{E}
 $$
 
 Neither I nor Griffiths claim this is the accurate formula for
