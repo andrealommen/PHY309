@@ -5,7 +5,7 @@ title: Zoom Videos
 permalink: /zoom/
 ---
 
-[Here's the link to the folder where I store the zoom videos:](https://haverford.box.com/s/j0e88qh9jmgf98ew2xjpn338d49hwz59)
+[Here's the link to the folder where I store the zoom videos.](https://haverford.box.com/s/j0e88qh9jmgf98ew2xjpn338d49hwz59)
 
 For each day of class there will be up to 4 files:
 
