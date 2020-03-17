@@ -41,6 +41,7 @@ header_pages:
   - CourseDescription.md
   - grid.md
   - lectures/index.md
+  - zoom.md
   - groups.md
   - peer.md
   - common.md
