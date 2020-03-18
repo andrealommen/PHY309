@@ -49,3 +49,4 @@ permalink: /lectures
 [The Auxiliary Field](/PHY309/lectures/auxiliary)<br>
 ### Chapter 7: Electrodynamics
 [Electromotive Force and Induction](/PHY309/lectures/induction)<br>
+[Maxwell's Equations](/PHY309/lectures/maxwellChapt7)<br>
