@@ -18,7 +18,7 @@ We talked about an average speed of charges as they undergo collisions in a cons
 electric field, and we came up with:
 
 $$
-\vec{J} = nfq\vec{v}_{ave} = \left(\frac{nf\lambda q^2}{2m_e v_{thermal}}\right)^2 \vec{E}
+\vec{J} = nfq\vec{v}_{ave} = \left(\frac{nf\lambda q^2}{2m_e v_{thermal}}\right) \vec{E}
 $$
 
 which shows
@@ -101,7 +101,7 @@ $$
 $$
 
 The left side must be zero but the right side is not.  For steady currents the divergence of
-$\vec{J}$ is zero, but if we go beyond a static situation it's not.  (For example, imagine
+$$\vec{J}$$ is zero, but if we go beyond a static situation it's not.  (For example, imagine
 you're standing somewhere and spewing out electrons in all directions.  The divergence of $$\vec{J}$$
 is not zero.
 
@@ -126,3 +126,118 @@ the surface as below (Figure 7.43 from the book.) It doesn't include any current
 
 ![An Amperian Loop Causing problems in a capacitor](Figures/Figure7.43.png){:class="img-responsive"}]
 
+So we need a way to kill off the divergence in Ampere's law.  The right
+side is currently (before fixing):
+
+$$
+\nabla \cdot \vec{J} = -\frac{\partial \rho}{\partial t} (\epsilon_0 \nabla \cdot \vec{E}) = \nabla \cdot\left(\epsilon_0\frac{\partial\vec{E}}{\partial t}\right)
+$$
+
+The first part was by the continuity equation from chapter 5, which I don't think
+we talked about enough.  The basic idea is that if you're standing there throwing
+out charges, then the charge density is decreasing where you are. That's the
+continuity equation.
+
+So, we can make the right side of Ampere's law divergence-less if we add this
+back in.
+
+So when the dust clears we have our new version's of Maxwell's equations:
+
+Gauss' Law
+
+$$
+\nabla \cdot \vec{E} = \frac{1}{\epsilon_0} \rho
+$$
+
+(no name...no magnetic monopoles?)
+
+$$
+\nabla \cdot \vec{B} = 0
+$$
+
+Faraday's Law
+
+$$
+\nabla \times \vec{E} = -\frac{\partial\vec{B}}{\partial t}
+$$
+
+Ampere's Law 
+
+$$
+\nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0\epsilon_0\frac{\partial\vec{E}}{\partial t}
+$$
+
+But these aren't the most useful way to write them as we have seen in the last
+several weeks using both the Displacement vector and the Auxiliary Current.
+
+We'll need to add one thing for this non-static case.  Let's look at what
+we have so far with magnetization and polarization.  The electric polarization
+$$\vec{P}$$ produces a bound charge density
+
+$$
+\rho_b = -\nabla \cdot \vec{P}
+$$
+
+and likewise we get bound current from a derivative of magnetization.
+
+$$
+\vec{J_b} = \nabla \times \vec{M}
+$$
+
+I'd like you to see if you can imagine happens to these when we consider
+dynamical situations instead of static ones.  We're doing electrodynamics.
+In other words,
+both the E and B fields can be changing in time....so then what happens?
+
+Ans:  Imagine that you've got a change E-field, and a linear dielectric,
+and so the polarization is proportional to the E-field and the polarization
+is changing. Remember polarization comes from all the dipolar atoms kind of
+rearranging themselves.......yes, so you'll get a current as they rearrange
+themselves. 
+
+$$
+\vec{J}_p = \frac{\partial\vec{p}}{\partial t} 
+$$
+
+So we've got two separate currents arising from fields in matter, the
+bound current $$\vec{J}_b$$ arises from the spin and orbital motions of
+electrons, and $$\vec{J}_p$$ the polarization current, is from the linear
+motions of charge.
+
+When we put everything together (as you can see Griffiths do on page 341) we
+know that a change electric field produces a magnetic field, and the
+electric field is the sum of the field from the bound charge and the free charge.
+So then it follows that if there's a dE/dt term in the $$\nabla \times B$$ 
+Maxwell's equation, then when we express it in terms of H and D, the
+derivative of the polarization is also part of the $$\nabla \times B$$ equation.
+
+So Maxwell's equations in matter end up looking like this:
+Gauss' Law
+
+$$
+\nabla \cdot \vec{D} = \rho_f
+$$
+
+(no name...no magnetic monopoles?)
+
+$$
+\nabla \cdot \vec{B} = 0
+$$
+
+Faraday's Law
+
+$$
+\nabla \times \vec{E} = -\frac{\partial\vec{B}}{\partial t}
+$$
+
+Ampere's Law 
+
+$$
+\nabla \times \vec{H} = \vec{J}_f + \frac{\partial \vec{D}}{\partial t}
+$$
+
+And embedded in that derivative of D is the derivative of P that we just 
+surmized.  If you want to see the whole thing mathematically, see page
+341.
+
+Problem 7.40 Sea water at frequency $$\nu = 4\times 10^8$$ Hz has permittivity $$\epsilon = 81\epsilon_0$$,  permeability $$\mu = \mu_0$$, and resistivity $$\rho = 0.23 \Omega$$ m. What is the ratio of conduction current to displacement current? [Hint: Consider a parallel-plate capacitor immersed in sea water and driven by a voltage $$V_0 cos(2π\nu t)$$.] 
