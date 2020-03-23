@@ -105,6 +105,8 @@ $$\vec{J}$$ is zero, but if we go beyond a static situation it's not.  (For exam
 you're standing somewhere and spewing out electrons in all directions.  The divergence of $$\vec{J}$$
 is not zero.
 
+
+(I skipped this example in 2020, but Griffiths does it in the book if you're interested.)
 Also, consider a capacitor that you're charging up.  The integral version of Ampere's law is
 
 $$
@@ -130,13 +132,20 @@ So we need a way to kill off the divergence in Ampere's law.  The right
 side is currently (before fixing):
 
 $$
-\nabla \cdot \vec{J} = -\frac{\partial \rho}{\partial t} (\epsilon_0 \nabla \cdot \vec{E}) = \nabla \cdot\left(\epsilon_0\frac{\partial\vec{E}}{\partial t}\right)
+\nabla \cdot \vec{J} = -\frac{\partial \rho} {\partial t} 
 $$
 
-The first part was by the continuity equation from chapter 5, which I don't think
+That's just the continuity equation from chapter 5, which I don't think
 we talked about enough.  The basic idea is that if you're standing there throwing
 out charges, then the charge density is decreasing where you are. That's the
 continuity equation.
+
+We can replace $$\rho$$ using Maxwell's equation for the divergence
+of E.  So now the right side is...
+
+$$
+-\frac{\partial}{\partial t} (\epsilon_0 \nabla \cdot \vec{E}) = \nabla \cdot\left(\epsilon_0\frac{\partial\vec{E}}{\partial t}\right)
+$$
 
 So, we can make the right side of Ampere's law divergence-less if we add this
 back in.
@@ -184,12 +193,8 @@ $$
 \vec{J_b} = \nabla \times \vec{M}
 $$
 
-I'd like you to see if you can imagine happens to these when we consider
-dynamical situations instead of static ones.  We're doing electrodynamics.
-In other words,
-both the E and B fields can be changing in time....so then what happens?
-
-Ans:  Imagine that you've got a change E-field, and a linear dielectric,
+Here's why you get a bound current from a changing magnetization:
+Imagine that you've got a change E-field, and a linear dielectric,
 and so the polarization is proportional to the E-field and the polarization
 is changing. Remember polarization comes from all the dipolar atoms kind of
 rearranging themselves.......yes, so you'll get a current as they rearrange
@@ -198,6 +203,8 @@ themselves.
 $$
 \vec{J}_p = \frac{\partial\vec{p}}{\partial t} 
 $$
+
+This is called the polarization current.
 
 So we've got two separate currents arising from fields in matter, the
 bound current $$\vec{J}_b$$ arises from the spin and orbital motions of
@@ -240,4 +247,70 @@ And embedded in that derivative of D is the derivative of P that we just
 surmized.  If you want to see the whole thing mathematically, see page
 341.
 
+Jesse asked a good question about Ampere's law.  It looks like there's a sign
+error in it, he suggested.   There's not.  Here's why it seems like there should be.  
+We have 3 contributions to the current density,
+the free current density, the bound current density, and the polarization
+current density.  H is supposed to be due ONLY to the free current density,
+so we have to subtract off the contributions from the bound current density
+and the polarization current density. 
+
+I'm not sure this satisfied Jesse's question, but here's how it works out mathematically:
+
+$$
+\vec{J} = \vec{J}_f + \vec{J}_b + \vec{J}_p
+$$
+
+$$
+\vec{J} = \vec{J}_f + \nabla \times \vec{M} + \frac{\partial\vec{P}}{\partial t}
+$$
+
+Ampere's law is:
+
+$$
+\nabla \times \vec{B} = \mu_0\vec{J} +  \mu_0\epsilon_0 \frac{\partial\vec{E}}{\partial t}
+$$
+
+Put our expression for $$J$$ into Ampere's law:
+
+$$
+\nabla \times \vec{B} = \mu_0\left({J}_f + \nabla \times \vec{M} + \frac{\partial\vec{P}}{\partial t}\right)
+ +  \mu_0\epsilon_0 \frac{\partial\vec{E}}{\partial t}
+$$
+
+Bring the $$M$$ over the other side and divide by $$\mu_0$$
+
+$$
+\frac{1}{\mu_0}\nabla \times \vec{B} - \nabla \times \vec{M} = {J}_f + \frac{\partial\vec{P}}{\partial t} +  \epsilon_0 \frac{\partial\vec{E}}{\partial t}
+$$
+
+Use our definition of H:
+
+$$
+\vec{H} = \frac{1}{\mu_0} \vec{B} - \vec{M}
+$$
+
+to rewrite the left side:
+
+$$
+\nabla \times \vec{H} = {J}_f + \frac{\partial\vec{P}}{\partial t} +  \epsilon_0 \frac{\partial\vec{E}}{\partial t}
+$$
+
+Use our definition of $$D$$:
+
+$$
+\vec{D} = \epsilon_0 \vec{E} + \vec{P}
+$$
+
+to rewrite the right side
+
+$$
+\nabla \times \vec{H} = {J}_f +  \frac{\partial\vec{D}}{\partial t}
+$$
+
+And we've got the correct expression relating H, D, and J.   But I think Jesse was looking to get a feeling
+for why the time derivative of D would be added to H.....Jesse, any thoughts?
+
+(In 2020 we didn't actually do this problem...we actually had time, but we weren't emotionally prepared. I was also
+confused about what he means by conduction current - I think that's the same as free current.  )
 Problem 7.40 Sea water at frequency $$\nu = 4\times 10^8$$ Hz has permittivity $$\epsilon = 81\epsilon_0$$,  permeability $$\mu = \mu_0$$, and resistivity $$\rho = 0.23 \Omega$$ m. What is the ratio of conduction current to displacement current? [Hint: Consider a parallel-plate capacitor immersed in sea water and driven by a voltage $$V_0 cos(2π\nu t)$$.] 
