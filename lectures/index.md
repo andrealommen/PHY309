@@ -50,3 +50,5 @@ permalink: /lectures
 ### Chapter 7: Electrodynamics
 [Electromotive Force and Induction](/PHY309/lectures/induction)<br>
 [Maxwell's Equations](/PHY309/lectures/maxwellChapt7)<br>
+### Chapter 8: Electromagnetic Waves
+[Light!!!!!](/PHY309/lectures/light)<br>
