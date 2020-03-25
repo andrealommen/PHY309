@@ -15,9 +15,9 @@ permalink: /Grid/
 | March 2, 2020     | Chapter 5: Sec 1-2    | FIRST MIDTERM \(take\-home\)  Chapter 5: Sec 3-4    | FIRST MIDTERM \(take\-home\)  Chapter 6: Sec 1-2: Magnetization |
 | March 9, 2020     | SPRING BREAK  |   | |
 | March 16, 2020    | Chapter 6: Sec 3-4: Auxiliary Field   | Chapter 7: Sec 1\-2: Induction   | <a href='/PHY309/assignments/hw5' >Assignment \#05 </a>  Chapter 7: Sec 3: Maxwell's Equations | 
-| March 23, 2020    | Chapter 9.2 Electromagnetic Waves in Vacuum   | Chapter 9.1.4 and 9.2.2: Polarization, 9.3.1 Waves in Linear Media, 9.4.1 Waves in Conductors    | Chapter 9.1.3 and and 9.3.2 Boundary Conditions and Reflection and Transmission    <a href='/PHY309/assignments/hw6' >Assignment \#06 </a>  due at 5pm  |
-| March 30, 2020    | Review for midterm        | Review for midterm |  <a href='/PHY309/assignments/hw7' >Assignment \#07 </a>  due at 5pm   | 
+| March 23, 2020    | Chapter 9.2 Electromagnetic Waves in Vacuum   | Chapter 9.1.4 and 9.2.2: Polarization, 9.3.1 Waves in Linear Media, 9.4.1 Waves in Conductors    | Chapter 9.1.3 and and 9.3.2 Boundary Conditions and Reflection and Transmission    <a href='/PHY309/assignments/hw6' >Assignment \#06 </a>  due at 5pm in your time-zone  |
+| March 30, 2020    | Review for midterm        | Review for midterm |  <a href='/PHY309/assignments/hw7' >Assignment \#07 </a>  due at 5pm in your time-zone   | 
 | April 6, 2020     | SECOND MIDTERM \(take\-home (in other words "stay where you are")) Chapter 8: Sec 2: The Poynting Vector and Section 9.2.3 Energy and Momentum in EM Waves   | SECOND MIDTERM Chapter 9: Whatever we didn't spend enough time on   | Chapter 9: Sec 4: Dispersion         |
-| April 13, 2020    | Chapter 10: Sec 1: The Potential Formulation  | Chapter 10: Sec 2: Retarded Potentials| <a href='/PHY309/assignments/hw8' >Assignment \#08 </a>  due at 5pm  Chapter 10: Sec 3: Liénard-Wiechert Potentials | 
-| April 20, 2020    | Chapter 11: Sec 1: Dipole Radiation  | Chapter 11: Sec 2: Radiation from a point charge  | <a href='/PHY309/assignments/hw9' >Assignment \#09 </a>  due at 5pm |
-| April 27, 2020    | Review   | Review |  <a href='/PHY309/assignments/hw10' >Assignment \#10 </a>  due at 5pm  | 
+| April 13, 2020    | Chapter 10: Sec 1: The Potential Formulation  | Chapter 10: Sec 2: Retarded Potentials| <a href='/PHY309/assignments/hw8' >Assignment \#08 </a>  due at 5pm in your time-zone  Chapter 10: Sec 3: Liénard-Wiechert Potentials | 
+| April 20, 2020    | Chapter 11: Sec 1: Dipole Radiation  | Chapter 11: Sec 2: Radiation from a point charge  | <a href='/PHY309/assignments/hw9' >Assignment \#09 </a>  due at 5pm in your time-zone |
+| April 27, 2020    | Review   | Review |  <a href='/PHY309/assignments/hw10' >Assignment \#10 </a>  due at 5pm in your time-zone  | 
