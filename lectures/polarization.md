@@ -1,216 +1,450 @@
 ---
 layout: page
-title:  "Polarization"
-permalink: "lectures/polarization"
+title:  "Polarization and Light in Linear and Conducting Media"
+permalink: "/lectures/polarization"
 ---
 
-Announcements:  
-* Talks Tuesday and Wednesday by candidates for next year, 4pm.
-Tuesday evening there's a reception for all of you.
-* No Walter/Feynman notion on problem sets.
+#### Announcements:
+* Please put your ID number of your homework.
+* Please make your homework legible.  It requires a bit more effort now since 
+scanning loses some information.  Thank you!!
+* Solutions to exam are on Moodle.  I can't figure out a realistic way to return your
+exams to you, but I'm happy to talk to you about it.  Sign up for one of my times and I can send you pictures of whatever you want.
 
-You've actually learned all the ways to deal with static distributions of charges.  Now we have to deal with the fields in matter.
+#### To review from last time: 
 
-This is the chapter where we go from Electric fields to Displacement Field,
-which is the more general field.
+* If you take the curl of both side of each of Maxwell's curl equations, you
+can decouple E and B from each other.  You get waves that travel at a velocity
+$$v = \frac{1}{\sqrt{\epsilon_0 \mu_0}} = c$$.
+* The wave equation is close to the Simple Harmonic Oscillator equation that we
+spent most of PHY213 dealing with, but now it propogates in time.
+* $$
+\vec{E(x,t)} = E_0cos[k(x - vt) + \delta]\hat{y}
+$$ is a wave traveling to the right (toward positive x) with velocity $$v$$. 
+* In order to satisfy the relationship between E and B in Maxwell's equations (and therefore for the wave to propagate) we need:
+$$\widetilde{B_0}  = \frac{1}{c} (\hat{k} \times \widetilde{E_0})$$
 
-I mentioned that dipoles would figure prominently in this chapter. It happens right away. And my example of an atom with a dipole moment comes up immediately.
-This chapter is about electric fields in matter (that's what the chapter is
-called.) So immediately if you put an atom in an electric field, the positive
-part of the atom is forced in the direction of the electric field, 
-and the negative part of the atom is forced in the opposite direction. 
-Different atoms are able to **polarize** by different amounts depending
-upon their electronic configuration. Their *atomic polarizability* is designated
-by $$\alpha$$ and is the constant of proportionality between the applied
-electric field $$\vec{E}$$ and the dipole moment $$\vec{p}$$.
+In total, we dealt with waves in a vacuum, polarized in the y direction, and traveling in the x-direction.  We
+need to generalize that in a bunch of ways:
 
-$$
-\vec{p} = \alpha \vec{E}
-$$
+* Can they please be polarized in any direction, not just y? (Yes, but polarization direction must be perp to
+propagation direction)
+* Can they please travel in any direction, not just x? (yes, we just take x-> $$\vec{r}$$ and kx gets replaced
+with $$\vec{k}\cdot\vec{r}$$
+* Can they travel in linear media (i.e. with $$\epsilon$$ and $$\mu$$?)?  (Yes, honestly those are so similar
+that that part is *almost* boring)
+* Can they travel in conducting media? (Yes, but they don't travel far....you start to get complex $$k$$...what
+happens if I make k complex???.)
 
-Your book (top of page 168) lists some $$\alpha$$'s.  They range from
-almost 1 for Hydrogen to almost 60 for Cesium.
+####  Polarization
 
-Because of the opposite forces on the positive and negative side of
-the atom, or dipole, there's a torque on the dipole:
+**First lets get these things traveling in any direction we want**
 
-$$
-\vec{N} = \vec{p} \times \vec{E}
-$$
-
-The above is the torque on a dipole $$\vec{p}$$ in a uniform field $$\vec{E}$$.
-Griffiths derives that handily, in case you'd like to see that.
-The effect of the torque is to align the dipole with the electric field
-in which case we say the material is *polarized*. We'll get to that in a 
-second.
-
-There's also a force on the dipole:
-$$
-\vec{F} = (\vec{p} \cdot \nabla) \vec{E}.
-$$
-
-And the energy of a dipole in an electric field....
-
-What do you think?  By the $$\vec{N}$$ above it should have a lot of energy
-if the dipole and electric field are anti aligned, and none if they're
-aligned.
+Last time we seemed to be constrained to having waves travel in x direction with polarization in
+y direction.  Like this:
 
 $$
-U = - \vec{p} \cdot \vec{E}
+\vec{E(x,t)} = E_0cos[kx - \omega t) ]\hat{y}
 $$
 
-Does that work?  If they're aligned the dot product is a maximum and $$U$$
-is a minimum.  If they're anti-aligned the dot product is a minimum and
-$$U$$ is  maximum.  Yes!
-
-## Polarization
-A material is said to be polarized if its atoms are roughly lined up. 
-Polarization $$\vec{P}$$ is defined as
+which is also the same thing as
 
 $$
-\vec{P} = {\rm dipole~moment~per~unit~volume}
+\widetilde{E(x,t)} = \widetilde{E_0}e^{i[kx - \omega t) ]}\hat{y}
 $$
 
-## The field of a polarized object
-(First we deal with the field from this object by itself, then in the next
-section we'll add the applied field to the induced field and get the total
-field.)
+where $$\vec{E} = Re[\widetilde{E}]$$.
 
-We're switching gears here. Above we were concerned about how much
-of a dipole moment would be caused by a particular field, and what
-force and torque there would be on that dipole by that field.  Now we
-assume that the dipole nature of the material is set (stapled in??) by
-what means we don't know.  And we ask, what's the potential of this polarized
-object?
-
-So how do you get the field of this polarized object?   It's a whole
-bunch of little dipoles pointing all in roughly the same direction. 
-
-Imagine a volume of dipoles, all lined up.  The stuff in the middle
-won't give you much field, because right next to any positive charge
-is a negative charge, so that won't have much bulk effect. But at any
-edge you'll get a whole bunch of one sign of charge hanging out along the
-edge, as long as that edge is normal to the direction of the polarization.
-You can write this as an effective surface charge on the material like
-this:
+Just so we don't get in a rut and think they have to travel always in x direction let's say:
 
 $$
-\sigma_b \equiv \vec{P}\cdot\hat{n}
+\widetilde{E(z,t)} = \widetilde{E_0}e^{i[kz - \omega t) ]}\hat{y}
 $$
 
-where $$\vec{n}$$ is the normal to the surface.   So if $$\vec{P}$$ and
-$$\vec{n}$$ are parallel, you get a lot of effective charge there.
-Officially the "b" stands for bound charge, to indicate it can't be removed.
-And Griffiths argues that it's real charge. I agree it's a real charge
-excess on the surface. I just like to acknowledge that there's charge
-all the way through the material.  This just happens to be the charge
-we care about because it doesn't have an opposite charge on both
-sides of it.  
-
-Similarly:
+But we don't have to have it polarization in the $$y$$ direction.
 
 $$
-\rho_b \equiv -\nabla \cdot \vec{P}
+\widetilde{E(z,t)} = \widetilde{E_0}e^{i[kz - \omega t) ]}\hat{x}
 $$
 
-so notice that $$\vec{P}$$ has to have a divergence in order for
-there to be an effective (bound) charge density. (Sketch a small
-circle of negative charges surrounded by a larger circle of positive
-charges.) That's the situation (i.e. spherical symmetry) in which a polarization
-would give you a bound volume charge density.
+(It can't be polarized in the z direction because polarization must be perp to propagation.  That's
+what we mean by "transverse."  The thing that's oscillating is oscillating perpendicular to the direction
+of propagation.  That's why Griffiths likes waves on string.  They're tranverse too.)
 
-Assuming the handwaivey-ness is not totally satisfying, let's actually
-see how these $$\sigma_b$$ and $$\rho_b$$ pop out of the integral when
-we actually rigorously calculate the field of the polarized material.
-
-For a single dipole:
+But let's get really crazy and say that they could be polarized somewhere in between x and y.  
 
 $$
-V(\vec{r}) = \frac{1}{4\pi\epsilon_0} \frac{\vec{p}\cdot\hat{\mathscr{r}}}{\mathscr{r}^2}
+\widetilde{E(z,t)} = \widetilde{E_0}e^{i[kz - \omega t) ]}\hat{n}
 $$
 
-where $$\vec{\mathscr{r}}$$ is the vector from the dipole to the point where we
-want to calculate the potential.
-
-Instead of one dipole $$p$$ we have a zillion dipoles spread through
-the volume and the polarization $$P$$ describes the dipole moment
-per volume.  Whenever you have a zillion of anything you need an integral.
-So if we integrate $$P$$ over the volume we can use the same formula:
+where
 
 $$
-V(\vec{r}) = \frac{1}{4\pi\epsilon_0} \int_{\mathscr{V}}\frac{\vec{P}(\vec{r}^\prime)\cdot\hat{\mathscr{r}}}{\mathscr{r}^2} d\tau^\prime
+\hat{n} = \cos\theta\hat{x} = \sin\theta\hat{y}
 $$
 
-Remember we're only integrating over $$r^\prime$$ but $$\mathscr{r}$$ depends
-upon $$r^\prime$$ so this is a pretty irritating integral.
-
-We can recast it using:
+and we require that
 
 $$
-\nabla^\prime\left(\frac{1}{\mathscr{r}}\right) = \frac{\hat{\mathscr{r}}}{\mathscr{r}^2}
+\hat{n}\cdot\hat{z} = 0
 $$
 
-(The above formula you can get by remembering $$\vec{\mathscr{r}} = \vec{r} - \vec{r}^\prime$$  and using the chain rule to take the gradient.)
 
-Putting that into our integral we have:
-
-$$
-V = \frac{1}{4\pi\epsilon_0} \int_\mathscr{V} \vec{P}\cdot \nabla^\prime\left(\frac{1}{\mathscr{r}}\right) d\tau^\prime
-$$
-
-Then you can use one of the vector identities (#5) in the front of your book (Notice
-the identity below is just a vector chain rule, and what we're about to do is analogous
-to integration by parts!):
+(Brief diversion into longitudinal version.  A longitudinal wave would be:
 
 $$
-\nabla\cdot(f\vec{A}) = f(\nabla \cdot \vec{A}) + \vec{A} \cdot (\nabla f)
+\widetilde{E(x,t)} = \widetilde{E_0}e^{i[kx - \omega t) ]}\hat{x}
 $$
 
-Which we rewrite as:
+which is absolutely a solution of the wave equation that we derived last time:
 
 $$
-\vec{A} \cdot (\nabla f) = \nabla\cdot(f\vec{A}) - f(\nabla \cdot \vec{A}) 
+\nabla^2\vec{E} =  \mu_0\epsilon_0 \frac{\partial^2\vec{E}}{\partial t^2}
 $$
 
-In our case $$P$$ is $$A$$ and $$f$$ is $$1/\mathscr{r}$$ so we have:
+but it's not consistent with all of Maxwell's equations.  Last time we took our equation for E and
+asked, what our equation for B would need to look like.  We said:
 
 $$
-\vec{P} \cdot \nabla \left(\frac{1}{\mathscr{r}}\right) = \nabla\cdot(\frac{1}{\mathscr{r}}\vec{P}) - \frac{1}{\mathscr{r}}(\nabla \cdot \vec{P}) 
+\widetilde{B(x,t)} = \widetilde{B_0}e^{i(kx - \omega t) }\hat{?}
 $$
 
-Do you see that divergence of $$\vec{P}$$ emerge??  It just happened!!!
-
-So now we put that into our equation for $$V$$ and we have: 
+We used Faraday's Law:
 
 $$
-V = \frac{1}{4\pi\epsilon_0} \left[\int_\mathscr{V} \nabla^\prime\cdot\left(\frac{\vec{P}}{\mathscr{r}}\right) d\tau^\prime - \int_\mathscr{V} \frac{1}{\mathscr{r}}(\nabla^\prime \cdot\vec{P}) d\tau^\prime\right]
+\nabla \times \vec{E} = -\frac{\partial\vec{B}}{\partial t}
 $$
 
-Keeping in mind that we said we were going to get a surface term and a volume term, and you
-see the volume term emerging, how do I get that first term to look like a surface term??
+Maybe if I lose connectivity for a minute you could convince yourself that if you have an E that
+follows the equation above, there's no B that's not 0 that is consistent with Faraday's law, so therefore
+the only amplitude of the longitudinal E wave that can exist is zero.
 
-Ans: The Divergence Theorem.
+End brief diversion.)
 
-$$
-V = \frac{1}{4\pi\epsilon_0} \oint_\mathscr{S} \frac{1}{\mathscr{r}}\vec{P}\cdot d\vec{a}^\prime  - \frac{1}{4\pi\epsilon_0} \int_\mathscr{V} \frac{1}{\mathscr{r}}(\nabla^\prime \cdot\vec{P}) d\tau^\prime
-$$
-
-If we say that $$\vec{P}\cdot \hat{n}$$ is a surface charge, that 
-the first term looks like the potential of surface charge.
-
-$$
-\sigma_b \equiv \vec{P}\cdot\hat{n}
-$$
-
-The second term  similarly, if we make the following definition...
+#### Generalizing the direction
+There's nothing special about the direction x that we did on Monday or the direction z that we have today.
+In general, the wave can be traveling in an arbitrary direction $$\vec{k}$$.
+And then the solution looks like this:
 
 $$
-\rho_b \equiv -\nabla\cdot\vec{P}
+\widetilde{E(\vec{r},t)} = \widetilde{E_0}e^{i(\vec{k}\cdot\vec{r} - \omega t) ]}\hat{n}
 $$
 
-looks the potential of a volume charge.  And then we can rewrite...
-
 $$
-V = \frac{1}{4\pi\epsilon_0} \oint_\mathscr{S} \frac{\sigma_b}{\mathscr{r}}da^\prime  + \frac{1}{4\pi\epsilon_0} \int_\mathscr{V} \frac{\rho_b}{\mathscr{r}} d\tau^\prime
+\widetilde{B(\vec{r},t)} = \frac{1}{c} \widetilde{E_0}e^{i(\vec{k}\cdot\vec{r} - \omega t) ]}(\hat{k} \cdot\hat{n}) = \frac{1}{c} \hat{k} \times \vec{E}
 $$
 
+where $$\vec{n}$$ is the polarization, the direction of the E-field.
+
+The next time I lose connectivity convince yourself that if
+
+$$
+\vec{n} = \hat{y}
+$$
+
+like on Monday.  And $$\vec{k} = k\hat{x}$$ like on Monday then you get back..
+
+$$
+\widetilde{E(\vec{r},t)} = \widetilde{E_0}e^{i(kx - \omega t) ]}\hat{y}
+$$
+
+where $$\vec{r} = x\hat{x} y\hat{y} + z\hat{z}$$.
+
+####  A quandary for you involving the superposition of two linearly polarized waves:
+
+Remember that we can superpose any solutions of the wave equation and still get a solution
+to the wave equation.  So it follows that this is a solution to the wave equation:
+
+
+$$
+\widetilde{E((x,t)} = \widetilde{E_0}e^{i(kx - \omega t) ]}\hat{y} + \widetilde{E_0}e^{i(kx - \omega t) + \pi/2 ]}\hat{z}
+$$
+
+where I have two waves, each with a different polarization.  One of them is out of phase from the 
+other by 90 degrees, or pi over 2.  What does this look like?
+
+[Animation of various polarizations of a wave](https://www.youtube.com/watch?v=Fu-aYnRkUgg)
+
+### Linear Media
+
+Let's look at Maxwell's equations in Media:
+
+Gauss' Law
+
+$$
+\nabla \cdot \vec{D} = \rho_f
+$$
+
+(no name...no magnetic monopoles?)
+
+$$
+\nabla \cdot \vec{B} = 0
+$$
+
+Faraday's Law
+
+$$
+\nabla \times \vec{E} = -\frac{\partial\vec{B}}{\partial t}
+$$
+
+Ampere's Law
+
+$$
+\nabla \times \vec{H} = \vec{J}_f + \frac{\partial \vec{D}}{\partial t}
+$$
+
+If the medium is linear, i.e.
+
+$$
+\vec{D} = \epsilon \vec{E}
+$$
+
+and
+
+$$
+\vec{H} = \frac{1}{\mu} \vec{B}
+$$
+
+and homogeneous, i.e. $$\epsilon$$ and $$\mu$$ don't vary from point to point, and we
+have no free charge or free current (we're getting to that) then we can
+write these equations like this
+
+$$
+\nabla \cdot \vec{E} = 0
+$$
+
+$$
+\nabla \cdot \vec{B} = 0
+$$
+
+$$
+\nabla \times \vec{E} = -\frac{\partial\vec{B}}{\partial t}
+$$
+
+$$
+\nabla \times \vec{B} = \mu\epsilon\frac{\partial \vec{E}}{\partial t}
+$$
+
+which are exactly our equations in free space (see Monday's lecture) except now
+we've replace $$\mu_0$$ by $$\mu$$ and $$\epsilon_0$$ by $$\epsilon$$.  So everything
+we've done so far holds for waves in linear media, but now the velocity is
+different, i.e.
+
+$$
+v = \frac{1}{\sqrt{\mu\epsilon}}
+$$
+
+So that's kind of either boring or kinda awesomely elegant.  I think it's awesomely elegant.
+And now you know why we need to deal with E and B fields in media, so that we could say that.
+
+
+#### Waves in Conductors
+Jesse asked about this on Monday.  We keep saying there's no charge and no current.....and that's how we derived the equations.  What happens if we have charge and current? 
+
+What would you guess happens to a wave in a conductor?
+(Ans: it shouldn't last long, because we said conductors rearrange themselves to get rid of fields inside them.  It
+can't happen instantaneously, which is why this is interesting. Again, that's why this is called
+electrodynamics.)
+
+So in a conductor we can use Ohm's "law":
+
+$$
+\vec{J}_f = \sigma \vec{E}
+$$
+
+and we can use the continuity equation $$\nabla \cdot \vec{J}_f = -\frac{\partial \rho_f}{\partial t}$$ (which remember is just a statement that if I'm tossing out protons in all directions then charge density at my location
+better be decreasing. The continuity equation would be true for money too - if I'm sending dollar bills
+away in all directions, then the cash density at my location is decreasing.)
+
+Let's first combine those to get a relationship for $$\rho_f$$ as a function of time.
+
+First rearrange the continuity equation very slightly:
+
+$$
+\frac{\partial \rho_f}{\partial t} = - \nabla \cdot \vec{J}_f 
+$$
+
+and now replace $$\vec{J}_f$$ with $$\sigma\vec{E}$$ using Ohm's "law".
+
+$$
+\frac{\partial \rho_f}{\partial t} = - \nabla \cdot \sigma\vec{E} 
+$$
+
+Rearrange.
+
+$$
+\frac{\partial \rho_f}{\partial t} = - \sigma \nabla \cdot \vec{E} 
+$$
+
+And use Gauss's law to replace the divergence of E.
+
+$$
+\frac{\partial \rho_f}{\partial t} = - \sigma  \frac{\rho_f}{\epsilon}
+$$
+
+Rearrange slightly.
+
+$$
+\frac{\partial \rho_f}{\partial t} = -\frac{\sigma}{\epsilon} \rho_f
+$$
+
+Well that looks pretty tame.  Write down on your paper your guess for what the
+solution of that looks like.
+
+Ans
+
+$$
+\rho_f(t) = e^{-i\left(\frac{\sigma}{\epsilon}\right)t} \rho_f(0)
+$$
+
+So the free charge density is decreasing exponentially in time.  The higher the
+conductivity $$\sigma$$ the faster it's decreasing in time.  
+
+So even if we have some free-charge to start in a conductor it will dissipate very quickly.
+(You're familiar with this idea - we just never put an equation to it - we just said it
+goes away really fast so we're not going to deal with it.  That's still true!!)
+
+Maxwell's equations in linear media look like
+
+$$
+\nabla \cdot \vec{E} = \frac{1}{\epsilon} \rho_f 
+$$
+
+$$
+\nabla \cdot \vec{B} = 0
+$$
+
+$$
+\nabla \times \vec{E} = -\frac{\partial\vec{B}}{\partial t}
+$$
+
+$$
+\nabla \times \vec{B} = \mu\epsilon\vec{E} + \mu\epsilon\frac{\partial \vec{E}}{\partial t}
+$$
+
+Those are more general than the ones above because they include the the free charge and current
+terms. (I should really do what my graduate E&M professor did and write down M's equation every time. In
+your brain maybe realize that you could do that.)
+
+So we just argued that the $$\rho_f$$ goes away really quickly.  
+
+But we still have that second to the last term which is the only thing different than what we started
+with when we derived the wave equation originally.
+
+We can do the same process (which we won't) and apply the curl to both curl equations.  We end up
+with an E equation that looks like this (and a B equation that looks exactly like it.)
+
+$$
+\nabla^2 \vec{E} = \mu\epsilon\frac{\partial\vec{E}}{\partial t} + \mu\epsilon\frac{\partial^2\vec{E}}{\partial t^2}
+$$
+
+That (and its B counterpart) still have plane-wave solutions
+
+$$
+\widetilde{E(x,t)} = \vec{\widetilde{E_0}}e^{i[\tilde{k}z - \omega t) ]}
+$$
+
+but now you need a complex wavenumber $$\tilde{k}$$ to make it work.  (Do you see why?  Without that first
+time, we have two derivatives in space proportional to two derivatives in time.  One brings down two
+omega's and one brings down two k's.  All the i's end up squared, so there aren't any imaginary numbers.
+Now however, we've got a single time derivative and a double time
+derivative, and so you'll get the square of k having to be imaginary.)
+
+$$
+\tilde{k}^2 = \mu\epsilon\omega^2 = i\mu\epsilon\omega
+$$
+
+(If my internet goes out, plug this into the equation above and prove to yourself that it works.)
+
+We usually write $$\tilde{k}$$ like this:
+
+$$
+\tilde{k} = k +i\kappa
+$$
+
+where
+
+$$
+k = \omega\sqrt{\frac{\epsilon\mu}{2}}\left[\sqrt{1 + \left(\frac{\sigma}{\epsilon\omega}\right)^2} + 1 \right]^{1/2}
+$$
+
+$$
+\kappa = \omega\sqrt{\frac{\epsilon\mu}{2}}\left[\sqrt{1 + \left(\frac{\sigma}{\epsilon\omega}\right)^2} - 1 \right]^{1/2}
+$$
+
+And then we usually write the solutions like this:
+
+$$
+\widetilde{E(x,t)} = \vec{\widetilde{E_0}}e^{-\kappa z}e^{i[kz - \omega t) ]}
+$$
+
+So just like in 213!!! You've got an exponential envelope multiplying a sine wave.  This is what
+we have for a damped oscillator.  The free current provides damping.
+
+The solution looks like this:
+
+![Electromagnetic Wave in a Conducting Medium](Figures/Figure9.18.png){:class="img-responsive"}]
+
+The "skin-depth" or the amount of distance over which the wave decreases by a factor of $$e$$ is
+
+$$
+d = \frac{1}{\kappa}
+$$
+
+So does this solution do all the things we think. Check:
+* If we set $$\sigma =0$$ then our solution shouldn't diminish in amplitude at all, and k should be real.  Check.
+
+What do you notice in the solution!!
+Yes, B is lagging behind E.  That's a consequence of doing that same exercise we did last class of
+finding the relationship between E and B.  
+Using Faraday's law and starting with....
+
+$$
+\widetilde{E(x,t)} = \widetilde{E_0}e^{-\kappa z}e^{i[kz - \omega t]}\hat{x}
+$$
+
+you end up with...
+
+$$
+\widetilde{B(x,t)} = \frac{\tilde{k}}{\omega}\widetilde{E_0}e^{-\kappa z}e^{i[kz - \omega t) ]}\hat{y}
+$$
+
+but that $$\tilde{k}$$ is actually a complex number so just like we did in PHY213 we set
+
+$$
+\tilde{k} = Ke^{i\phi}
+$$
+
+and we get
+
+$$
+\phi = \tan^{-1}(\kappa/k)
+$$
+
+(I'm not gonna write out K because I'm too lazy...but it does mean that the ratio of the (real) amplitudes
+of E and B are different than they were before.)
+
+#### Review, backwards
+
+* In a conductor you end up with an attenuated solution:
+$$
+\widetilde{E(x,t)} = \vec{\widetilde{E_0}}e^{-\kappa z}e^{i[kz - \omega t) ]}
+$$
+and the current acts like a damping agent.  B lags E in phase.
+* In a linear medium, you end up with exactly the same wave equations you had before, but with a different
+velocity $$
+v = \frac{1}{\sqrt{\mu\epsilon}}
+$$
+* The polarization vector points where E points.  If it's linearly polarized it stays in a plane.  The combination
+of two linearly polarized waves with a phase shift between them gets you a circularly polarized wave.
+* A more general way of writing the solutions to the wave equations for arbitrary propagation and polarization is
+
+$$
+\widetilde{E(\vec{r},t)} = \widetilde{E_0}e^{i(\vec{k}\cdot\vec{r} - \omega t) ]}\hat{n}
+$$
+
+$$
+\widetilde{B(\vec{r},t)} = \frac{1}{c} \widetilde{E_0}e^{i(\vec{k}\cdot\vec{r} - \omega t) ]}(\hat{k} \cdot\hat{n}) = \frac{1}{c} \hat{k} \times \vec{E}
+$$
+
+where $$\vec{n}$$ is the polarization, the direction of the E-field and $$\vec{k}$$ is the direction of propagation.
