@@ -319,7 +319,7 @@ $$
 $$
 
 $$
-\nabla \times \vec{B} = \mu\epsilon\vec{E} + \mu\epsilon\frac{\partial \vec{E}}{\partial t}
+\nabla \times \vec{B} = \mu\sigma\vec{E} + \mu\epsilon\frac{\partial \vec{E}}{\partial t}
 $$
 
 Those are more general than the ones above because they include the the free charge and current
@@ -335,7 +335,7 @@ We can do the same process (which we won't) and apply the curl to both curl equa
 with an E equation that looks like this (and a B equation that looks exactly like it.)
 
 $$
-\nabla^2 \vec{E} = \mu\epsilon\frac{\partial\vec{E}}{\partial t} + \mu\epsilon\frac{\partial^2\vec{E}}{\partial t^2}
+\nabla^2 \vec{E} = \mu\sigma\frac{\partial\vec{E}}{\partial t} + \mu\epsilon\frac{\partial^2\vec{E}}{\partial t^2}
 $$
 
 That (and its B counterpart) still have plane-wave solutions
@@ -351,7 +351,7 @@ Now however, we've got a single time derivative and a double time
 derivative, and so you'll get the square of k having to be imaginary.)
 
 $$
-\tilde{k}^2 = \mu\epsilon\omega^2 = i\mu\epsilon\omega
+\tilde{k}^2 = \mu\epsilon\omega^2 + i\mu\epsilon\omega
 $$
 
 (If my internet goes out, plug this into the equation above and prove to yourself that it works.)
