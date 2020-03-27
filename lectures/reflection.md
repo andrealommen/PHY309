@@ -271,7 +271,7 @@ in the dynamics case....
 In any case, we got this:
 
 $$
-E_1^\|| = E_2^\|| 
+E_1^\| = E_2^\| 
 $$
 
 From the fact that $$\oint\vec{E}\cdot d\vec{l} = 0$$ because you're
@@ -306,11 +306,11 @@ B_1^\perp = B_2^\perp
 $$
 
 $$
-\vec{E}_1^\|| = \vec{E}_2^\|| 
+\vec{E}_1^\| = \vec{E}_2^\| 
 $$
 
 $$
-\frac{1}{\mu_1}\vec{B}_1^\|| =  \frac{1}{\mu_2}\vec{B}_2^\||   
+\frac{1}{\mu_1}\vec{B}_1^\| =  \frac{1}{\mu_2}\vec{B}_2^\|   
 $$
 
 Perhaps you won't actually go through the derivation for each
