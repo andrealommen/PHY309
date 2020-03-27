@@ -39,3 +39,6 @@ You do have to look up the density and conductivity of aluminum. If you express 
 7.23
 First compute the mutual inductance M.  To do this, put I in the outer loop and compute the flux in the inner loop.  Check out 7.22 and then notice (7.24) that the mutual inductance is the same whether you’re asking about the flux induced in the big loop by the current in the small loop or the the other way around.  I believe Griffiths even calls that “cute.”
 
+Individual Problem 7.62
+I’d use the parallel plate formula for capacitance. (You could also derive it from Gauss’s law and the definition of capacitance.). Then I’d combine 7.35 and 7.30 to get the inductance. 
+
