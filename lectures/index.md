@@ -53,4 +53,5 @@ permalink: /lectures
 (We're kind of picking up Chapter 8 along the way...)
 ### Chapter 9: Electromagnetic Waves
 [Light!!!!!](/PHY309/lectures/light)<br>
-[Polarization and Waves in Linear and Conducting Media](/PHY309/lectures/polarization)<br>
+[Polarization of Waves in Linear and Conducting Media](/PHY309/lectures/polarization)<br>
+[Boundary Conditions, Reflection and Transmission](/PHY309/lectures/reflection)<br>
