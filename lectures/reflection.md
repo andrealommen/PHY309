@@ -4,6 +4,8 @@ title:  "Boundary Conditions, Reflection and Transmission"
 permalink: "/lectures/reflection"
 ---
 
+(This ended up being a 2-class lecture in 2020.)
+
 #### Announcements:
 * Please put your ID number of your homework.
 
@@ -14,8 +16,10 @@ get that there aren't really a bunch of equations.  Just 4.
 
 * You understand the ways in which transmission across a boundary in a string,
 or in and EM wave are the same, and how they're different.
+-------this is about how far we'll get the first day-----
 * You understand the ways in which transmission across a boundary involving
 a dielectric and a conductor are the same, and how they're different.
+* You understand Brewster's angle
 
 #### Question for you:  I'd like you to type your answer into a private chat with me on the Zoom.  First, let me just say that when a wave enters a different
 medium (from vacuum to a dielectric or to a conductor) that part of it is 
@@ -113,8 +117,7 @@ is
 $$
 \sqrt\frac{T}{\mu}
 $$
-
-where $$T$$ is the tension on the string.
+/bin/bash: k: command not found
 
 Here's what the situation looks like:
 ![Reflected Wave on a String](Figures/Figure9.5reflectionOnString.png){:class="img-responsive"}
@@ -468,3 +471,212 @@ $$
 
 So $$\tilde{k}$$ depends upon the conductivity. The higher the conductivity,
 the larger the imaginary part of k in the medium, and the faster it dies out.
+
+## Brewster's angle
+
+You've got two homework problems on Brewster's angle. One of them
+involves total internal reflection.  
+
+For both we need to confront these same equations when we have something
+other than normal incidence of the wave.  Something like this:
+
+![Non-normal incidence](Figures/Figure9.14){:class="img-responsive"}
+
+Now the waves look like this:
+
+$$
+\vec{\tilde{E}}_I(\vec{r},t) = \vec{\tilde{E}}_{0,I}e^{i(\vec{k}_I\cdot\vec{r}-\omega t)}
+$$
+
+and B is then:
+$$
+\vec{\tilde{B}}_I(\vec{r},t) = \frac{1}{v_1}(\hat{k}_I\times\vec{\tilde{E}}_I)
+$$
+
+And we can do the same thing for reflected and transmitted.
+
+(You can see this in equations 9.90 and 9.91 pg 406 of Griffiths)
+
+So what do we know about what happens at the interface?
+
+All three waves have the same frequency. (Talk with a partner about why
+you think all three waves have to have the same frequency.  I don't think
+that's obvious.  Did we just pick something for them to have the same?  Why
+not wavelength? (I'm playing devil's advocate for you.))
+
+$$
+\omega = 2\pi v = kv
+$$
+(Griffiths 9.11)
+
+So then:
+
+$$
+\omega = k_Iv_1 = k_Rv_1 = k_Tv_2 
+$$
+
+So then:
+
+$$
+k_I = k_R = \frac{v^2}{v^1}k_T = \frac{n_1}{n_2}k_T
+$$ 
+
+So that tells you how the wavelength changes as you go from one medium to the other. (because wavelength is 1/k)
+
+![Reflected Wave on a String](Figures/Figure9.14SnellsLaw.png){:class="img-responsive"}
+
+How about the boundary conditions?
+Let's ignore the details and just think about what they all look like in
+general.  At z=0 (the boundary) they basically all look like this:
+
+$$
+(....)e^{i(\vec{k}_I\cdot\vec{r}-\omega t)}
++
+(....)e^{i(\vec{k}_R\cdot\vec{r}-\omega t)}
+=
+(....)e^{i(\vec{k}_T\cdot\vec{r}-\omega t)}
+$$
+
+You can actually learn a great deal from this equation even without
+knowing what's in the $$(....)$$.  Talk with your partner about what
+you think we know from just the form of these boundary conditions.
+They have to hold at the boundary (z=0) for all time.
+
+$$
+\vec{k}_I\cdot\vec{r}
++
+\vec{k}_R\cdot\vec{r}
+=
+\vec{k}_T\cdot\vec{r}
+
+$$
+
+Ans: well it has to hold everywhere in the plane.   So it has to hold for 
+all x's and y's.
+
+$$
+k_{Ix}x 
++
+k_{Iy}y 
+=
+k_{Rx}x 
++
+k_{Ry}y 
+=
+k_{Tx}x 
++
+k_{Ty}y 
+$$
+
+If it has to hold for all x's and y's, then it has to hold for y=0, i.e.
+
+$$
+k_{Ix}x 
+=
+k_{Rx}x 
+=
+k_{Tx}x 
+$$
+
+With your group, stare at those equations, and stare at the drawing and 
+decide what that means physically. (I'll give you a sec to sketch the sketch
+and write down the equations because you'll lose them when I send you
+into groups.)
+
+Ans:
+
+$$
+k_{Ix} 
+=
+k_{Rx} 
+=
+k_{Tx} 
+$$
+
+But that's
+
+$$
+k_{I}\cos\theta_I 
+=
+k_{R} \cos\theta_R
+=
+k_{T} \cos\theta_T
+$$
+
+That's Snell's law!  We did very litle electrodynamics to get that result.
+The specifics of the boundary conditions were unimportant, so that's true
+for many different situations (water waves, for example.)
+
+#### Put in the specific boundary conditions
+
+Once you do put in the specific boundary conditions you get Equations 9.101
+which I'm not going to write.
+
+If we assume the polarization of the incident wave is parallel to the plane of
+incidence (the xz plane) then... (I truly have to stare at the picture
+to figure to figure out thwat that statement means.  The plane of
+incidence is not the boundary (which is the xy plane).  The plane of incidence
+is the plane defined by of the incident, reflected, and transmitted waves, which also includes the normal to the boundary.  The fact that it also includes the
+normal to the surface is the first law of geometrical optics.  The other
+way to say the first law is that you can draw incident, reflected, transmitted
+waves all in a sheet of paper.   If the polarization of the incident
+wave is also in the plane of the paper, then the incident wave is
+parallel to the plane of incidence. For homework you are going to do
+the case where the polarization is normal to this plane.  So that problem
+(#4) involves you following Griffith's treatment that gets him 9.109 and
+9.110.  Summary, problem 4 is starting with 9.101 and getting 9.109 and 9.110
+for the perpendicular problem. )
+
+When you do this for the parallel case you get:
+
+$$
+\tilde{E}_{0R} = \left(\frac{\alpha-\beta}{\alpha + \beta}\right)\tilde{E}_{0I}
+$$
+
+and
+
+
+$$
+\tilde{E}_{0T} = \left(\frac{2}{\alpha + \beta}\right)\tilde{E}_{0I}
+$$
+
+where
+$$\alpha =\frac{\sqrt{1 - \sin^2\theta_T}}{\cos\theta_I} = \frac{\sqrt{1 - [(n_1/n^2)\sin\theta_I]^2}}{\cos\theta_I}$$
+and as before
+$$\beta = \frac{\mu_1n_2}{\mu_2n_1}$$
+
+Those are known as Fresnel's equations for the case of polarization in
+the plane of incidence.  They have interesting consequences.
+
+At $$\theta_I = 90^\circ$$ $$\alpha$$ is infinite and the wave is totally
+reflected.  This is what happens to you on the road sometimes at night when
+it's wet - headlights are reflected back to you perfectly.
+
+There's also a particular angle where $$\alpha=\beta$$ at which point
+there's NO reflected wave. This is called Brewster's angle and figures
+into two of your homework problems.  This happens when
+
+$$
+\sin^2\theta_B = \frac{1-\beta^2}{(n_1/n_2)^2 - \beta^2}
+$$
+
+Typically $$\mu_1\approx\mu_2$$ which gets you
+
+$$
+\tan\theta_B \approx \frac{n_2}{n_1}
+$$
+
+![Reflected Wave on a String](Figures/Figure9.16AirtoGlass.png){:class="img-responsive"}
+
+The figure shows EM wave with polarization in the plane of the plane of incidence from n=1 (air) to n=1.5 (glass).  For angles smaller than Brewster's angle
+the reflected wave is inverted (or 180 degrees out of phase). At Brewster's angle there's no reflection.
+
+When you do homework #4 you'll find out there's no such Brewster's angle for
+polarization perpedicular to the plane of incidence, so there's no extinguishing.
+
+So, when you get polarized glasses and they help reduce reflections, which
+way are they polarized? (Ans: They are polarized with transmission axis
+vertical.  So only vertically polarized light gets through. Vertically
+polarized light is in the plane of transmission between your line of
+sight and the road, so that eliminates the non-extinguished polarization - the 
+perpendicular one.)
