@@ -117,7 +117,7 @@ $$
 where $$T$$ is the tension on the string.
 
 Here's what the situation looks like:
-![Reflected Wave on a String](Figures/Figure9.5reflectionOnString.png){:class="img-responsive"}]
+![Reflected Wave on a String](Figures/Figure9.5reflectionOnString.png){:class="img-responsive"}
 
 Here's how we write what the waves look like:
 For the region to the left of the interface ($$z<0$$)
