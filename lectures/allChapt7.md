@@ -154,31 +154,6 @@ $$
 \vec{J_b} = \nabla \times \vec{M}
 $$
 
-Here's why you get a bound current from a changing magnetization:
-Imagine that you've got a change E-field, and a linear dielectric,
-and so the polarization is proportional to the E-field and the polarization
-is changing. Remember polarization comes from all the dipolar atoms kind of
-rearranging themselves.......yes, so you'll get a current as they rearrange
-themselves. 
-
-$$
-\vec{J}_p = \frac{\partial\vec{p}}{\partial t} 
-$$
-
-This is called the polarization current.
-
-So we've got two separate currents arising from fields in matter, the
-bound current $$\vec{J}_b$$ arises from the spin and orbital motions of
-electrons, and $$\vec{J}_p$$ the polarization current, is from the linear
-motions of charge.
-
-When we put everything together (as you can see Griffiths do on page 341) we
-know that a change electric field produces a magnetic field, and the
-electric field is the sum of the field from the bound charge and the free charge.
-So then it follows that if there's a dE/dt term in the $$\nabla \times B$$ 
-Maxwell's equation, then when we express it in terms of H and D, the
-derivative of the polarization is also part of the $$\nabla \times B$$ equation.
-
 So Maxwell's equations in matter end up looking like this:
 Gauss' Law
 
@@ -203,71 +178,3 @@ Ampere's Law
 $$
 \nabla \times \vec{H} = \vec{J}_f + \frac{\partial \vec{D}}{\partial t}
 $$
-
-And embedded in that derivative of D is the derivative of P that we just 
-surmized.  If you want to see the whole thing mathematically, see page
-341.
-
-Jesse asked a good question about Ampere's law.  It looks like there's a sign
-error in it, he suggested.   There's not.  Here's why it seems like there should be.  
-We have 3 contributions to the current density,
-the free current density, the bound current density, and the polarization
-current density.  H is supposed to be due ONLY to the free current density,
-so we have to subtract off the contributions from the bound current density
-and the polarization current density. 
-
-I'm not sure this satisfied Jesse's question, but here's how it works out mathematically:
-
-$$
-\vec{J} = \vec{J}_f + \vec{J}_b + \vec{J}_p
-$$
-
-$$
-\vec{J} = \vec{J}_f + \nabla \times \vec{M} + \frac{\partial\vec{P}}{\partial t}
-$$
-
-Ampere's law is:
-
-$$
-\nabla \times \vec{B} = \mu_0\vec{J} +  \mu_0\epsilon_0 \frac{\partial\vec{E}}{\partial t}
-$$
-
-Put our expression for $$J$$ into Ampere's law:
-
-$$
-\nabla \times \vec{B} = \mu_0\left({J}_f + \nabla \times \vec{M} + \frac{\partial\vec{P}}{\partial t}\right)
- +  \mu_0\epsilon_0 \frac{\partial\vec{E}}{\partial t}
-$$
-
-Bring the $$M$$ over the other side and divide by $$\mu_0$$
-
-$$
-\frac{1}{\mu_0}\nabla \times \vec{B} - \nabla \times \vec{M} = {J}_f + \frac{\partial\vec{P}}{\partial t} +  \epsilon_0 \frac{\partial\vec{E}}{\partial t}
-$$
-
-Use our definition of H:
-
-$$
-\vec{H} = \frac{1}{\mu_0} \vec{B} - \vec{M}
-$$
-
-to rewrite the left side:
-
-$$
-\nabla \times \vec{H} = {J}_f + \frac{\partial\vec{P}}{\partial t} +  \epsilon_0 \frac{\partial\vec{E}}{\partial t}
-$$
-
-Use our definition of $$D$$:
-
-$$
-\vec{D} = \epsilon_0 \vec{E} + \vec{P}
-$$
-
-to rewrite the right side
-
-$$
-\nabla \times \vec{H} = {J}_f +  \frac{\partial\vec{D}}{\partial t}
-$$
-
-And we've got the correct expression relating H, D, and J.   But I think Jesse was looking to get a feeling
-for why the time derivative of D would be added to H.....Jesse, any thoughts?
