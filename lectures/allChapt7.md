@@ -154,7 +154,7 @@ $$
 \vec{J_b} = \nabla \times \vec{M}
 $$
 
-So Maxwell's equations in matter end up looking like this:
+#### Maxwell's equations in matter end up looking like this:
 Gauss' Law
 
 $$
