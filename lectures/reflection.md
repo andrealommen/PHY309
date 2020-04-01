@@ -518,7 +518,7 @@ $$
 So then:
 
 $$
-k_I = k_R = \frac{v^2}{v^1}k_T = \frac{n_1}{n_2}k_T
+k_I = k_R = \frac{v_2}{v_1}k_T = \frac{n_1}{n_2}k_T
 $$ 
 
 So that tells you how the wavelength changes as you go from one medium to the other. (because wavelength is 1/k)
@@ -596,16 +596,52 @@ $$
 But that's
 
 $$
-k_{I}\cos\theta_I 
+k_{I}\sin\theta_I 
 =
-k_{R} \cos\theta_R
+k_{R} \sin\theta_R
 =
-k_{T} \cos\theta_T
+k_{T} \sin\theta_T
 $$
 
 That's Snell's law!  We did very litle electrodynamics to get that result.
 The specifics of the boundary conditions were unimportant, so that's true
 for many different situations (water waves, for example.)
+
+The y-component version:
+
+$$
+k_{Iy}y 
+=
+k_{Ry}y 
+=
+k_{Ty}y 
+$$
+
+gives you the **First Law** of geometrical optics.
+The First Law makes possible the definition of the plane of incidence.
+It's is the plane defined by of the incident, reflected, and transmitted waves, which also includes the normal to the boundary.  
+The other
+way to say the first law is that you can draw incident, reflected, transmitted
+waves all in a sheet of paper. Furthermore, it always makes sense to
+draw the boundary as a line on that same piece of paper, because the plane
+of incidence will always be perpendicular to that line.   
+
+Depending upon your perspective, the first law is either dumb or profound.
+I don't want to confuse matters by dwelling too much on it, because I 
+think your intuition will work well.  In a way, all I'm arguing is that 
+the way you drew these diagrams in 106 is perfectly fine.  It's just
+that now you know why.
+
+I got confused at first staring at Figure 9.14 because I thought the
+y-projection was the z-projection.  Remember the y-axis is not even shown
+on that drawing. We arranged by drawing it that way to have all the
+y-components be zero. (I had to take a pencil as the incident k-vector
+and a piece of paper to convince myself that no matter what the incident
+k-vector was, that I could orient my axes so that the k-vector had no
+y component. No matter what I pick, the z-axis is defined by the perpendicular
+to the piece of paper, and the x-axis is defined by the plane containing
+the incident k-vector and also perpendicular to the piece of paper.)
+
 
 #### Put in the specific boundary conditions
 
@@ -613,13 +649,14 @@ Once you do put in the specific boundary conditions you get Equations 9.101
 which I'm not going to write.
 
 If we assume the polarization of the incident wave is parallel to the plane of
-incidence (the xz plane) then... (I truly have to stare at the picture
-to figure to figure out thwat that statement means.  The plane of
-incidence is not the boundary (which is the xy plane).  The plane of incidence
-is the plane defined by of the incident, reflected, and transmitted waves, which also includes the normal to the boundary.  The fact that it also includes the
-normal to the surface is the first law of geometrical optics.  The other
-way to say the first law is that you can draw incident, reflected, transmitted
-waves all in a sheet of paper.   If the polarization of the incident
+incidence (the xz plane) then... 
+(I truly have to stare at the picture
+to figure to figure out that that criterion means.  
+The plane of
+incidence is not the boundary (which is the xy plane) but the plane
+defined by the First Law above.)  
+
+If the polarization of the incident
 wave is also in the plane of the paper, then the incident wave is
 parallel to the plane of incidence. For homework you are going to do
 the case where the polarization is normal to this plane.  So that problem
@@ -641,7 +678,7 @@ $$
 $$
 
 where
-$$\alpha =\frac{\sqrt{1 - \sin^2\theta_T}}{\cos\theta_I} = \frac{\sqrt{1 - [(n_1/n^2)\sin\theta_I]^2}}{\cos\theta_I}$$
+$$\alpha =\frac{\sqrt{1 - \sin^2\theta_T}}{\cos\theta_I} = \frac{\sqrt{1 - [(n_1/n_2)\sin\theta_I]^2}}{\cos\theta_I}$$
 and as before
 $$\beta = \frac{\mu_1n_2}{\mu_2n_1}$$
 
