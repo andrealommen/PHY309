@@ -59,7 +59,7 @@ permalink: /lectures
 [Polarization of Waves in Linear and Conducting Media](/PHY309/lectures/polarization)<br>
 [Boundary Conditions, Reflection and Transmission](/PHY309/lectures/reflection)<br>
 ### Second Exam 
-[Review for the second exam](/PHY309/lectures/secondexam)<br>
+[Review for the second exam](/PHY309/lectures/secondexamreview)<br>
 [What will be the format of the 2nd exam?](/PHY309/lectures/firstexamformat)<br>
 [Practice Problems for 2nd exam](/PHY309/lectures/practice_problems_2nd)<br>
 [Second Exam](/PHY309/lectures/secondexam)<br>
