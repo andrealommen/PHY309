@@ -22,7 +22,7 @@ talk about radiation.  In fact, we'll actually make a vector potential for E-fie
 (notice that E is no longer divergence-less if you're in a dynamic situation.)
 
 Chapter 7: 
-*We needed add terms to both Ampere's law and Faraday's law corresponding to
+* We needed add terms to both Ampere's law and Faraday's law corresponding to
 fields changing in time so that we could get EM waves.
 * To add the term (induction) to Faraday's
 law (the curl of E), we needed the notion of
