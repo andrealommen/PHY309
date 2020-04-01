@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Andrea's Crash Course in Chapter 7"
-permalink: "/lectures/induction"
+permalink: "/lectures/allChapt7"
 ---
 
 Chapter 7 is where we started to add dynamics - things changing in time.
