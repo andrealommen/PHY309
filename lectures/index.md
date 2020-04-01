@@ -50,8 +50,16 @@ permalink: /lectures
 ### Chapter 7: Electrodynamics
 [Electromotive Force and Induction](/PHY309/lectures/induction)<br>
 [Maxwell's Equations](/PHY309/lectures/maxwellChapt7)<br>
+### Chapter 8: Electromagnetic Waves
 (We're kind of picking up Chapter 8 along the way...)
+[Andrea's Crash Course in Chapter 8](/PHY309/lectures/allChapt8)<br>
 ### Chapter 9: Electromagnetic Waves
+[Andrea's Crash Course in Chapter 9](/PHY309/lectures/allChapt9)<br>
 [Light!!!!!](/PHY309/lectures/light)<br>
 [Polarization of Waves in Linear and Conducting Media](/PHY309/lectures/polarization)<br>
 [Boundary Conditions, Reflection and Transmission](/PHY309/lectures/reflection)<br>
+### Second Exam 
+[Review for the second exam](/PHY309/lectures/secondexam)<br>
+[What will be the format of the 2nd exam?](/PHY309/lectures/firstexamformat)<br>
+[Practice Problems for 2nd exam](/PHY309/lectures/practice_problems_2nd)<br>
+[Second Exam](/PHY309/lectures/secondexam)<br>
