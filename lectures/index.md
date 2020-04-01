@@ -48,10 +48,11 @@ permalink: /lectures
 [Magnetization and the Field of a Magnetized Object](/PHY309/lectures/magnetized_matter)<br>
 [The Auxiliary Field](/PHY309/lectures/auxiliary)<br>
 ### Chapter 7: Electrodynamics
+[Andrea's Crash Course in Chapter 7](/PHY309/lectures/allChapt7)<br>
 [Electromotive Force and Induction](/PHY309/lectures/induction)<br>
 [Maxwell's Equations](/PHY309/lectures/maxwellChapt7)<br>
 ### Chapter 8: Electromagnetic Waves
-(We're kind of picking up Chapter 8 along the way...)
+(We're kind of picking up Chapter 8 along the way...)<br>
 [Andrea's Crash Course in Chapter 8](/PHY309/lectures/allChapt8)<br>
 ### Chapter 9: Electromagnetic Waves
 [Andrea's Crash Course in Chapter 9](/PHY309/lectures/allChapt9)<br>
