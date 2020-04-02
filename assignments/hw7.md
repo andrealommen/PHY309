@@ -24,12 +24,47 @@ $$\vec{A}$$ = $$\vec{A}_0 e^{i(\vec{k}\cdot\vec{r} - \omega t)}$$ . Show that
 
 	i.)	$$\nabla\cdot\vec{A} = i\vec{k}\cdot\vec{A}$$ 
 
-	 ii.)	 $$\nabla\times\vec{A} = i\vec{k}\times\vec{A}$$ 
+	ii.)	 $$\nabla\times\vec{A} = i\vec{k}\times\vec{A}$$ 
 
 	iii.)	 $$k_x^2 + k_y^2 + k_z^2 = \omega^2/c^2$$.
 3.	Suppose the critical angle for total internal reflection is 45°. What is the Brewster angle for 
 i.) external reflection and ii) internal reflection?
-4.	Griffiths, Problem 9.17.
+4.	Griffiths, Problem 9.17. (Please see hints and an answer below!)
 5.	Griffiths, Problem 9.20.
 
 ![Quarter Wave Plate](HW7Prob1.png){:class="img-responsive"}]
+
+--------------------------------------------------
+### Hints
+(#4)
+
+* I would draw Figure 9.14 again and add the
+Electric field on to it.  Since the electric field has to be perpendicular to the plane
+of incidence (otherwise known as your piece of paper) I would choose it coming out
+of the page in the +y direction.   
+
+Follow the procedure we talked about on Wednesday:  
+* First, figure out how to write down
+what the incident, reflected, and transmitted waves look like.  The polarization direction
+is now $$\hat{y}$$ and the propagation direction is arbitrary ($$\vec{k}$$). Writing down
+what direction the B-wave points will be the most interesting, because 
+it'll be some linear combination of $$\hat{x}$$ and $$\hat{z}$$.
+The amplitude of B is still trivially related to E by $$1/v$$.
+* Next, use the boundary conditions (9.74) to find the relationships you want.
+
+	
+The answer will be this:
+
+$$
+\tilde{E}_{0R} = \frac{\cos\theta - \sqrt{n^2 - sin^2\theta}}{\cos\theta + \sqrt{n^2 - sin^2\theta}}\tilde{E}_{0I}
+$$
+
+$$
+\frac{\tilde{E}_{0T}}{\tilde{E}_{0I}} = 1 + \frac{\tilde{E}_{0R}}{\tilde{E}_{0I}}
+$$
+
+You may assume: $$\mu_1 = \mu_2 = \mu_0$$
+
+Notice that you can do the Sketch..., Show...., Confirm...., and Compute.... using the
+relationship above.
+
