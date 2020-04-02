@@ -37,6 +37,10 @@ i.) external reflection and ii) internal reflection?
 --------------------------------------------------
 ### Hints
 
+(#1)
+
+You really just need distance = velocity $$\times$$ time.   $$t$$ will be in terms of $$n_x$$ and $$n_y$$, $$\omega$$, and $$c$$. $$\theta$$ will be an actually number of degrees.  
+
 (#3)
 
 The only place your book talks about total internal reflection is in problem 9.39, although
