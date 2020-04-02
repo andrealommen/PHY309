@@ -36,6 +36,25 @@ i.) external reflection and ii) internal reflection?
 
 --------------------------------------------------
 ### Hints
+
+(#3)
+
+The only place your book talks about total internal reflection is in problem 9.39, although
+it does do a good job of it. Notice that the only thing that determines that critical angle
+is the ratio of the two indices of refraction $$n_2/n_1$$. So knowing the critical angle
+is 45$$^\circ$$ wil only get you the ratio of the two indices of refraction. Total
+internal reflection only occurs when the light is going from the higher-index medium
+into the lower-index medium.  
+
+Total external reflection occurs when the incoming light is at grazing incidence to the interface, and is really important in optics in x-ray telescopes.  In this case the light goes
+from the lower index to the higher index.  
+
+What the problem
+is asking you is to solve Brewster's angle for going from the higher index to the lower-index medium (the total internal reflection case), and for going from the lower-index medium into the higher one (the total external reflection case.) 
+All you need to do for the external reflection
+case is invert the ratio of $$n_2/n_1$$.  
+
+
 (#4)
 
 * I would draw Figure 9.14 again and add the
