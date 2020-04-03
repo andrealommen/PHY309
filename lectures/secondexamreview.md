@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Review for Second Exam"
-permalink: "/lectures/secondexam"
+permalink: "/lectures/secondexamreview"
 ---
 
 I recommend my "crash course" in chapters 5,6,7,8 and 9 to review for this
