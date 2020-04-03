@@ -61,6 +61,6 @@ permalink: /lectures
 [Boundary Conditions, Reflection and Transmission](/PHY309/lectures/reflection)<br>
 ### Second Exam 
 [Review for the second exam](/PHY309/lectures/secondexamreview)<br>
-[What will be the format of the 2nd exam?](/PHY309/lectures/firstexamformat)<br>
+[What will be the format of the 2nd exam?](/PHY309/lectures/secondexamformat)<br>
 [Practice Problems for 2nd exam](/PHY309/lectures/practice_problems_2nd)<br>
-[Second Exam](/PHY309/lectures/secondexam)<br>
+[Second Exam](/PHY309/lectures/secondexamplaceholder)<br>
