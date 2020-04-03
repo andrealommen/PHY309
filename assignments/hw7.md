@@ -86,6 +86,9 @@ $$
 \frac{\tilde{E}_{0T}}{\tilde{E}_{0I}} = 1 + \frac{\tilde{E}_{0R}}{\tilde{E}_{0I}}
 $$
 
+where $$n = n_2/n_1$$.  In other words if the first medium is air, $$n$$ is the index
+of refraction of the 2nd medium.
+
 You may assume: $$\mu_1 = \mu_2 = \mu_0$$
 
 Notice that you can do the Sketch..., Show...., Confirm...., and Compute.... using the
