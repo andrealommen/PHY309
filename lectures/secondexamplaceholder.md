@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Second exam"
+title:  "Second exam (not here yet - you can read this page)"
 permalink: "/lectures/secondexamplaceholder"
 ---
 
