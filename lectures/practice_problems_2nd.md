@@ -4,6 +4,8 @@ title:  "Practice Problems for 2nd Mid-term"
 permalink: "/lectures/practice_problems_2nd"
 ---
 
+The answers to these are on Moodle (or will be by 5pm on Friday April 3.)
+
 Practice problems in chapter 5:
 * Make sure you understand the solutions of the problems on HW5.
 * Problem 5.15 Ampere's law practice
