@@ -131,7 +131,7 @@ $$
 $$
 
 $$
-\widetilde{B(\vec{r},t)} = \frac{1}{c} \widetilde{E_0}e^{i(\vec{k}\cdot\vec{r} - \omega t) ]}(\hat{k} \cdot\hat{n}) = \frac{1}{c} \hat{k} \times \vec{E}
+\widetilde{B(\vec{r},t)} = \frac{1}{c} \widetilde{E_0}e^{i(\vec{k}\cdot\vec{r} - \omega t) ]}(\hat{k} \times\hat{n}) = \frac{1}{c} \hat{k} \times \vec{E}
 $$
 
 where $$\vec{n}$$ is the polarization, the direction of the E-field.

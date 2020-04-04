@@ -24,7 +24,7 @@ $$
 $$
 
 $$
-\widetilde{B(\vec{r},t)} = \frac{1}{c} \widetilde{E_0}e^{i(\vec{k}\cdot\vec{r} - \omega t) ]}(\hat{k} \cdot\hat{n}) = \frac{1}{c} \hat{k} \times \vec{E}
+\widetilde{B(\vec{r},t)} = \frac{1}{c} \widetilde{E_0}e^{i(\vec{k}\cdot\vec{r} - \omega t) ]}(\hat{k} \times \hat{n}) = \frac{1}{c} \hat{k} \times \vec{E}
 $$
 
 where $$\vec{n}$$ is the polarization, the direction of the E-field and $$\vec{k}$$ is the direction of propagation.
@@ -251,7 +251,7 @@ $$
 $$
 
 $$
-\tilde{E}_{0T} = 1 + \frac{\tilde{E}_{0R}}{\tilde{E}_{0I}}
+\frac{\tilde{E}_{0T}}{\tilde{E}_{0I}} = 1 + \frac{\tilde{E}_{0R}}{\tilde{E}_{0I}}
 $$
 
 You'll see when you sketch them that you can't get the reflected amplitude to go to zero, as
