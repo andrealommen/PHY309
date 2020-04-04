@@ -1,53 +1,87 @@
 ---
 layout: page
-title:  "Review for Second Exam"
+title:  "Second exam"
 permalink: "/lectures/secondexam"
 ---
 
-I recommend my "crash course" in chapters 5,6,7,8 and 9 to review for this
-exam. (The chapter 8 review is super short, so it's really 4 chapters, not 5.)
-However, this is a description of the raison d'etre of each of those chapters, i.e.
-what did we need from one chapter to get to where we are now (light at interfaces
-in media.)
+[Click here for a pdf of this page](secondexam.pdf)
 
-Chapter 5:
-* We needed to understand Ampere's law and magnetic fields in general so that we
-could use Ampere's law which we are now using to get EM waves.
-Chapter 6:
-* We needed the auxiliary field so that we could deal with magnetic fields in media, which
-is now allowing us to deal with waves at interfaces. We
-haven't really used the vector potential again yet, but we will use this when we
-talk about radiation.  In fact, we'll actually make a vector potential for E-fields 
-(notice that E is no longer divergence-less if you're in a dynamic situation.)
-Chapter 7: 
-*We needed add terms to both Ampere's law and Faraday's law corresponding to
-fields changing in time so that we could get EM waves.
-* To add the term (induction) to Faraday's
-law (the curl of E), we needed the notion of
-emf and  to convince ourselves that a changing magnetic field would create one.
-* To add the term to Ampere's law (the curl of B) 
-we needed the concept of displacement current (that's what Maxwell called it.)  
-It is called the displacement current because $$\vec{D}$$ is the displacement
-vector. But confusingly the displacement current arises even in a vacuum. (See page
-335 in Griffiths.) 
-* Then we needed to know how those terms would change in the presence of a linear medium.
-It turns out they don't change Ampere's law (curl of E) at all.  
-To get Maxwell's last equation in media (curl of H)
-we needed the concept of displacement current (current created in a medium when the
-E-field and therefore the polarization changes.)  We also needed the concept of
-polarization current (current created in a medium when the E-field and therefore
-the polarization changes.)
-Chapter 8:
-* All we needed here (so far) was the continuity equation, so that we could deal
-with waves inside conductors.
-Chapter 9:
-* This is where a lot of stuff came together.
-* We derived the wave equation from Maxwell's equations (which is why we needed the
-time-derivative pieces of those equations.)
-* We derived the wave equation in media (which was pretty easy because of all the
-pain we took in chapter 4 and 6 dealing with media)
-* Using M's equations we figured out the relationship between E and B in a wave.
-* We figured out what happens at boundaries of conductors and dielectrics by 
-matching boundary conditions.  Notice that we needed the boundary conditions we
-got used to in 3 (E-fields) 4 (E-fields in matter) 5 (B-fields) and 6 (B-fields in
-matter.)
+The exam is available on this page from 6pm Saturday April 4, and will be due at midnight (local time zone) on
+Saturday, April 11th.
+
+Instructions: 
+You may choose 3 contiguous hours to work on this exam.  You may use your notes, the book, and anything found at andrealommen.github.io/PHY309.  If you wish to take a 15-minute break during the exam (which I recommend) you may then take 3 hours and 15 minutes to work on the exam.
+
+You may use Mathematica if you wish but you must follow the rules for making it readable.
+
+Please scan your answers and submit them to the dropbox folder I will make available.  Do NOT count your time scanning and submitting as part of the 3 hours.
+
+There are 4 problems.  
+
+Please email me when you are starting the exam.
+
+(You may either print this out or write this statement on your exam and sign
+it.)
+
+I accept full responsibility under the Haverford College Honor System for my conduct on the examination.
+
+
+Signed____________________________________________________________________
+
+
+Exam begins here:
+-----------------------------------------------------------------------------
+
+1.	(5 points) A steady current $$I$$ flows down a long cylindrical wire of radius a (See figure at the bottom of the page). Find the magnetic field, both inside and outside the wire, if 
+
+	(a)	The current is uniformly distributed over the outside surface of the wire. 
+
+	(b)	The current is distributed in such a way that $$\vec{J}$$ is proportional to 
+$$s$$, the distance  from the axis. 
+
+
+2.	(5 points) An infinitely long cylinder, of radius $$R$$, carries a “frozen-in” magnetization, parallel to the axis,  $$M = ks \hat{z}$$,  where $$k$$ is a constant and $$s$$ is the distance from the axis; there is no free current anywhere.
+
+	(a) 	(4 points) Find the magnetic field $$\vec{B}$$ inside and outside the cylinder.
+	
+	(b)	(1 point) If you did the problem above using bound current, then check it using Ampere's law for auxiliary fields: $$\oint\vec{H}\cdot d\vec{l} = I_{free, enclosed}$$.  If you did the problem above using Ampere's law for auxiliary fields, then check it using bound current, i.e. $$\vec{J}_b = \nabla \times \vec{M}$$.
+
+3.	(5 points)
+
+	(a) (2 points) Suppose you imbedded some free charge in a piece of glass. About how long  would it take for the charge to flow to the surface?   For glass the index of refraction is typically around 1.5, so use $$n=1.5$$. The conductivity of glass varies widely but use $$10^{-12} (\Omega m)^{-1}$$ as a reasonable number.
+
+	(b) (1 point) Comment on whether the time you got above makes sense to you.  And if you didn't get an answer, comment on what sort of time-scale would make sense to you.  For example, do you expect this number to be long or short compared to the amount of time that passes in between you turning on a switch and the light coming on? (Remember, the conductivity of glass is low.)  Do you expect it to be long or short compared to the age of the universe?
+
+	(c) (2 points) Silver is an excellent conductor, but it’s expensive. Suppose you were designing a microwave experiment to operate at a frequency of 1010 Hz (that's $$\nu$$ not $$\omega$$). How thick would you make the silver coating on your experiment so that you didn't get cooked by your own experiment ?
+For silver the conductivity $$\sigma = 6.25 \times 10^7 (\Omega m)^{-1}$$ and $$\epsilon \approx \epsilon_0$$.
+
+4.	(5 points) This is a mini hodge-podge of questions about EM fields. The two parts
+are independent and can be worked on separately.
+
+	(a) Write down the equation for the E-field for a wave traveling in the $$+y$$ direction in a medium with $$\epsilon$$ and $$\mu$$, with amplitude $$E_0$$, frequency $$\omega$$, and with the polarization in the 
+$$\hat{x}$$ direction.  Set the phase of the wave such that the E-field reaches
+a maximum at the origin at $$t=0$$. Write down the equation for the B-field. Your
+wave should be traveling at the proper velocity for that medium. 
+Explain how you can check that you've gotten each of those
+things right in your equations.  
+
+	(b) If this wave encountered an interface you would match four
+boundary conditions shown below.  Where did each one come from? (I don't want you to derive them unless you think that's easier than explaining where each one came from.  Your explanation should include one Maxwell's law and a brief description (a couple sentences) of the procedure for deriving the boundary condition.)  
+
+$$
+\epsilon_1E_1^\perp = \epsilon_2E_2^\perp  
+$$
+
+$$
+B_1^\perp = B_2^\perp
+$$
+
+$$
+\vec{E}_1^\| = \vec{E}_2^\|
+$$
+
+$$
+\frac{1}{\mu_1}\vec{B}_1^\| =  \frac{1}{\mu_2}\vec{B}_2^\|  
+$$ 
+
+![Figure 5.40](Figures/Figure5.40.png){:class="img-responsive"}]
