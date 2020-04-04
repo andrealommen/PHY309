@@ -97,7 +97,7 @@ B_{above}^\perp = B_{below}^\perp
 $$
 
 $$
-B_{above}^\|| - B_{below}^\|| = \mu_0 K 
+B_{above}^\| - B_{below}^\| = \mu_0 K 
 $$
 
 where $$\vec{K}$$ is the surface current.  (Current per area, so surface charge
@@ -106,7 +106,7 @@ density times velocity).
 ### Magnetic Dipole:
 
 $$
-m = I\vec{a}
+\vec{m} = I\vec{a}
 $$
 
 where $$\vec{a}$$ is the vector area of the loop.  Figure out which
