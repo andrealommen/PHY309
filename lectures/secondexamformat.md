@@ -4,8 +4,8 @@ title:  "Second Exam Format"
 permalink: "/lectures/secondexamformat"
 ---
 
-* The Exam will be available [here](secondexam) from noon on Monday April 6.
-* The Exam is due in the drop box by 4pm on Wednesday March 8. (The time you spend
+* The Exam will be available [here](secondexam) from 6pm on Saturday April 4.
+* The Exam is due in the drop box by midnight on Saturday March 11. (The time you spend
 scanning and dropbox-ing does NOT count toward your 3 hours.)
 * Open book, open notes, but I think you'll be better off if you pretend I said you get a page of notes and nothing else, and then use those notes. This list
 of [vector identities](MTE02.pdf) might be useful.
