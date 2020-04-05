@@ -6,7 +6,7 @@ permalink: "/lectures/quarterwaveplate"
 
 #### Short answer.  yes.
 
-#### Funner answer follows.
+#### Funner answer follows. (Thanks to Nathan Merrill for this question.)
 
 On your last homework you found that the thickness of the quarter wave plate was
 
