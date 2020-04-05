@@ -64,3 +64,6 @@ permalink: /lectures
 [What will be the format of the 2nd exam?](/PHY309/lectures/secondexamformat)<br>
 [Practice Problems for 2nd exam](/PHY309/lectures/practice_problems_2nd)<br>
 [Second Exam](/PHY309/lectures/secondexam)<br>
+### Poynting Vector, Energy, Transmission coefficient (parts of chapters 8 and 9)
+[In #1 on the last homework set, can we really assume the transmission coefficients were the same?](quarterwaveplate.md)
+
