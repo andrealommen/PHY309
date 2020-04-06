@@ -104,4 +104,12 @@ So the difference in the intensity of light between the two polarizations will
 be something like one part in 
 $$10^5$$.
 
+### Summary
+
+The difference between $$n_x$$ and $$n_y$$ in a quarter wave plate is really small.   Roughly
+it's one part in however many wavelengths can fit in the width of the quarter wave plate. 
+That same number (one part in the number of wavelengths across the width of the plate) is
+how different the two transmission coefficients are.
+
+
 
