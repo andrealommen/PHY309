@@ -289,4 +289,7 @@ $$
 So the Poynting vector is proportional to momentum density ( and remember momentum
 density and energy have the same units.)
 
-
+### Next time:
+We'll take this idea of the Poynting vector and use it to calculate the energy
+transferred across boundaries in an electromagnetic wave.  In other words, we'll
+calculate transmission and reflection coefficients.
