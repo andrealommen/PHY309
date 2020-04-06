@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Poynting vector, Energy, Momentum in EM Waves"
+title:  "Poynting vector, Energy, Momentum in Electromagnestism"
 permalink: "/lectures/poynting"
 ---
 
@@ -11,7 +11,8 @@ the propagation of electromagnetic waves in vacuum and in media.
 
 ### Where we're going
 What happens next is:
-* We need to talk about energy and momentum contained in those waves
+* We need to talk about energy and momentum contained in E&M fields in general,and then
+specifically in E&M waves.
 * We need to understand dispersion - how different wavelengths will travel at different velocities in a medium
 ----That's all this week, while you're studying for and taking the exam------
 * Then we need to go back to potentials, particularly vector potentials, so that we can understand retarded potentials, so that we can understand how radiation occurs. (We've talked about electromagnetic waves, but you'll notice we haven't talked about how we generate them at all. We
