@@ -52,7 +52,7 @@ $$s$$, the distance  from the axis.
 
 	(b) (1 point) Comment on whether the time you got above makes sense to you.  And if you didn't get an answer, comment on what sort of time-scale would make sense to you.  For example, do you expect this number to be long or short compared to the amount of time that passes in between you turning on a switch and the light coming on? (Remember, the conductivity of glass is low.)  Do you expect it to be long or short compared to the age of the universe?
 
-	(c) (2 points) Silver is an excellent conductor, but it’s expensive. Suppose you were designing a microwave experiment to operate at a frequency of 1010 Hz (that's $$\nu$$ not $$\omega$$). How thick would you make the silver coating on your experiment so that you didn't get cooked by your own experiment ?
+	(c) (2 points) Silver is an excellent conductor, but it’s expensive. Suppose you were designing a microwave experiment to operate at a frequency of $$10^{10}$$ Hz (that's $$\nu$$ not $$\omega$$). How thick would you make the silver coating on your experiment so that you didn't get cooked by your own experiment ?
 For silver the conductivity $$\sigma = 6.25 \times 10^7 (\Omega m)^{-1}$$ and $$\epsilon \approx \epsilon_0$$.
 
 4.	(5 points) This is a mini hodge-podge of questions about EM fields. The two parts
