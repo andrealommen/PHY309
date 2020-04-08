@@ -44,6 +44,27 @@ So Poynting's theorem says that the work done on the charges by the electromagne
 force is equal to the decrease in energy remaining in the fields, less the energy that
 flowed out through the surface.
 
+Some more on this since we didn't quite get a handle on what this meant last time:
+
+Poynting's theorem relates the energy stored in the electromagnetic field to the 
+work done on a charge distribution (i.e. an electrically charged object), 
+through energy flux.
+
+So if an electromagnetic wave shines on your forehead (for example) it will do
+work on the charges in your forehead and heat them up.  You could either measure
+$$\frac{dW}{dt}$$ by measuring the change in temperature of your forehead (which would 
+be the easy way out in this case), OR, you
+could choose a volume of space spanning your forehead, a couple of milimeters
+into it, and measure the change in energy density of the field in that volume, and the amount 
+of electromagnetic flux leaving that volume.  There would be some flux leaving that
+volume, right?  Some of the EM wave would make it further than the 2mm into your forehead.
+And some would get reradiated out as heat.  Both of those would be included in
+the second term. 
+
+In all the cases we're going to do today, we assume there's no work being done
+on any charge distribution, so the left side is 0 and so the energy density
+has a simple relationship to the flux.
+
 The integrand of the second term has a name, the Poynting Vector, which is the energy
 flux density (energy per unit area, per unit time) transported by the fields:
 
