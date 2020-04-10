@@ -67,5 +67,5 @@ permalink: /lectures
 ### Poynting Vector, Energy, Transmission coefficient (parts of chapters 8 and 9)
 [In a quarter wave plate, can we really assume the transmission coefficients are the same?](quarterwaveplate) <br>
 [Poynting Theorem, Poynting Vector, Energy, Momentum](poynting) <br>
-[Poynting Theorem in EM Waves, Transmission and Reflection Coefficients](transmission.md) <br>
-[Dispersion](dispersion)
+[Poynting Theorem in EM Waves, Transmission and Reflection Coefficients](transmission) <br>
+[Waves in a Tenuous Plasma, Dispersion](plasma)
