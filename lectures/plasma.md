@@ -7,7 +7,8 @@ permalink: "/lectures/plasma"
 The general introduction to dispersion you will find in Griffiths section
 9.5.  The content on plasmas you will not find in Griffiths.  It was taken from lecture notes
 of Steve Boughn for Physics 204 at Princeton in 1983 (It turns out plasmas
-behave the same way now as they did 40 years ago).
+behave the same way now as they did 40 years ago). His original notes are
+[here](Figures/Boughn_PlasmaNotes.pdf).
 
 ### Where we are
 For the last two weeks we've been putting together everything we have
@@ -110,6 +111,8 @@ which for us means they don't collide on the order of one oscillation of an EM
 wave.  The protons are so massive compared to the electrons, that we only consider
 the electrons.
 
+![Plasma Cartoon](Figures/Plasma.png){:class="img-responsive":height="200px" width="200px"}]
+
 You can see why I call this a conductor, right?  The electrons are free!
 
 **Step 1: Get the velocity of the electrons as it related to the frequency of the EM wave
@@ -181,6 +184,8 @@ constant of proportionality is will give us $$\sigma$$.
 Consider a little rectangular section of this plasma. Cross-sectional area A
 and length $$vdt$$ (the distance the electron can travel in a time $$dt$$.
 The amount of charge in the rectangular box is $$dQ$$.
+
+![How to relate current density to velocity](Figures/CurrentRectangle.png){:class="img-responsive":height="200px" width="200px"}]
 
 If $$n_0$$ is the number density of electrons then $$dQ = -en_0Avdt$$.  Then
 the current is
