@@ -65,7 +65,11 @@ permalink: /lectures
 [Practice Problems for 2nd exam](/PHY309/lectures/practice_problems_2nd)<br>
 [Second Exam](/PHY309/lectures/secondexam)<br>
 ### Poynting Vector, Energy, Transmission coefficient (parts of chapters 8 and 9)
-[In a quarter wave plate, can we really assume the transmission coefficients are the same?](lectures/quarterwaveplate) <br>
-[Poynting Theorem, Poynting Vector, Energy, Momentum](lectures/poynting) <br>
-[Poynting Theorem in EM Waves, Transmission and Reflection Coefficients](lectures/transmission) <br>
+[In a quarter wave plate, can we really assume the transmission coefficients are the same?](/PHY309/lectures/quarterwaveplate) <br>
+[Poynting Theorem, Poynting Vector, Energy, Momentum](/PHY309/lectures/poynting) <br>
+[Poynting Theorem in EM Waves, Transmission and Reflection Coefficients](/PHY309/lectures/transmission) <br>
 [Waves in a Tenuous Plasma, Dispersion](lectures/plasma) <br>
+### Chapter 10: Potentials and Fields
+[The Potential Formulation](/PHY309/lectures/potentialformulation) <br>
+[The Retarded Potential](/PHY309/lectures/retarded) <br>
+[Leinard-Wiechert Potential](/PHY309/lectures/leinard) <br>
