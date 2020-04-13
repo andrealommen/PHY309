@@ -7,7 +7,7 @@ permalink: "/lectures/maxwell"
 Gauss' Law
 
 $$
-\nabla \cdot \vec{E} = \frac{1}{\epsilon_0} \rho
+\nabla \cdot \vec{E} = -\frac{1}{\epsilon_0} \rho
 $$
 
 or the displacement version:
