@@ -291,10 +291,12 @@ The simplicity of calculating V in the Coulomb gauge is compensated for by
 the complexity of calculating A.  I'm not gonna write down the equation for A.
 It's Griffiths 10.11.
 
-(I'm trying to figure out how we know the Coulomb gauge meets our criteria:
-``To A we can the gradient of any scalar $$\lambda$$ as long as we subtract the
-time-derivative of that same scalar from $$V$$.''  That's not obvious to
-me.  If you figure it out let me know!)
+(It's not obvious that the Coulomb gauge meets our criteria:
+"To A we can the gradient of any scalar $$\lambda$$ as long as we subtract the
+time-derivative of that same scalar from $$V$$.''  There's a note about that 
+at the bottom of this lecture. What's important is that
+the gauge criterion $$\nabla\cdot \vec{A}=0$$ sets a relationship between
+A and V.)
 
 ### The Lorenz gauge
 
@@ -368,3 +370,48 @@ As with the Coulomb gauge I'm trying to figure out how we know the
 Lorenz gauge meets our criteria:
 ``To A we can the gradient of any scalar $$\lambda$$ as long as we subtract the
 time-derivative of that same scalar from $$V$$.''  
+
+I found an interesting answer on [StackExchange.](https://physics.stackexchange.com/questions/129819/showing-that-coulomb-and-lorenz-gauges-are-indeed-valid-gauge-transformations)
+They actually kind of throw
+Griffiths under the bus for calling it a gauge transformation.
+
+
+Here's my summary of what's on that page.  "The Coulomb and Lorenz gauges are gauge fixing conditions, not gauge transformations."  A gauge transformation looks
+like this
+
+$$
+\tilde{A}_\mu = A_\mu + d_\mu\Lambda
+$$
+
+(This is a 4-dimensional version of 
+our criteria using $$\lambda$$. You can make the scalar and the vector 
+potential into a 4-d tensor $$\tilde{A}$$. The $$\lambda$$ we added to
+$$V$$ and $$\vec{A}$$ into a 4-D tensor called $$\Lambda$$. And $$d_{\mu}$$ is
+a 4-dimensional operator that take the time derivative of the first
+dimensional and the spatial derivatives of the other three dimensions.
+If you've studied spacetime, you're starting to see this all hang
+togther. )
+
+
+And what we did was use a condition that constrained the gauge, such as 
+
+Coulomb gauge:
+
+$$
+\nabla \cdot \vec{A} = 0
+$$
+
+Lorenz gauge:
+
+$$
+\nabla \cdot \vec{A} = \mu_0\epsilon_0\frac{\partial V}{\partial t}
+$$
+
+It turns out neither of these conditions even fully specifies $$V$$ or $$\vec{A}$$.
+
+"For the Coulomb gauge condition we need 
+
+$$0 = \nabla\cdot\vec{A'} = \nabla\cdot(\vec{A} + \nabla\lambda) = \nabla\cdot\vec{A} + \nabla^2\lambda.$$
+
+That's Poisson's equation which can be solved for $$\lambda$$ with Green's functions.
+The Lorenz case is easier if you use four-vectors, in which case you get a 3+1 dimensional version of Poisson's equation."
