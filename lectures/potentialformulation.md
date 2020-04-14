@@ -153,11 +153,11 @@ depend upon $$\rho$$ or $$\vec{J}$$).
 How about Gauss's law?  Put our equation for E into Gauss's law.
 
 $$
-\nabla \cdot \vec{E} = \frac{1}{\epsilon_0} \rho
+\nabla \cdot \vec{E} = - \frac{1}{\epsilon_0} \rho
 $$
 
 $$
-\nabla^2 V  +\frac{\partial}{\partial t}(\nabla \times \vec{A}) = -\frac{1}{\epsilon_0} \rho
+\nabla^2 V  +\frac{\partial}{\partial t}(\nabla \cdot \vec{A}) = -\frac{1}{\epsilon_0} \rho
 $$
 
 This replaces Poisson's equation (which you'll notice it reduces to in the static case).
@@ -167,7 +167,7 @@ Now we can get all the E's and B's out of Ampere's law:
 $$
 \nabla \times (\nabla \times \vec{A}) 
  = \mu_0 \vec{J}
-+ \mu_0 \epsilon_0 \frac{\partial}{\partial t}\left(\frac{\partial V}{\partial t}\right) - \mu_0 \epsilon_0 \frac{\partial^2 \vec{A}}{\partial t^2 }
++ \mu_0 \epsilon_0 \nabla \left(\frac{\partial V}{\partial t}\right) - \mu_0 \epsilon_0 \frac{\partial^2 \vec{A}}{\partial t^2 }
 $$
 
 Now use the vector identity
@@ -242,18 +242,29 @@ $$
 \nabla \cdot \vec{A} = 0
 $$
 
-Can we do that?   Sure!  It just means that 
-$$
-\nabla \lambda = -\vec{A}
-$$
-
 Does it mean the magnetic field is zero?  No.  It just means the divergence of
 A is zero.  In fact it means we're sort of back in a magnetostatics situation. 
-We got back our familiar Poisson's equation:
+Watch this:
+
+Once we put in our new formula for E:
+
+$$
+\vec{E} = - \nabla V - \frac{\partial\vec{A}}{\partial t} 
+$$
+
+we had this:
+
+$$
+\nabla^2 V  +\frac{\partial}{\partial t}(\nabla \cdot \vec{A}) = -\frac{1}{\epsilon_0} \rho
+$$
+
+but now that we have $$\nabla \cdot \vec{A} = 0$$ we have:
 
 $$
 \nabla^2 V = -\frac{1}{\epsilon}\rho
 $$
+
+We got back our familiar Poisson's equation!
 
 And then we can use all our favorite formulas for potential such as:
 
@@ -278,7 +289,12 @@ $$
 so A must encode all the information about the change. It does, and it's a pain.  
 The simplicity of calculating V in the Coulomb gauge is compensated for by
 the complexity of calculating A.  I'm not gonna write down the equation for A.
-It' Griffiths 10.11.
+It's Griffiths 10.11.
+
+(I'm trying to figure out how we know the Coulomb gauge meets our criteria:
+``To A we can the gradient of any scalar $$\lambda$$ as long as we subtract the
+time-derivative of that same scalar from $$V$$.''  That's not obvious to
+me.  If you figure it out let me know!)
 
 ### The Lorenz gauge
 
@@ -345,3 +361,10 @@ gauge transformation.
 * We will be in the Lorenz gauge for the rest of the semester, which means that
 we have the two wave equations above involving the d'Alembertian $$\square^2$$
 which is actually pretty familiar set of operations that we know gives us waves.
+
+
+### How do we know this gauge is valid? (a post-lecture note)
+As with the Coulomb gauge I'm trying to figure out how we know the 
+Lorenz gauge meets our criteria:
+``To A we can the gradient of any scalar $$\lambda$$ as long as we subtract the
+time-derivative of that same scalar from $$V$$.''  
