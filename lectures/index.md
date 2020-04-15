@@ -73,3 +73,5 @@ permalink: /lectures
 [The Potential Formulation](/PHY309/lectures/potentialformulation) <br>
 [The Retarded Potential](/PHY309/lectures/retarded) <br>
 [Leinard-Wiechert Potential](/PHY309/lectures/leinard) <br>
+### Chapter 11: Radiation
+[Radiation](/PHY309/lectures/radiation) <br>
