@@ -28,7 +28,7 @@ ______________________________________________________________________________
 	(ii)	Show that the reflected wave can be eliminated by coating the lens with a layer 
 1/4 wavelength thick with an index of refraction equal to $$\sqrt{1.6}$$.
 
-	Hint: This is a boundary-value problem.   The incidence is all normal, and there are two interfaces where you need to match boundary conditions.  Assume the wave is transverse-electric.
+	Hint: This is a boundary-value problem.   The incidence is all normal, and there are two interfaces where you need to match boundary conditions.  Assume the wave is transverse-electric. You might also be able to do it using reflection and transmission coefficients. After the incident wave gets transmitted at the first boundary, reflected at the second, and then transmitted back through the first boundary, you need it to cancel out the first reflection.  Ah, but that won't account for the multiple reflections of the wave between the two layers - I think that's why you need to do this as a boundary-value problem.  Let me know if you find another way!
 
 3.	Griffiths, Problem 9.23. In part a, in deep water $$v = \alpha \sqrt{\lambda}$$
 Try to guess the constant of proportionality $$\alpha$$ for deep water waves. Use dimensional analysis. Provocative question to try to lead you to the right
