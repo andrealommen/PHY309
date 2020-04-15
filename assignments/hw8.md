@@ -28,8 +28,11 @@ ______________________________________________________________________________
 	(ii)	Show that the reflected wave can be eliminated by coating the lens with a layer 
 1/4 wavelength thick with an index of refraction equal to $$\sqrt{1.6}$$.
 
+	Hint: This is a boundary-value problem.   The incidence is all normal, and there are two interfaces where you need to match boundary conditions.  Assume the wave is transverse-electric.
 
-3.	Griffiths, Problem 9.23. Try to guess the constant of proportionality for deep water waves. Use dimensional analysis.
+3.	Griffiths, Problem 9.23. In part a, in deep water $$v = \alpha \sqrt{\lambda}$$
+Try to guess the constant of proportionality $$\alpha$$ for deep water waves. Use dimensional analysis. Provocative question to try to lead you to the right
+guess: Would you expect water waves to travel at the same velocity on the moon?
 
 4.	Consider the problem of a tenuous plasma in a strong, static, uniform magnetic field,  . In the presence of an electromagnetic wave, the motion of an electron is
 
