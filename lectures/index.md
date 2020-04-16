@@ -71,7 +71,7 @@ permalink: /lectures
 [Waves in a Tenuous Plasma, Dispersion](lectures/plasma) <br>
 ### Chapter 10: Potentials and Fields
 [The Potential Formulation](/PHY309/lectures/potentialformulation) <br>
-[The Retarded Potential](/PHY309/lectures/retarded) <br>
+[The Deferred Potential](/PHY309/lectures/deferred) <br>
 [Leinard-Wiechert Potential](/PHY309/lectures/leinard) <br>
 ### Chapter 11: Radiation
 [Radiation](/PHY309/lectures/radiation) <br>

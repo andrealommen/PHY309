@@ -5,23 +5,23 @@ permalink: "/lectures/leinard"
 ---
 
 ### The scheme for the week 
-* Then we need to go back to potentials, particularly vector potentials, so that we can understand retarded potentials, so that we can understand how radiation occurs. (We've talked about electromagnetic waves, but you'll notice we haven't talked about how we generate them at all. We
+* Then we need to go back to potentials, particularly vector potentials, so that we can understand deferred potentials, so that we can understand how radiation occurs. (We've talked about electromagnetic waves, but you'll notice we haven't talked about how we generate them at all. We
 ve just assumed they're there and tried to understand their properties. In this very last section of the course, we need to generate them.
 
 ### Last time we practiced using
 
 $$
-V(\vec{r}, t) = \frac{1}{4\pi\epsilon_0}\int\frac{\rho(\vec{r}^\prime, t_r)}{\mathscr{r}}d\tau^\prime
+V(\vec{r}, t) = \frac{1}{4\pi\epsilon_0}\int\frac{\rho(\vec{r}^\prime, t_d)}{\mathscr{r}}d\tau^\prime
 $$
 
 $$
-\vec{A}(\vec{r}, t) = \frac{\mu_0}{4\pi}\int\frac{\vec{J}(\vec{r}^\prime, t_r)}{\mathscr{r}}d\tau^\prime
+\vec{A}(\vec{r}, t) = \frac{\mu_0}{4\pi}\int\frac{\vec{J}(\vec{r}^\prime, t_d)}{\mathscr{r}}d\tau^\prime
 $$
 
-What does the retarded time correspond to?  
+What does the deferred time correspond to?  
 
 $$
-t_r = t - \frac{\mathscr{r}}{c}
+t_d = t - \frac{\mathscr{r}}{c}
 $$
 
 What we want to get to today is the equations for E and B on page 459-460

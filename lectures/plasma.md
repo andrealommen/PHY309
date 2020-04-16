@@ -22,7 +22,7 @@ frequencies travel at different velocities.
 
 ### Where we're going
 What happens next is:
-* Then we need to go back to potentials, particularly vector potentials, so that we can understand retarded potentials, so that we can understand how radiation occurs. (We've talked about electromagnetic waves, but you'll notice we haven't talked about how we generate them at all. We
+* Then we need to go back to potentials, particularly vector potentials, so that we can understand deferred potentials, so that we can understand how radiation occurs. (We've talked about electromagnetic waves, but you'll notice we haven't talked about how we generate them at all. We
 ve just assumed they're there and tried to understand their properties. In this very last section of the course, we need to generate them.
 
 ### What we did last time. 
