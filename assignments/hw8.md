@@ -59,7 +59,7 @@ $$
 $$  
 . Use this equation for $$v$$ and
 follow the same analysis as we used for “plane waves in a tenuous plasma.”
-(So don't even bother with the equations of motion - just match the boundary conditions.)
+(Plug your guess for $$v$$ into the equation of motion and find the conductivity $$\sigma$$).
 
 (5).	  Pulsars, or pulsating radio stars, emit sharp bursts of radio energy about 5 to 50 milliseconds wide at intervals of about one second. For any given pulsar the repetition frequency is stable within about one part in $$10^8$$. The amplitude and shape of the pulses vary widely, but each pulsar has its own characteristic mean pulse profile.
 	Within a few months after the discovery of pulsars, distance estimates were obtained in the following manner. It was observed that the arrival time of a pulse depends on the frequency of observation, the arrival time being later at lower frequencies. This delay is attributed to dispersion in the interstellar medium which is ionized hydrogen with an electron density 
