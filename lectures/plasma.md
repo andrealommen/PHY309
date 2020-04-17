@@ -128,13 +128,13 @@ we want to ignore the magnetic field and make our life easier!!!)
 
 $$\frac{e\vec{E}}{e\vec{v}\times\vec{B}} \approx \frac{E}{vB}$$
 
-but you know $$E/B = c$$ so $$E/vB is c/v$$.  So as long as $$v<<c$$ the magnetic
+but you know $$E/B = c$$ so $$E/vB$$ is $$c/v$$.  So as long as $$v<<c$$ the magnetic
 force is negligible.
 
 So now we can write:
 
 $$
-\vec{F} = -e(\vec{E}
+\vec{F} = -e\vec{E}
 $$
 
 or (using Newton's 2nd law)
@@ -161,7 +161,7 @@ $$
 $$
 
 $$
-\vec{v} = -\frac{e}{i\omega m_e}\vec{E}_0
+\vec{v} = \frac{e}{i\omega m_e}\vec{E}_0
 $$
 
 The next thing we need to do is get a conductivity out of this.  
