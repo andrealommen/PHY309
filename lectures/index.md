@@ -75,3 +75,5 @@ permalink: /lectures
 [Leinard-Wiechert Potential](/PHY309/lectures/leinard) <br>
 ### Chapter 11: Radiation
 [Radiation](/PHY309/lectures/radiation) <br>
+[Dipole Radiation](/PHY309/lectures/dipole) <br>
+[Radiation from a Point Charge](/PHY309/lectures/point) <br>
