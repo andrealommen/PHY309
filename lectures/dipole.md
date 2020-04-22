@@ -186,6 +186,12 @@ $$
 
 Remember the 16 turned into a 32 by doing the time averaging over the $$\cos^2$$.
 
+If you integrate this over the sphere you get the total power radiated:
+
+$$
+P =  \frac{\mu_0 p_0^2 \omega^4}{12 \pi^2 c^3} 
+$$
+
 Okay yay we know everything!  
 
 ## Wait, what do these waves actually look like?
