@@ -111,7 +111,7 @@ $$\sin\left(\frac{\omega d}{2c}\cos\theta\right)\approx \frac{\omega d}{2c}\cos\
 than one wavelength of light, so $$r>>\lambda$$.  That's what makes the Coulomb terms
 unimportant. 
 
-I've numbered them above in the same way Griffiths numbers them on page 467-68.
+I've numbered the approximations above in the same way Griffiths numbers them on page 467-68.
 
 That's really only 2 requirements.  $$d <<\lambda$$ and $$r>>\lambda$$.  The latter
 is how you specificy the "radiation zone".  
@@ -186,11 +186,27 @@ $$
 
 Remember the 16 turned into a 32 by doing the time averaging over the $$\cos^2$$.
 
-If you integrate this over the sphere you get the total power radiated:
+If you integrate this over the sphere you get the time-averaged total power radiated:
 
 $$
-P =  \frac{\mu_0 p_0^2 \omega^4}{12 \pi^2 c^3} 
+<P> =  \frac{\mu_0 p_0^2 \omega^4}{12 \pi^2 c} 
 $$
+
+I'm not actually going to go through the derivative for magnetic dipole radiation
+but it's remarkably similar.   You end up with:
+
+$$
+<P> =  \frac{\mu_0 m_0^2 \omega^4}{12 \pi^2 c^3} 
+$$
+
+where $$m_0$$ is the amplitude of the magnetic dipole moment oscillating at $$\omega$$ rather than the
+amplitude of the electric dipole oscillation oscillating at $$\omega$$. 
+Notice the big difference is the $$c^3$$ in the denominator rather than $$c$$ which accounts
+for the difference in definition of electric dipole $$p_0 = qd$$ and magnetic dipole $$m_0 = IA$$
+where $$A$$ is the area of the loop and $$I$$ is the current.  So magnetic dipole
+moment has an extra factor of meters/sec in its units, so the equation for power
+deals with that by putting an extra two factors of $$c$$ in its denominator.  The
+equations for field from a dipole also have an extra factor of $$c$$ in the denominator.
 
 Okay yay we know everything!  
 
@@ -216,6 +232,50 @@ A radio tower rises to height h above flat horizontal ground. At  the top is a m
 (b) How far from the base of the tower should the engineer have made the measurement? What is the formula for the intensity at this location?  
 
 (c) KRUD’s actual power output is 35 kilowatts, its frequency is 90 MHz, the  antenna’s radius is 6 cm, and the height of the tower is 200 m. The city’s radioemission limit is 200 microwatts/cm2. Is KRUD in compliance? 
+
+Answers:
+
+(a) Use our equation for intensity from an oscillating magnetic dipole. You
+can equally well use the equations from an electric dipole and you'd get the same thing. The
+important thing is that the radiation intensity is proportional to $$\sin\theta/r^2$$.
+The magnitude of the time-averaged intensity is related to the power
+(for either a magnetic or electric dipole) by:
+
+$$
+|<S>| = \left(\frac{3P}{8\pi}\right) \frac{\sin^2\theta}{r^2}
+$$
+
+And then figuring out what $$\theta$$ is trigonometry problem.  When the engineer is
+$$R$$ away from the base, they're a distance $$r = \sqrt{R^2 + h^2}$$ away from the dipole.
+
+$$
+\sin\theta = \frac{R}{\sqrt{R^2 + h^2}}
+$$
+
+So then
+
+$$
+I(R) = |<S>|  = \left(\frac{3P}{8\pi}\right) \frac{R^2}{\left(R^2 + h^2\right)^2}
+$$
+
+(b) The intensity directly below the antenna (R=0) would be zero.  The engineer could've measured
+it in a number of places as long as they knew how the intensity would go as a function of
+$$\theta$$.  The official answer is that you find the location of maximum intensity,
+where $$\frac{dI}{dR}$$ is zero, which is where $$R=h$$. (That assumes the engineer measured
+it from the ground.  I say, get them up on a ladder at a height equal to the tower height
+and measure it there.)
+
+(c) Assuming the city's radioemission limit is based on ground measurements, you would actually
+need the 'official' answer from above, and know that the maximum radiation on the ground
+happens where $$R=h$$. Then you can put in:
+
+$$
+I_{max} = \left(\frac{3P}{8\pi}\right) \frac{R^2}{\left(R^2 + h^2\right)^2}
+= \left(\frac{3P}{8\pi}\right) \frac{h^2}{\left(h^2 + h^2\right)^2}=
+\frac{3(35\times10^3 {\rm Watts})}{32\pi(200 m)^2} = 0.026 W/m^2 = 2.6 \mu W/cm^2$$. 
+
+So KRUD
+is in compliance.
 
 ### Why is the sky blue?
 The strong frequency dependence of the formula makes the sky blue. 
