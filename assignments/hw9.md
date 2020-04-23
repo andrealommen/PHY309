@@ -13,7 +13,7 @@ you write them.
 Don't forget to finish each problem by writing the main point.
 
 ______________________________________________________________________________
-1. Griffiths 10.12 Calculate the retarded potential of a current loop
+1. Griffiths 10.12 Calculate the deferred potential of a current loop
 with increasing current.
 You're only calculating the potential at the center,
 so $$\mathscr{r}$$ can be replaced by the distance from the ring
