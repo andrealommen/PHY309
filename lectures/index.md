@@ -51,7 +51,7 @@ permalink: /lectures
 [Andrea's Crash Course in Chapter 7](/PHY309/lectures/allChapt7)<br>
 [Electromotive Force and Induction](/PHY309/lectures/induction)<br>
 [Maxwell's Equations](/PHY309/lectures/maxwellChapt7)<br>
-### Chapter 8: Electromagnetic Waves
+### Chapter 8: Griffiths calls it Conservation laws, at this point we only picked up the Continuity Equation and saved the rest for after Chapter 9
 (We're kind of picking up Chapter 8 along the way...)<br>
 [Andrea's Crash Course in Chapter 8](/PHY309/lectures/allChapt8)<br>
 ### Chapter 9: Electromagnetic Waves
@@ -70,10 +70,16 @@ permalink: /lectures
 [Poynting Theorem in EM Waves, Transmission and Reflection Coefficients](/PHY309/lectures/transmission) <br>
 [Waves in a Tenuous Plasma, Dispersion](lectures/plasma) <br>
 ### Chapter 10: Potentials and Fields
+[Andrea's Crash Course in Chapter 10](/PHY309/lectures/Chapt10ReviewPlusTensors)<br>
 [The Potential Formulation](/PHY309/lectures/potentialformulation) <br>
 [The Deferred Potential](/PHY309/lectures/deferred) <br>
 [Leinard-Wiechert Potential](/PHY309/lectures/leinard) <br>
 ### Chapter 11: Radiation
+[Andrea's Crash Course in Chapter 11](/PHY309/lectures/allChapt11)<br>
 [Radiation](/PHY309/lectures/radiation) <br>
 [Dipole Radiation](/PHY309/lectures/dipole) <br>
 [Radiation from a Point Charge](/PHY309/lectures/point) <br>
+### The Final Week: Looking backwards and forwards
+[Chapter 10 Review (emphasis Gauge and Deferred) Plus Relativity, Chapt 12](/PHY309/lectures/Chapt10ReviewPlusTensors)<br>
+[Chapter 11 Review, and how is it related to Chapt 10?](/PHY309/lectures/allChapt11) <br>
+[Pancake breakfast party: Radiation Reaction (multiple meanings there, get it?  We'll do a questionnair here to get your reactions to the class](/PHY309/lectures/reaction)
