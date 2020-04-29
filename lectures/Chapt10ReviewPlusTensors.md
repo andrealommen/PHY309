@@ -185,7 +185,7 @@ used to all have to be the same.)
 For example the coordinates of an object in space in relativity are:
 
 $$
-x^\mu = (ct, x, y, z)
+x^\mu = (-ct, x, y, z)
 $$
 
 So that's what I mean - you have to multiply time by $$c$$ in order to get
@@ -310,6 +310,8 @@ And Maxwell's equations then look like this:
 $$\frac{\partial F^{\mu\nu}}{\partial x^\nu} = \mu_0 J^\mu$$
 
 $$\frac{\partial G^{\mu\nu}}{\partial x^\nu} = 0$$
+
+## This is how far we got on the first day of this lecture.
 
 I think that I was never convinced that this was an easier/more elegant way to
 write out Maxwell's equations until I texed up this lecture.  That was so much

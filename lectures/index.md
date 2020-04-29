@@ -81,5 +81,5 @@ permalink: /lectures
 [Radiation from a Point Charge](/PHY309/lectures/point) <br>
 ### The Final Week: Looking backwards and forwards
 [Chapter 10 Review (emphasis Gauge and Deferred) Plus Relativity, Chapt 12](/PHY309/lectures/Chapt10ReviewPlusTensors)<br>
-[Chapter 11 Review, and how is it related to Chapt 10?](/PHY309/lectures/allChapt11) <br>
-[Pancake breakfast party: Radiation Reaction (multiple meanings there, get it?  We'll do a questionnair here to get your reactions to the class](/PHY309/lectures/reaction)
+[Chapter 10 Review cont'd including Deferred Potential](/PHY309/lectures/Chapt10ReviewPt2) <br>
+[Pancake breakfast party, and Review Chapter 11.  We'll do a questionnaire here to get your reactions to the class](/PHY309/lectures/reaction)
