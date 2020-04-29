@@ -184,6 +184,118 @@ Problem 10.30 A uniformly charged rod (length L, charge density λ) slides out  
 deferred time $$t_2$$ for the front end,  and the corresponding deferred positions $$x_1$$ and $$x_2$$.] Is your answer consistent with  the Liénard-Wiechert potential, 
 in the point charge limit ($$L<< vt$$, with λL = q)?  Do not assume $$v<< c$$.  
 
+The posted solutions (on Moodle) are one way of thinking about it.  I think aboutit a little differently, plus I know people wanted help understanding deferred potentials, and I thought this would be a good way to give you more ways of understanding it.
+
+There are two sentences of Griffith's that I think are particularly helpful, so I'm going to quote them. "Now, electromagnetic “news” travels at the speed of light. In the nonstatic case, therefore, it’s not the status of the source right now that matters, but  rather its condition at some earlier time $$t_d$$ (called the [deferred] time) when the  “message” left." (Page 445, first full sentence.)
+
+**Back end**
+
+Let's talk about the back end of the rod first. 
+
+At time $$t=0$$ the back end of the rod is at x=0.  We are supposed to calculate
+the deferred potential at x=0, so at t=0, $$t_1 = 0$$ because the back end
+of the rod is right where we're calculating the potential, so there's no 'deferment', in other words, we don't have to wait at all to experience the effects
+of the back end.
+
+It gets a little more interesting when we consider some general time $$t$$. 
+What is $$t_1$$ in general.  Well, as the rod moves to the right, the back
+end will get farther and farther away from us at velocity $$v$$. So at time
+$$t$$ the back end will be a distance $$vt$$ away from the origin. So is
+the 'deferment' $$vt/c$$?  No!  Because remember Griffiths says "it's
+not the status of the source right now that matters, but rather its
+condition at some earlier time" which in our case is $$t_1$$.  So at $$t_1$$
+the back end of the rod was at a distance $$vt_1$$ away from the origin.
+And so the deferred time is
+
+$$
+t_1 = t - \frac{vt_1}{c}
+$$
+
+And if you solve that for $$t_1$$ you get:
+
+$$
+t_1 = \frac{t}{(1 + \frac{v}{c})}
+$$
+
+Does that make sense?  When $$t=0$$ we said $$t_1=0$$ and that's true!
+Also, $$t_1$$ should be earlier than $$t$$ for all $$t>0$$ and that's true 
+(An aside: Does this solution work for $$t<0$$?  In that case $$t_1$$ is
+later than $$t$$, i.e. less negative.  I'm not sure that makes sense.)
+
+It also makes sense that the faster the speed of light is, the less
+the deferment matters (for $$c \rightarrow \infty$$ $$t_1 = t$$.)  
+
+**Front end**
+
+Let's tackle the front end of the rod.
+
+Allow me to do a bad job of this at first and then correct it.  For
+$$t_2$$ we want the light or "news" to be able to travel back across
+the length of the rod $$L$$ and across whatever space the rod has
+moved by that point $$vt$$. So the "deferment" will be roughly $$\frac{L + vt}{c}$$, but that's not quite right.  Because as griffiths says, it's not the status
+of the source right now ($$t$$) that matters, but it condition
+at an earlier time, $$t_2$$.  So the deferment will actually
+be $$\frac{L+vt_2}{c}$$.  So you have to subtract that time from
+the current time:
+
+$$
+t_2 = t - \frac{L+vt_2}{c}
+$$
+
+If you solve that for $$t_2$$ you get
+
+$$
+t_2 = \frac{t + L/c}{1 + v/c}
+$$
+
+which is very similar to what we got for $$t_1$$ except now there's
+an extra term in ther numerator $$L/c$$ which makes sense, because
+the front end is a distance $$L$$ away.
+
+Notice in particular that the deferred time for the front end is
+different than the deferred time for the back end.  This is an
+important point - that all points in your charge distribution have
+different deferred times.
+
+The positions of the back and front ends at their
+deferred times, $$x_1$$ and $$x_2$$ are
+
+$$
+x_1 = vt_1
+$$
+
+and
+
+$$
+x_2 = L + vt_2
+$$
+
+You can subsitute in our expressions above for $$t_1$$ and $$t_2$$.
+
+Then the integral over the charge distribution over the deferred position
+is just the integral over $$dx$$ from the end points of the rod.
+
+$$
+V(0,t) = \frac{1}{4\pi \epsilon} \int_{x_1}^{x_2} \frac{\lambda}{x}dx
+$$
+
+It's a subtle point why we don't have to worry about the length
+contraction of the rod.  One idea is that in the integral,
+the length contraction makes $$dx$$ shorter and $$\lambda$$ greater
+by the same factor, so they cancel each other out.  I'm not sure
+I'm totally happy with that, so I'm still thinking about this.  Stay tuned...
+
+In any case, I think this problem does a really nice job forcing you
+to think about the issues of deferred time, and what you have to
+do to set up the integral over the deferred distribution of the charges.
+
+Based on the little bit we've done on Chapter 12, it would be interesting
+to repeat this problem using the 4-vector $$J^\mu$$ and solve it
+relativistically using the Lorentz transformation.  In the frame that's
+at rest with respect to the origin in the problem above, there should
+be a current density $$\vec{J}$$, whereas in the frame moving
+with the rod, there will be all $$\rho$$ and no $$\vec{J}$$.
+  
 
 ## Continuing on with the rest of Chapter 10
 
