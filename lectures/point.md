@@ -130,7 +130,7 @@ In Chapter 10 [in the lecture on Leinard-Wiechert Potentials](PHY309/lectures/le
 about the formula for the electric field of a point charge:
 
 $$
-\vec{E}(\vec{r},t) = \frac{q}{4\pi \epsilon_0}\frac{\mathscr{r}}{(\vec{\mathscr{r}}\cdot\vec{u})^3}\left[(c^2 - v^2)\vec{u} + \mathscr{r}\times(\vec{u}\times\vec{a})\right]
+\vec{E}(\vec{r},t) = \frac{q}{4\pi \epsilon_0}\frac{\mathscr{r}}{(\vec{\mathscr{r}}\cdot\vec{u})^3}\left[(c^2 - v^2)\vec{u} + \vec{\mathscr{r}}\times(\vec{u}\times\vec{a})\right]
 $$
 
 (Reminder: $$\vec{u}\equiv c\hat{\mathscr{r}} - \vec{v}$$)
@@ -151,7 +151,7 @@ We need to tackle the vectors here to get that.  So let's just keep the radiatio
 term from that equation above:
 
 $$
-\vec{E}_{rad} = \frac{q}{4\pi \epsilon_0}\frac{\mathscr{r}}{(\vec{\mathscr{r}}\cdot\vec{u})^3}\left[\mathscr{r}\times(\vec{u}\times\vec{a})\right]
+\vec{E}_{rad} = \frac{q}{4\pi \epsilon_0}\frac{\mathscr{r}}{(\vec{\mathscr{r}}\cdot\vec{u})^3}\left[\vec{\mathscr{r}}\times(\vec{u}\times\vec{a})\right]
 $$
 
 and
