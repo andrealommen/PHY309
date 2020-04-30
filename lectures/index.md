@@ -82,4 +82,4 @@ permalink: /lectures
 ### The Final Week: Looking backwards and forwards
 [Chapter 10 Review (emphasis Gauge and Deferred) Plus Relativity, Chapt 12](/PHY309/lectures/Chapt10ReviewPlusTensors)<br>
 [Chapter 10 Review cont'd including Deferred Potential](/PHY309/lectures/Chapt10ReviewPt2) <br>
-[Pancake breakfast party, and Review Chapter 11.  We'll do a questionnaire here to get your reactions to the class](/PHY309/lectures/reaction)
+[Pancake breakfast party, and Review Chapter 11.  We'll do a questionnaire here to get your thoughts about the class](/PHY309/lectures/allChapt11)
