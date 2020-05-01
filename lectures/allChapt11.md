@@ -7,7 +7,7 @@ permalink: "/lectures/allChapt11"
 Chapter 11 is radiation.  We started talking about radiation in Chapter 10 when we noticed that the field of a point charge
 
 $$
-\vec{E}(\vec{r},t) = \frac{q}{4\pi \epsilon_0}\frac{\mathscr{r}}{(\vec{\mathscr{r}}\cdot\vec{u})^3}\left[(c^2 - v^2)\vec{u} + \mathscr{r}\times(\vec{u}\times\vec{a})\right]
+\vec{E}(\vec{r},t) = \frac{q}{4\pi \epsilon_0}\frac{\mathscr{r}}{(\vec{\mathscr{r}}\cdot\vec{u})^3}\left[(c^2 - v^2)\vec{u} + \vec{\mathscr{r}}\times(\vec{u}\times\vec{a})\right]
 $$
 
 has a term that drops off like $$1/\mathscr{r}$$ rather than a $$1/\mathscr{r}^2$$.  That's the term that can give us radiation to infinity.  In chapter 10,
