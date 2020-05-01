@@ -18,7 +18,7 @@ In Chapter 11, by contrast, we use many of the equations from
 Chapter 10, but we throw away all the terms that don't contribute
 to the radiative energy.
 
-Every E&M book starts with dipole radiation.  A dipole antenna is the
+Every E&M book starts its official radiation section with dipole radiation.  A dipole antenna is the
 simplest to make - you attach a paper clip to a signal generator and bam, you've
 got a radiating dipole.
 
@@ -28,7 +28,7 @@ Starting with the voltage of a simple static dipole
 
 
 $$
-V = \frac{1}{4\pi\epsilon_0)} \frac{p \cos\theta}{r^2}
+V = \frac{1}{4\pi\epsilon_0} \frac{p \cos\theta}{r^2}
 $$
 
 I made you guess
@@ -44,7 +44,7 @@ $$
 The dependence on $$\theta$$ is really important.  You don't get
 any radiation looking down on the dipole along its axis.
 The dependence on $$\omega^4$$ is really important.  Intensity is the 4th power of frequency.
-So if you make your signal generator go twice as fast you get 16 as much intensity.
+So if you make your signal generator go twice as fast you get 16 times as much intensity.
 
 The approximations we made 
 are (1) that the size of the dipole is much smaller than the distance you are away
