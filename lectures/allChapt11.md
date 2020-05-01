@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Andrea's Crash Course in Chapter 11"
-permalink: "/lectures/AllChapt11"
+permalink: "/lectures/allChapt11"
 ---
 
 Chapter 11 is radiation.  We started talking about radiation in Chapter 10 when we noticed that the field of a point charge
