@@ -1,5 +1,5 @@
 ---
-layout: noheaderpage
+layout: page
 title:  "Final Exam Format"
 permalink: "/lectures/finalexamformat"
 ---
