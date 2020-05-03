@@ -83,3 +83,9 @@ permalink: /lectures
 [Chapter 10 Review (emphasis Gauge and Deferred) Plus Relativity, Chapt 12](/PHY309/lectures/Chapt10ReviewPlusTensors)<br>
 [Chapter 10 Review cont'd including Deferred Potential](/PHY309/lectures/Chapt10ReviewPt2) <br>
 [Pancake breakfast party, and Review Chapter 11.  We'll do a questionnaire here to get your thoughts about the class](/PHY309/lectures/allChapt11)
+### The Final Exam
+You may look at the following whenever you want.  It explains the format of the exam and what kind of problems
+to expect.
+[Format of the Final Exam](/PHY309/lectures/finalexamformat)<br>
+
+When you're ready to take the exam please click [here.](/PHY309/lectures/finalexam)
