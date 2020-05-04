@@ -86,3 +86,6 @@ have one or the other in your integral.  Make sure the limits are appropriate to
 actually asking you to do this integral, you're supposed to set it up so 
 that you could. Someone (you, if you want to!) could plug your integral 
 into Mathematica and get $$\vec{A}(s,t)$$ without doing anything more. 
+
+Here's the figure for problem #2.
+![Figure for problem #2](Figures/FinalNumber2.png){:class="img-responsive"}
