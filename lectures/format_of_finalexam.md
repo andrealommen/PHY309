@@ -35,4 +35,4 @@ Signed____________________________________________________________________
 
 ## What problems will there be?
 
-There will be 4 problems.  One on electric fields, one on magnetic fields, one on radiation, and one on the deferred potential.
+There will be 4 problems.  One on electrostatics, one on magnetostatics, one on radiation, and one on the deferred potential.
