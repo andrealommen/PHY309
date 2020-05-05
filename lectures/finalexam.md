@@ -76,7 +76,7 @@ a distance $$s$$ away from the wire.   You should assume that $$I(t) = q_0\delta
 
 		(ii) Non-zero only at t= s/c?
 
-		(iii) Non-zero up until t = s/c and then non-zero after that?
+		(iii) Zero up until t = s/c and then non-zero after that?
 
 		Please justify your answer with very specific words or with math.
 
