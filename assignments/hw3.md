@@ -4,53 +4,26 @@ title:  "Assignment #3"
 permalink: "/assignments/hw3"
 ---
 
-Reading: Griffiths; Chapter 3, sections 3 and 4.
+Reading: Griffiths, Chapter 2, sections 3-4.
 
-Unless I say otherwise, you may work together and get help from other students. Your solutions must be written in your own words, without looking at someone else's solutions while
-you write them.
+1. Griffiths, Chapter 2, Problem 2.21
 
-Don't forget to finish each problem by writing the main point.
+2. Griffiths, Chapter 2, Problem 2.34, parts a) and b only; and Problem 2.35.
 
-______________________________________________________________________________
+3. At an early stage in the development of the atomic theory, J. J. Thompson proposed an atom consisting of a positive charge Ze spread uniformly throughout a sphere of radius $$R$$ where Z is the number of electrons each with charge -e and e is the fundamental unit of charge ($$1.6 \times 10^{-19}$$ Coulombs).  The point-like electrons are embedded in the uniform positive charge like raisins in raisin pudding, hence the name “raisin pudding” model of the atom.
+    a) Find the force acting on one electron as a function of its distance $$r$$ from the center of the sphere. Assume that the charge of the remaining electrons is smeared out uniformly throughout the sphere.
+    b) What type of motion does the electron execute in the radial direction?
+    c) What is the frequency of this motion for a typical atomic radius of 1 angstrom (0.1 nm)?
+    d) What is the frequency of an electron that is in a circular orbit about the center?  Interesting, no?
+    e) How does this frequency compare with that of the fundamental Lyman $$\alpha$$ transition in
+hydrogen? The wavelength of a Lyman $$\alpha$$ photon is 121.6 nm.
 
-1.   Griffiths, Chapter 3, Problem 3.16. Replace the question in square brackets with “See if you can come up with a simple way of determining the potential at the center of the cube.”
+4. Find the charge distribution (i.e., the charge density) that produces the Yukawa potential (a model for the nuclear force), i.e.,
 
-2.   Griffiths, Problem 3.44.  I started this one in class.  Be sure to see my Multipole notes from chapter 3.
+ $$ V(r) = \frac{A}{r}e^{-r/a}$$
 
-     **The next three questions involve solving Laplace’s Equation in cylindrical coordinates.**
+ Hint: In addition to a continuous charge density, you must place a point charge at the origin.
 
------In 2022 we'll do 3 and 4 as group-work in class and you'll be responsible for 5------
+ Why? Be sure to give the value of this point charge, which you should be able to identify
+from the form of the electric field. If not, try Gauss’s law. 
 
-3.   Separate Laplace’s equation in cylindrical coordinates and find three ordinary 
-differential equations in $$s$$, $$\phi$$, and $$z$$. (The $$s$$ equation is Bessel’s 
-equation and 
-solutions to it are called Bessel Functions.) *Note: this is a little trickier 
-than in Cartesian Coordinates so be careful!*
-
-4.   Assume that a potential which satisfies Laplace’s equation is independent of the cylindrical coordinate, $$z$$.
-
-     (a) Solve the remaining two equations ($$s$$ and $$\phi$$) in terms of the separation constant. 
-     *Hints: Guess a radial function that is a power of $$s$$. Also the separation constant in the $$\phi$$ equation must be negative. Why?*
-
-     (b) Use the fact that the angular function must be single-valued to place a condition on the
-separation constant.
-
-     (c) Using parts (a) and (b), write down the general solution of $$v(s, \phi)$$. The terms in the expansion
-are called cylindrical harmonics. Note: one must treat the case when the separation
-constant is zero as a separate case. You’ll have to go back to the “$$s$$” equation to get a
-solution in this case.
-
-5.    Use the expansion in problem 4 to solve the following problem. A long, 
-grounded, cylindrical conductor of radius R is placed in an external, initially 
-uniform electric field $$\vec{E}_0$$. The direction of  $$\vec{E}_0$$
-is perpendicular to the axis of the cylinder. Find the potential at points exterior to the
-cylinder, and also find the charge density on the cylinder.
-
-![Cylindrical Conductor in Uniform E-field](HW3Prob6.png){:class="img-responsive"}
-
-6.    **By yourself without other students** Suppose a point dipole of strength, $$p$$, 
-is placed at the center of a spherical cavity in a grounded conductor.
-Solve for the potential everywhere in the cavity. Find
-the charge density on the surface of the cavity.
-
-![Dipole in a Spherical Cavity](HW3Prob7.png){:class="img-responsive"}
