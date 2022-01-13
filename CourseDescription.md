@@ -116,4 +116,11 @@ show all steps, explain all steps, reference equations used, and put it in
 context. These are due at 11:59 PM on Tuesdays. These will be the only
 resource allowed during QUIZZES!
 
-
+**Quizzes:**
+I will assign a quiz once every week or so on Wednesdays as indicated on the SCHEDULE.
+These will open on Moodle at 12:01 AM and close at 11:59 PM. These are the only thing
+that you are expected to do independently. They are short assessments that focus on
+conceptual understanding and completion of the PRETTY COPY SOLUTIONS. You will have
+15 minutes to complete the quiz. The only resource you are allowed to use for these is
+your PRETTY COPY SOLUTION for the specific problem indicated in the QUIZ. Be prepared to
+submit a PDF of your solutions. Do not discuss the QUIZ until the day after it is due.

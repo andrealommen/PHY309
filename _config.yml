@@ -41,7 +41,7 @@ header_pages:
   - CourseDescription.md
   - grid.md
   - lectures/index.md
-  - groups.md
+  - grades.md
   - common.md
   - help.md
   - honor.md
