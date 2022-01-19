@@ -43,6 +43,7 @@ header_pages:
   - lectures/index.md
   - grades.md
   - common.md
+  - writeup.md
   - help.md
   - honor.md
   - diversity.md
