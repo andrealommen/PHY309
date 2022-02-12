@@ -6,9 +6,16 @@ permalink: "/assignments/hw5"
 
 Reading: Griffiths; Chapter 3, sections 3 and 4.
 
+
+You may work together and get help from other students. Your solutions must be written in your own words, without looking at someone else's solutions while
+you write them.
+
+Don't forget the 8 points that we are looking for in your solutions (see the peer evaluation checklist for them).
+
+
 1.   Griffiths, Chapter 3, Problem 3.16. Replace the question in square brackets with “See if you can come up with a simple way of determining the potential at the center of the cube.”
 
-2.   Griffiths, Problem 3.44.  I started this one in class.  Be sure to see my Multipole notes from chapter 3.
+2.   Griffiths, Problem 3.44.  Be sure to see my Multipole notes from chapter 3.
 
      **The next three questions involve solving Laplace’s Equation in cylindrical coordinates.**
 
@@ -39,7 +46,7 @@ cylinder, and also find the charge density on the cylinder.
 
 ![Cylindrical Conductor in Uniform E-field](HW3Prob6.png){:class="img-responsive"}
 
-6.    **By yourself without other students** Suppose a point dipole of strength, $$p$$, 
+6.    **Extra problem for fun if you want** Suppose a point dipole of strength, $$p$$, 
 is placed at the center of a spherical cavity in a grounded conductor.
 Solve for the potential everywhere in the cavity. Find
 the charge density on the surface of the cavity.

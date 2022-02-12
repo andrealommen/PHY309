@@ -6,6 +6,11 @@ permalink: "/assignments/hw1"
 
 Reading: Griffiths, Chapter 1 
 
+You may work together and get help from other students. Your solutions must be written in your own words, without looking at someone else's solutions while
+you write them.
+
+Don't forget the 8 points that we are looking for in your solutions (see the peer evaluation checklist for them).
+
 1. Griffiths, Chapter 1, Problem 1.12.<br>
 *Main point: This problem helped me think less abstractly
 about the gradient by applying it to topography. Looking for

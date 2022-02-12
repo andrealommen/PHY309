@@ -6,6 +6,13 @@ permalink: "/assignments/hw2"
 
 Reading: Griffiths, Chapter 2, sections 1-2.
 
+
+You may work together and get help from other students. Your solutions must be written in your own words, without looking at someone else's solutions while
+you write them.
+
+Don't forget the 8 points that we are looking for in your solutions (see the peer evaluation checklist for them).
+
+
 1. An infinitely long wire, stretching along the $$z$$ axis, is uniformly charged to l
 Coulombs/meter. Find the electric field intensity outside the wire by: 
     a) using Gauss’s Law;

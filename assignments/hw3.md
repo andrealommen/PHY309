@@ -6,6 +6,13 @@ permalink: "/assignments/hw3"
 
 Reading: Griffiths, Chapter 2, sections 3-5.
 
+
+You may work together and get help from other students. Your solutions must be written in your own words, without looking at someone else's solutions while
+you write them.
+
+Don't forget the 8 points that we are looking for in your solutions (see the peer evaluation checklist for them).
+
+
 1. Griffiths, Chapter 2, Problem 2.21
 
 2. Griffiths, Chapter 2, Problem 2.34, parts a) and b only; and Problem 2.35.
@@ -35,6 +42,8 @@ $$ 3 \times 10^6$$ volts/meter.
        a) What is the maximum voltage that can be applied to the balloon?
 
        b)  What gas pressure inside the balloon would produce the same effect? What fraction of atmospheric pressure is this? Will it work?
+
+--------I'm pushing the next two problems to the next problem set when/if I teach this class next-----------------
 
 7.   Griffiths, Chapter 2, Problem 2.43.
 
