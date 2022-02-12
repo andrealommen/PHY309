@@ -38,6 +38,8 @@ are called cylindrical harmonics. Note: one must treat the case when the separat
 constant is zero as a separate case. You’ll have to go back to the “$$s$$” equation to get a
 solution in this case.
 
+We won't start this one in class, but it's still on your homework.  Take at least a half hour to set up the problem by yourself before you talk to classmates, TAs, or Andrea.
+
 5.    Use the expansion in problem 4 to solve the following problem. A long, 
 grounded, cylindrical conductor of radius R is placed in an external, initially 
 uniform electric field $$\vec{E}_0$$. The direction of  $$\vec{E}_0$$
