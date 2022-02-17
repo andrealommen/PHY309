@@ -15,7 +15,7 @@ Don't forget the 8 points that we are looking for in your solutions (see the pee
 
 1.   Griffiths, Chapter 3, Problem 3.16. Replace the question in square brackets with “See if you can come up with a simple way of determining the potential at the center of the cube.”
 
-2.   Griffiths, Problem 3.44.  Be sure to see my Multipole notes from chapter 3.
+2.   I'm changing this one to Griffiths, Problem 3.29. If you've already done Problem 3.44 you can submit that, but I think 3.29 gives you way more intuition about how the multipole expansion is used in practice. (Old assignment: Griffiths, Problem 3.44.  Be sure to see my Multipole notes from chapter 3.)
 
      **The next three questions involve solving Laplace’s Equation in cylindrical coordinates.**
 
