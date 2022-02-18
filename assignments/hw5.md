@@ -30,8 +30,9 @@ than in Cartesian Coordinates so be careful!*
      (a) Solve the remaining two equations ($$s$$ and $$\phi$$) in terms of the separation constant. 
      *Hints: Guess a radial function that is a power of $$s$$. Also the separation constant in the $$\phi$$ equation must be negative. Why?*
 
-     (b) Use the fact that the angular function must be single-valued to place a condition on the
-separation constant.
+     (b) Use the fact that you only need a complete set of functions over the interval
+$$\phi = 0$$ to $$2\pi$$ to place a condition on the separation constant.  (This is what this part used to say...Use the fact that the angular function must be single-valued to place a condition on the
+separation constant.)
 
      (c) Using parts (a) and (b), write down the general solution of $$v(s, \phi)$$. The terms in the expansion
 are called cylindrical harmonics. Note: one must treat the case when the separation
