@@ -11,7 +11,7 @@ permalink: /Grid/
 | January 31, 2022 | Chapter 2: Sec 3: Electric Potential, Sec 4: Work and Energy,  Sec 5: Conductors | <a href='/PHY309/assignments/hw3' >Assignment \#03 |
 | February 7, 2022 | Chapter 3: Sec 1: Laplace's equation, Chapter 3: Sec 2: The Method of Images | <a href='/PHY309/assignments/hw4' >Assignment \#04 |
 | February 14, 2022 | Chapter 3: Sec 3: Separation of Variables, Sec 4: Multipole Expansion        | <a href='/PHY309/assignments/hw5' >Assignment \#05 |
-| February 21, 2022 | Chapter 4: Sec 1-3: Polarization, Dielectrics, Electric Displacement | <a href='/PHY309/assignments/hw6' >Assignment \#06 |
+| February 21, 2022 | Chapter 4: Sec 1-4.4.2 (Boundary conditions): Polarization, Dielectrics, Electric Displacement | <a href='/PHY309/assignments/hw6' >Assignment \#06 |
 | February 28, 2022 | Chapter 5: Sec 1-4 | <a href='/PHY309/assignments/hw7' >Assignment \#07 |
 | March 7, 2022     | SPRING BREAK  |  |
 | March 14, 2022    | Chapter 6: Sec 1-2: Magnetization, Sec 3-4: Auxiliary Field | <a href='/PHY309/assignments/hw8' >Assignment \#08 |
