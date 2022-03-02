@@ -13,6 +13,10 @@ Don't forget the 8 points that we are looking for in your solutions (see the pee
 
 You may only use Mathematica on the last one.  I don't actually think you need it on any of the problems, so don't take that as a sign that I think the last one is harder than the others.
 
+In order to make sure you get your context and meaning/make sense points,
+next to your answers, please put a “c” with a circle around it for context,
+and an “m” with a circle around it for meaning.
+
 
 1.   A point charge, $$Q$$, is placed equidistant between two parallel, grounded, conducting plates separated by a distance, $$D$$. Assume the sizes of the plates are much larger than their separation.
 

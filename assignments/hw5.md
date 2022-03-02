@@ -12,6 +12,10 @@ you write them.
 
 Don't forget the 8 points that we are looking for in your solutions (see the peer evaluation checklist for them).
 
+In order to make sure you get your context and meaning/make sense points,
+next to your answers, please put a “c” with a circle around it for context,
+and an “m” with a circle around it for meaning.
+
 
 1.   Griffiths, Chapter 3, Problem 3.16. Replace the question in square brackets with “See if you can come up with a simple way of determining the potential at the center of the cube.”
 
