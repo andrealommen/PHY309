@@ -23,10 +23,12 @@ ______________________________________________________________________________
 2. (this is really a chapter 5 problem) When particular materials are cooled below a certain critical temperature, they become
 superconductors. One property of a type I superconductor is that the magnetic field vanishes
 in its interior. Suppose a solid Type I superconducting sphere is placed in a constant,
-external magnetic field. Solve for the magnetic field everywhere outside the sphere.
+external magnetic field. Solve for the magnetic field everywhere outside the sphere. (Hint: in this case you can define a magnetic scalar potential, and use
+all the formalism we developed for solving Laplace's equation using separation of variables.)
 
 3. A thin disk of iron of radius R and thickness $$t << R$$ is magnetized in the direction parallel to
-the axis, $$M = M_0\hat{z}$$ . Calculate H and B on the axis both inside and outside the iron.
+the axis, $$M = M_0\hat{z}$$ . Calculate H and B on the axis both inside and outside the iron. (I suggest you find the bound current and then call me over and let's talk about it and your next steps.)
 
 4. A spherical permanent magnet has a uniform polarization M . Choose M to be along the
-z axis. Calculate B everywhere.
+z axis. Calculate B everywhere. Use a technique similar to #2. In this case you will need the derivative of the Legendre Polynomials $$ \frac{dP_l(\cos \theta)}{d\theta) $$ but you can get away with only calculating
+it for $$l=1$$. 
