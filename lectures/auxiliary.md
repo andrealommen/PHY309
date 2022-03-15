@@ -147,7 +147,7 @@ directions should be a surprise.
 By symmetry, H points in the z direction. Integrating around the Amperian loop gives 
 
 $$
-\oint \vec{H}\cdot d\vec{l} = Hl =\mu_0 I_{free, enc}  = 0
+\oint \vec{H}\cdot d\vec{l} = Hl =I_{free, enc}  = 0
 $$
 
 since there is no free current there. 
