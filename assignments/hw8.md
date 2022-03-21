@@ -30,8 +30,6 @@ all the formalism we developed for solving Laplace's equation using separation o
 the axis, $$M = M_0\hat{z}$$ . Calculate H and B on the axis both inside and outside the iron. (I suggest you find the bound current and then call me over and let's talk about it and your next steps.)
 
 4. A spherical permanent magnet has a uniform polarization M . Choose M to be along the
-z axis. Calculate B everywhere. (Suggestions: Use a technique similar to #2. In this case you will need the derivative of the Legendre Polynomials $$ \frac{dP_l(\cos \theta)}{d\theta) $$ but you can get away with only calculating
-it for $$l=1$$. Also note that the criterion for using this magnetic
-scalar potential, i.e. that $$\nabla \times \vec{B}=0$$ isn't actually true
-on the surface of the sphere, so the potential inside need not be (and isn't)
-continuous with the potential on the outside of the sphere.) 
+z axis. Calculate B everywhere. 
+Here's a link with a "skeleton" solution to this problem.  Please feel free to look at this as much as you want while working on the problem. 
+[https://www.overleaf.com/read/nbjymfcprkgx](https://www.overleaf.com/read/nbjymfcprkgx)
