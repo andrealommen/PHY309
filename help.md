@@ -10,16 +10,6 @@ Watch this [video.](https://www.youtube.com/watch?v=yQq1-_ujXrM)
 
 # Andrea's Office Hours
 
-[For now (March 18 2020) ignore the schedule below and just go to this document to sign up for a time.](https://docs.google.com/spreadsheets/d/11NkRQKDWe5PlDomIsYJOF1xRePjfFSLzOZt05-kX7ak/edit?usp=sharing)
+[Go to the link here to sign up for a time.](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UVBPX3BNTW95cjM3fGRlZmF1bHR8MTU3NTJhNWMxMDVhY2U3NTg5ZTAzZjIyMmQ1OGZlMGU)
 
-Weekly office hours (every week!): 
-* Tuesday: 1:05-1:35
-* Wednesday: 3:15-3:45
-* Friday: 1:15-1:45
-
-Every other week office hours:
-* Monday 2:15-4pm every other week starting January 27 (L108)
-(so Jan 27, Feb 10, Feb 24, Mar 9, Mar 23, Apr 7, Apr 21)
-* Tuesday 4-4:45pm (roughly, but check below and/or google calendar for details) every other week starting February 4 (H204)
-(so Feb 4, Feb 18, Mar 3 (see below), Mar 17, Mar 31, Apr 14, Apr 28)
-
+Sometimes it's not obvious what to look for when you go to that link. You're looking for available appointments superimposed over your google calendar.  They'll say something like "PUT YOUR NAME HERE" and I would actually like you to edit them and put your name there, because then your name appears on my calendar.
