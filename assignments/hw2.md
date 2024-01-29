@@ -16,7 +16,7 @@ In order to make sure you get your context and meaning/make sense points,
 next to your answers, please put a “c” with a circle around it for context,
 and an “m” with a circle around it for meaning.
 
-1. An infinitely long wire, stretching along the $$z$$ axis, is uniformly charged to l
+1. An infinitely long wire, stretching along the $$z$$ axis, is uniformly charged to lambda 
 Coulombs/meter. Find the electric field intensity outside the wire by: 
     a) using Gauss’s Law;
     b) integrating Coulomb’s Law directly, and 
