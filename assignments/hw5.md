@@ -10,7 +10,7 @@ Reading: Griffiths; Chapter 3, sections 3 and 4.
 You may work together and get help from other students. Your solutions must be written in your own words, without looking at someone else's solutions while
 you write them.
 
-Don't forget the 8 points that we are looking for in your solutions (see the peer evaluation checklist for them).
+Don't forget the 9 points that we are looking for in your solutions (see Moodle).
 
 In order to make sure you get your context and meaning/make sense points,
 next to your answers, please put a “c” with a circle around it for context,
