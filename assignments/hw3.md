@@ -38,9 +38,9 @@ hydrogen? The wavelength of a Lyman $$\alpha$$ photon is 121.6 nm.
  Why? Be sure to give the value of this point charge, which you should be able to identify
 from the form of the electric field. If not, try Gauss’s law. 
 
-5.   What is the capacitance of the earth? (Most of the surface of the earth is covered by sea water, a fairly good conductor.)
+(5).   What is the capacitance of the earth? (Most of the surface of the earth is covered by sea water, a fairly good conductor.)
 
-6.   A spherical balloon is made of lightweight, aluminized Mylar. It is suggested that it could be kept spherical simply by connecting it to a high-voltage source. The balloon has a diameter of 0.1 meter, and the maximum breakdown electric field in air is
+(6).   A spherical balloon is made of lightweight, aluminized Mylar. It is suggested that it could be kept spherical simply by connecting it to a high-voltage source. The balloon has a diameter of 0.1 meter, and the maximum breakdown electric field in air is
 $$ 3 \times 10^6$$ volts/meter.
 
        a) What is the maximum voltage that can be applied to the balloon?
