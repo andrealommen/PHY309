@@ -4,7 +4,7 @@ title:  "Andrea's Synopsis of All of Chapter 2"
 permalink: "/lectures/chapt2"
 ---
 
-Here's my crash course of chapter 2. I claim you could do the whole problem set after you read this. (You should start the problem set, by the way. It's long and it's due a week from Wednesday. Do one problem a day starting today.)
+Here's my crash course of chapter 2. I claim you could do the whole problem set after you read this. 
 
 **V $$\rightarrow$$ E**
 
