@@ -10,7 +10,7 @@ Textbook:  Introduction to Electrodynamics by David J. Griffiths, 4th edition
 
 Thank you to Steve Boughn for his problem sets, and thanks to Kate Daniels for the format of this course. The text on this page in particular, was almost completely written by Kate (with a few changes) and I have her permission to use it here.
 
-The format of each class will be a very short (25 min) review lecture highlighting the important points of your reading. The rest of the time will be devoted to collaborative problem solving. Since not all the relevant material will be covered in the lectures, it is essential that the assigned reading be completed each Monday. The textbook by Griffiths gives an excellent intermediate-level treatment of electrodynamics. It is well written in an informal style that lends itself well to self study. 
+The format of each class will be a very short (25 min) review lecture highlighting the important points of your reading. The rest of the time will be devoted to collaborative problem solving. Since not all the relevant material will be covered in the lectures, it is essential that the assigned reading be completed each Sunday. The textbook by Griffiths gives an excellent intermediate-level treatment of electrodynamics. It is well written in an informal style that lends itself well to self study. 
 
 I adore E&M for its mathematical beauty.  Let me say that another way that sounds less fancy.  All of E&M can be derived from 4 equations (Maxwell's Equations).  We don't get there until the end, but along the way I hope to point out that there really are very few equations.  There's a bunch of math you have to deal with, and we'll spend the first week getting used to that, and then you'll keep getting more familiar with that as we go on. 
 
@@ -45,7 +45,7 @@ Here is the specific process we will go through for each topic:
 
 **Before Class:**
 
-**Reading & Notes:** Reading assignments are due on Monday each week as listed
+**Reading & Notes:** Reading assignments are due on Sunday night each week as listed
 on the grid (see tab above)
 It is required that you do the reading before class and take
 notes! As you read, take the time to stop and think, what does this mean? Do I
@@ -55,7 +55,7 @@ not have to be beautiful and they do not have to be perfect, just functional and
 thoughtful.
 On Moodle there is an assignment called READING NOTES where you should
 submit a single PDF of your notes. These are typically due at 11:59 PM on
-Mondays.
+Sundays.
 
 **Problem Sets**: Each week’s readings has an associated problem set listed under
 PROBLEMS in the SCHEDULE. Take some time to look at these before you get to
@@ -89,27 +89,21 @@ soon as you’ve done this initial work, submit it. I grade FIRST DRAFT SOLUTION
 by simply looking to see if you’ve written down your thoughts for each problem
 while they are fresh. I expect there to be something written for each problem
 since we talk about each problem in class. In fact, there won’t be time for
-much more than this since your FIRST DRAFT SOLUTIONS are due by Thursday
-evening at 11:59 PM.
+much more than this since your FIRST DRAFT SOLUTIONS are due by Friday
+afternoon at 5:00 PM.
 
 **Collaborators:** Throughout the semester, you will be matched with a Collaborator
 (or few) with whom you can bounce ideas off of, compare notes with, and who
 will also provide you with feedback on your FIRST DRAFT SOLUTIONS. You will
 need to schedule a regular time to meet with your Collaborator each week.
-When your collaborator gives you their FIRST DRAFT SOLUTIONS, you will have
-24 hours to give feedback to your Collaborator. This is a relatively simple task,
-but incredibly helpful for your collaborator. On Moodle there is a document
-called the PEER EVALUATION FORM. This is a simple rubric for you to use to
-evaluate each problem from your collaborator’s FIRST DRAFT SOLUTIONS. Once
-you complete the PEER EVALUATION FORM for each problem, give it to your
-Collaborator to help them identify where to focus for their PRETTY COPY
-SOLUTIONS. Then, complete the COLLABORATION PEER EVALUATION quiz on
-Moodle. This practice has many purposes, but more than anything it is meant to
+This is a relatively simple task,
+but incredibly helpful for your collaborator. 
+This practice has many purposes, but more than anything it is meant to
 help build a supportive community between peers that you can lean on
-throughout your time at Bryn Mawr (and after!).
+throughout your time at Haverford and Bryn Mawr (and after!).
 
 **Pretty Copy Solutions:** Once you have strategized each problem on your own,
-discussed in class, submitted a first draft, and received feedback from your
+discussed in class, submitted a first draft, and discussed the problems with your 
 Collaborator you should feel like you understand every step of each problem
 very well. On your own, write a PRETTY COPY of each of your solutions —
 show all steps, explain all steps, reference equations used, and put it in
