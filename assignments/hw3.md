@@ -42,7 +42,7 @@ b) Pretend the Yukawa potential obeys Maxwell's equations, and find the electric
 
 c) Use Poisson's equation to find the charge density that would yield this potential.. 
 
-d) Show that this charge density does not yield the electric field you found in part b. (I'd use the differential form of Gauss's law)  
+d) Show that this charge density does not yield the electric field you found in part b. (I'd use the integral form of Gauss's law)  
 
 e) It didn't work because the Yukawa potential is freaky.  The best way to mimic the Yukawa potential in electrostatics is to add a point charge at the origin. Figure out the magnitude of point charge you need at the origin in order to make it work out a little better. It won't work out perfectly, but you should be able to show (either by a plot or maybe by Gauss's law) that the effect of the charge distribution you found in part c is to screen the field created by the point charge.  
 
