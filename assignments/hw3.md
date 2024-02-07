@@ -40,7 +40,7 @@ a) Make a plot of the Yukawa potential and the Coulomb potential
 
 b) Pretend the Yukawa potential obeys Maxwell's equations, and find the electric field given by this potential.
 
-c) Use Poisson's equation to find the charge density that would yield this potential.. 
+c) Use Poisson's equation to find the charge density that would yield this potential. (Careful, del-squared is the divergence of the gradient, so you need to look up the divergence in spherical coordinates.) 
 
 d) Show that this charge density does not yield the electric field you found in part b. (I'd use the integral form of Gauss's law)  
 
@@ -54,5 +54,6 @@ $$ 3 \times 10^6$$ volts/meter.
        a) What is the maximum voltage that can be applied to the balloon?
 
        b)  What gas pressure inside the balloon would produce the same effect? 
+
 What fraction of atmospheric pressure is this? Will it work?
 
