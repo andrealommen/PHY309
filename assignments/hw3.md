@@ -29,14 +29,22 @@ and an “m” with a circle around it for meaning.
     e) How does this frequency compare with that of the fundamental Lyman $$\alpha$$ transition in
 hydrogen? The wavelength of a Lyman $$\alpha$$ photon is 121.6 nm.
 
-4. Find the charge distribution (i.e., the charge density) that produces the Yukawa potential (a model for the nuclear force), i.e.,
+4. You are going to find the charge distribution (i.e., the charge density) that (mostly) produces the Yukawa potential, i.e.,
 
  $$ V(r) = \frac{A}{r}e^{-r/a}$$
 
- Hint: In addition to a continuous charge density, you must place a point charge at the origin.
+The Yukawa potential was created to model the Nuclear Force, which drops off very quickly with distance. That's why that exponential is there. 
 
- Why? Be sure to give the value of this point charge, which you should be able to identify
-from the form of the electric field. If not, try Gauss’s law. 
+a) Make a plot of the Yukawa potential and the Coulomb potential (
+A/r) on the same plot.  Show that the Yukawa potential is really close to the Coulumb potential for distances that are around $a$. Show that at long distances the Yukawa potential is very different than the Yukawa potential.  You might need two plots to show both these things.  
+
+b) Pretend the nuclear force obeys Maxwell's equations, and find the electric field given by this potential.
+
+c) Use Poisson's equation to find the charge density that would yield this potential.. 
+
+d) Show that this charge density does not yield the electric field you found in part b. (I'd use the differential form of Gauss's law)  
+
+e) It didn't work because the Yukawa potential is freaky.  The best way to mimic the Yukawa potential in electrostatics is to add a point charge at the origin. Figure out how big a point charge you need at the origin in order to make it work out a little better. It won't work out perfectly, but you should be able to show (either by a plot or maybe by Gauss's law) that the effect of the chrage distribution you found in part c is to screen the field created by the point charge.  
 
 (5).   What is the capacitance of the earth? (Most of the surface of the earth is covered by sea water, a fairly good conductor.)
 
