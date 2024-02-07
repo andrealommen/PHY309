@@ -35,16 +35,16 @@ hydrogen? The wavelength of a Lyman $$\alpha$$ photon is 121.6 nm.
 
 The Yukawa potential was created to model the Nuclear Force, which drops off very quickly with distance. That's why that exponential is there. 
 
-a) Make a plot of the Yukawa potential and the Coulomb potential (
-A/r) on the same plot.  Show that the Yukawa potential is really close to the Coulumb potential for distances that are around $a$. Show that at long distances the Yukawa potential is very different than the Yukawa potential.  You might need two plots to show both these things.  
+a) Make a plot of the Yukawa potential and the Coulomb potential 
+(A/r) on the same plot.  Show that the Yukawa potential is really close to the Coulumb potential for distances that are around $a$. Show that at long distances the Yukawa potential is very different than the Coulomb potential.  You might need two plots to show both these things.  
 
-b) Pretend the nuclear force obeys Maxwell's equations, and find the electric field given by this potential.
+b) Pretend the Yukawa potential obeys Maxwell's equations, and find the electric field given by this potential.
 
 c) Use Poisson's equation to find the charge density that would yield this potential.. 
 
 d) Show that this charge density does not yield the electric field you found in part b. (I'd use the differential form of Gauss's law)  
 
-e) It didn't work because the Yukawa potential is freaky.  The best way to mimic the Yukawa potential in electrostatics is to add a point charge at the origin. Figure out how big a point charge you need at the origin in order to make it work out a little better. It won't work out perfectly, but you should be able to show (either by a plot or maybe by Gauss's law) that the effect of the chrage distribution you found in part c is to screen the field created by the point charge.  
+e) It didn't work because the Yukawa potential is freaky.  The best way to mimic the Yukawa potential in electrostatics is to add a point charge at the origin. Figure out the magnitude of point charge you need at the origin in order to make it work out a little better. It won't work out perfectly, but you should be able to show (either by a plot or maybe by Gauss's law) that the effect of the charge distribution you found in part c is to screen the field created by the point charge.  
 
 (5).   What is the capacitance of the earth? (Most of the surface of the earth is covered by sea water, a fairly good conductor.)
 
@@ -53,5 +53,6 @@ $$ 3 \times 10^6$$ volts/meter.
 
        a) What is the maximum voltage that can be applied to the balloon?
 
-       b)  What gas pressure inside the balloon would produce the same effect? What fraction of atmospheric pressure is this? Will it work?
+       b)  What gas pressure inside the balloon would produce the same effect? 
+What fraction of atmospheric pressure is this? Will it work?
 
