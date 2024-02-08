@@ -42,7 +42,7 @@ b) Pretend the Yukawa potential obeys Maxwell's equations, and find the electric
 
 c) Use Poisson's equation (or better yet, start with your answer to part b and then use the differential form of Gauss' law) to find the charge density that would yield this potential. (Careful, del-squared is the divergence of the gradient, so you need to look up the divergence in spherical coordinates.) 
 
-d) Use the integral form of Gauss's law to show that this overal charge distribution is not neutral. My suggestion is to integrate \rho over a spherical volume of radius r, and then let r tend toward infinity.  So how big a point charge do you need at the origin in order to make the charge distribution neutral? (This is what this questions used to say: Show that this charge density does not yield the electric field you found in part b. (I'd use the integral form of Gauss's law)  
+d) Use the integral form of Gauss's law to show that this overal charge distribution is not neutral. My suggestion is to integrate \rho over a spherical volume of radius r, and then let r tend toward infinity.  So how big a point charge do you need at the origin in order to make the charge distribution neutral? 
 
 e) Make a plot of the electric field due to the charge distribution \rho both before and after you add the point charge.  (Hint: You already have a formula for Q_enclosed from part d, so you're only moments away from knowing what the E-field due to that charge distribution is. You can superpose the E-field of a point charge on top of that.)
 
