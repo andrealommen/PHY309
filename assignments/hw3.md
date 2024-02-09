@@ -40,7 +40,7 @@ a) Make a plot of the Yukawa potential and the Coulomb potential
 
 b) Pretend the Yukawa potential obeys Maxwell's equations, and find the electric field given by this potential.
 
-c) Use Poisson's equation (or better yet, start with your answer to part b and then use the differential form of Gauss' law) to find the charge density that would yield this potential. (Careful, $$\Delta^2$$ is the divergence of the gradient, so you need to look up the divergence in spherical coordinates.) 
+c) Use Poisson's equation (or better yet, start with your answer to part b and then use the differential form of Gauss' law) to find the charge density that would yield this potential. (Careful, $$\nabla^2$$ is the divergence of the gradient, so you need to look up the divergence in spherical coordinates.) 
 
 d) Use the integral form of Gauss's law to show that this overal charge distribution is not neutral. My suggestion is to integrate $$\rho$$ over a spherical volume of radius $$r$$, and then let $$r$$ tend toward infinity.  So how big a point charge do you need at the origin in order to make the charge distribution neutral? 
 
