@@ -51,9 +51,7 @@ e) Make a plot of the electric field due to the charge distribution $$\rho$$ bot
 (6).   A spherical balloon is made of lightweight, aluminized Mylar. It is suggested that it could be kept spherical simply by connecting it to a high-voltage source. The balloon has a diameter of 0.1 meter, and the maximum breakdown electric field in air is
 $$ 3 \times 10^6$$ volts/meter.
 
-       a) What is the maximum voltage that can be applied to the balloon? (You can use the same expression for E-field that you used in the previous problem. Set that equal to the breakdown voltage to find a $$q_{max}$$ for the balloon.  Then use your expression for Voltage from the previous problem to answer the question.)
+&nbsp;&nbsp;(a) What is the maximum voltage that can be applied to the balloon? (You can use the same expression for E-field that you used in the previous problem. Set that equal to the breakdown voltage to find a $$q_{max}$$ for the balloon.  Then use your expression for Voltage from the previous problem to answer the question.)
 
-       b)  What gas pressure inside the balloon would produce the same effect? 
-
-What fraction of atmospheric pressure is this? Will it work?
+&nbsp;&nbsp;(b)  What gas pressure inside the balloon would produce the same effect?  What fraction of atmospheric pressure is this? Will it work?
 
