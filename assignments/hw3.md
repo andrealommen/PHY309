@@ -46,12 +46,12 @@ d) Use the integral form of Gauss's law to show that this overal charge distribu
 
 e) Make a plot of the electric field due to the charge distribution $$\rho$$ both before and after you add the point charge.  (Hint: You already have a formula for $$Q_{enclosed}$$ from part d, so you're only moments away from knowing what the E-field due to that charge distribution is. You can superpose the E-field of a point charge on top of that.)
 
-(5).   What is the capacitance of the earth? (Most of the surface of the earth is covered by sea water, a fairly good conductor.)
+(5).   What is the capacitance of the earth? (Most of the surface of the earth is covered by sea water, a fairly good conductor.) (Hint: consider the earth to be a spherical conductor with charge q.  You can get the field outside the earth very easily with Gauss' law.  Integrate the E-field from the earth's radius to infinity to get the voltage.  Then $$ C = q/V$$. You don't even have to stress about the sign because capacitance is defined to be positive.)
 
 (6).   A spherical balloon is made of lightweight, aluminized Mylar. It is suggested that it could be kept spherical simply by connecting it to a high-voltage source. The balloon has a diameter of 0.1 meter, and the maximum breakdown electric field in air is
 $$ 3 \times 10^6$$ volts/meter.
 
-       a) What is the maximum voltage that can be applied to the balloon?
+       a) What is the maximum voltage that can be applied to the balloon? (You can use the same expression for E-field that you used in the previous problem. Set that equal to the breakdown voltage to find a $$q_{max}$$ for the balloon.  Then use your expression for Voltage from the previous problem to answer the question.)
 
        b)  What gas pressure inside the balloon would produce the same effect? 
 
