@@ -36,15 +36,15 @@ hydrogen? The wavelength of a Lyman $$\alpha$$ photon is 121.6 nm.
 The Yukawa potential was created to model the Nuclear Force, which drops off very quickly with distance. That's why that exponential is there. 
 
 a) Make a plot of the Yukawa potential and the Coulomb potential 
-(A/r) on the same plot.  Show that the Yukawa potential is really close to the Coulumb potential for distances that are around $a$. Show that at long distances the Yukawa potential is very different than the Coulomb potential.  You might need two plots to show both these things.  
+(A/r) on the same plot.  Show that the Yukawa potential is really close to the Coulumb potential for distances that are around $$a$$. Show that at long distances the Yukawa potential is very different than the Coulomb potential.  You might need two plots to show both these things.  
 
 b) Pretend the Yukawa potential obeys Maxwell's equations, and find the electric field given by this potential.
 
-c) Use Poisson's equation (or better yet, start with your answer to part b and then use the differential form of Gauss' law) to find the charge density that would yield this potential. (Careful, del-squared is the divergence of the gradient, so you need to look up the divergence in spherical coordinates.) 
+c) Use Poisson's equation (or better yet, start with your answer to part b and then use the differential form of Gauss' law) to find the charge density that would yield this potential. (Careful, $$\Delta^2$$ is the divergence of the gradient, so you need to look up the divergence in spherical coordinates.) 
 
-d) Use the integral form of Gauss's law to show that this overal charge distribution is not neutral. My suggestion is to integrate \rho over a spherical volume of radius r, and then let r tend toward infinity.  So how big a point charge do you need at the origin in order to make the charge distribution neutral? 
+d) Use the integral form of Gauss's law to show that this overal charge distribution is not neutral. My suggestion is to integrate $$\rho$$ over a spherical volume of radius $$r$$, and then let $$r$$ tend toward infinity.  So how big a point charge do you need at the origin in order to make the charge distribution neutral? 
 
-e) Make a plot of the electric field due to the charge distribution \rho both before and after you add the point charge.  (Hint: You already have a formula for Q_enclosed from part d, so you're only moments away from knowing what the E-field due to that charge distribution is. You can superpose the E-field of a point charge on top of that.)
+e) Make a plot of the electric field due to the charge distribution $$\rho$$ both before and after you add the point charge.  (Hint: You already have a formula for $$Q_{enclosed}$$ from part d, so you're only moments away from knowing what the E-field due to that charge distribution is. You can superpose the E-field of a point charge on top of that.)
 
 (5).   What is the capacitance of the earth? (Most of the surface of the earth is covered by sea water, a fairly good conductor.)
 
