@@ -53,5 +53,5 @@ $$ 3 \times 10^6$$ volts/meter.
 
 &nbsp;&nbsp;&nbsp;&nbsp;(a) What is the maximum voltage that can be applied to the balloon? (You can use the same expression for E-field that you used in the previous problem. Set that equal to the breakdown voltage to find a $$q_{max}$$ for the balloon.  Then use your expression for Voltage or capacitance from the previous problem to answer the question.)
 
-&nbsp;&nbsp;&nbsp;&nbsp;(b)  What gas pressure inside the balloon would produce the same effect?  What fraction of atmospheric pressure is this? Will it work?
+&nbsp;&nbsp;&nbsp;&nbsp;(b)  What gas pressure inside the balloon would produce the same effect? (See equation 2.52)  What fraction of atmospheric pressure is this? Will it work?
 
