@@ -90,7 +90,7 @@ by simply looking to see if you’ve written down your thoughts for each problem
 while they are fresh. I expect there to be something written for each problem
 since we talk about each problem in class. In fact, there won’t be time for
 much more than this since your FIRST DRAFT SOLUTIONS are due by Friday
-afternoon at 5:00 PM.
+night at 11:59 PM.
 
 **Collaborators:** Throughout the semester, you will be matched with a Collaborator
 (or few) with whom you can bounce ideas off of, compare notes with, and who
