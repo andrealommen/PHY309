@@ -5,6 +5,7 @@ permalink: /lectures
 ---
 ### For reference ###
 [All the Fundamental Theorems Together](/PHY309/lectures/derivatives)<br>
+[Uniqueness Theorems](/PHY309/lectures/uniqueness)<br>
 [Maxwell's Equations](/PHY309/lectures/maxwell)<br>
 [Minus Signs](/PHY309/lectures/minus_signs)<br>
 ### Chapter 1: Vector Analysis ### 
