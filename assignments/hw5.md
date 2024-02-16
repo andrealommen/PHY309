@@ -19,7 +19,8 @@ and an “m” with a circle around it for meaning.
 
 1.   Griffiths, Chapter 3, Problem 3.16. Replace the question in square brackets with “See if you can come up with a simple way of determining the potential at the center of the cube.”
 
-2.   I'm changing this one to Griffiths, Problem 3.29. If you've already done Problem 3.44 you can submit that, but I think 3.29 gives you way more intuition about how the multipole expansion is used in practice. (Old assignment: Griffiths, Problem 3.44.  Be sure to see my Multipole notes from chapter 3.)
+2.   Griffiths, Problem 3.29. 
+This problem is good at giving you intuition about how the multipole expansion is used in practice. 
 
      **The next three questions involve solving Laplace’s Equation in cylindrical coordinates.**
 
@@ -42,8 +43,6 @@ separation constant.)
 are called cylindrical harmonics. Note: one must treat the case when the separation
 constant is zero as a separate case. You’ll have to go back to the “$$s$$” equation to get a
 solution in this case.
-
-We won't start this one in class, but it's still on your homework.  Take at least a half hour to set up the problem by yourself before you talk to classmates, TAs, or Andrea.
 
 5.    Use the expansion in problem 4 to solve the following problem. A long, 
 grounded, cylindrical conductor of radius R is placed in an external, initially 
