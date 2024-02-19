@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Uniqueness Theorems"
-permalink: "/lectures/unique"
+permalink: "/lectures/uniqueness"
 ---
 
 **First uniqueness theorem:** 
