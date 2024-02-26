@@ -12,7 +12,7 @@ permalink: /Grid/
 | February 12, 2022 | Chapter 3: Sec 1: Laplace's equation, Chapter 3: Sec 2: The Method of Images | <a href='/PHY309/assignments/hw4' >Assignment \#04 |
 | February 19, 2022 | Chapter 3: Sec 3: Separation of Variables, Sec 4: Multipole Expansion        | <a href='/PHY309/assignments/hw5' >Assignment \#05 |
 | February 26, 2022 | Chapter 4: Sec 1-4.4.2 (Boundary conditions): Polarization, Dielectrics, Electric Displacement | <a href='/PHY309/assignments/hw6' >Assignment \#06 |
-| March 4, 2022 | Chapter 5: Sec 1-4 | <a href='/PHY309/assignments/hw7' >Assignment \#07 |
+| March 4, 2022 | Chapter 5: Sec 1-4 (Magnetostatics) | <a href='/PHY309/assignments/hw7' >Assignment \#07 |
 | March 11, 2022     | SPRING BREAK  |  |
 | March 18, 2022    | Chapter 6: Sec 1-2: Magnetization, Sec 3-4: Auxiliary Field | <a href='/PHY309/assignments/hw8' >Assignment \#08 |
 | March 25, 2022    | Chapter 7: Sec 1\-2: Induction  | <a href='/PHY309/assignments/hw9' >Assignment \#09 |  
