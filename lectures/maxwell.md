@@ -32,3 +32,7 @@ $$
 \nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0 \epsilon_0 \frac{\partial\vec{E}}{\partial t}
 $$
 
+or the Auxillary/Displacement field version (it's nicer looking, no?):
+$$
+\nabla \times \vec{H} = \vec{J} + \frac{\partial\vec{D}}{\partial t}
+$$
