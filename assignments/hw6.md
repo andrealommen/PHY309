@@ -42,7 +42,4 @@ $$
 C = \frac{\epsilon_2 - \epsilon_1}{s \ln\left({\epsilon_2/\epsilon_1}\right)}
 $$
 
-We won't start this one in class, but it's still on your homework.  Take at least a half hour to set up the problem by yourself before you talk to classmates, TAs, or Andrea.
-
-5.	If the space between two long, charged coaxial cylindrical conductors were filled with a dielectric, how would the permittivity have to depend on the distance, $$s$$, from the axis in order that the electric field intensity be independent of $$s$$?
 
