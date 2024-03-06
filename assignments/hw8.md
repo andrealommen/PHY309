@@ -5,7 +5,10 @@ permalink: "/assignments/hw8"
 ---
 
 Reading: 
-Griffiths, Chapter 6, Sections 1-3
+Former reading assignment: Griffiths, Chapter 6, Sections 1-3
+New improved reading assignment: Page 279-282, paying particular example to example 6.2. 
+Read 284- 287, but skip example 6.3. 
+
 
 You may work together and get help from other students. Your solutions must be written in your own words, without looking at someone else's solutions while
 you write them.
