@@ -30,7 +30,7 @@ external magnetic field. Solve for the magnetic field everywhere outside the sph
 all the formalism we developed for solving Laplace's equation using separation of variables.)
 
 3. A thin disk of iron of radius R and thickness $$t << R$$ is magnetized in the direction parallel to
-the axis, $$M = M_0\hat{z}$$ . Calculate H and B on the axis both inside and outside the iron. (I suggest you find the bound current and then call me over and let's talk about it and your next steps.)
+the axis, $$M = M_0\hat{z}$$ . Calculate H and B on the axis both inside and outside the iron. (I suggest you find the bound current using K = M cross r-hat and then call me over and let's talk about it and your next steps.)
 
 4. A spherical permanent magnet has a uniform polarization M . Choose M to be along the
 z axis. Calculate B everywhere. 
