@@ -15,7 +15,7 @@ permalink: /Grid/
 | March 4, 2022 | Chapter 5: Sec 1-4 (Magnetostatics) | <a href='/PHY309/assignments/hw7' >Assignment \#07 |
 | March 11, 2022     | SPRING BREAK  |  |
 | March 18, 2022    | Page 279-282, paying particular example to example 6.2.  Read 284- 287, but skip example 6.3. | <a href='/PHY309/assignments/hw8' >Assignment \#08 |
-| March 25, 2022    | Chapter 7: Sec 1\-2: Induction  | <a href='/PHY309/assignments/hw9' >Assignment \#09 |  
+| March 25, 2022    | Chapter 7: Sec 1\-2: Induction (see notes on the assignment for more particulars)  | <a href='/PHY309/assignments/hw9' >Assignment \#09 |  
 | April 1, 2022    | Chapter 9:  9.1.3-9.2.2 and  9.3.1-9.4.2 EM Waves in Vacuum, Linear Media and Conductors, Boundary Conditions, but we're leaving energy, momentum, and dispersion till next week.  | <a href='/PHY309/assignments/hw10' >Assignment \#10 |  
 | April 8, 2022     | Chapter 8: Sec 2: The Poynting Vector and Section 9.2.3 Energy and Momentum in EM fields, Chapter 9: Transmission and Reflection Coefficients ,  9.4.3 Dispersion (But you don't need much of this section.  Just get as far as $$v_g = d\omega/dk$$) Also read the lectures notes on waves in a diffuse plasma.       | <a href='/PHY309/assignments/hw11' >Assignment \#11 |
 | April 15, 2022    | Chapter 10: Sec 1: The Potential Formulation,  Sec 2: Deferred Potentials,  Sec 3: Liénard-Wiechert Potentials | <a href='/PHY309/assignments/hw12' >Assignment \#12 | 
