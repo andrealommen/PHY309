@@ -5,7 +5,8 @@ permalink: "/assignments/hw9"
 ---
 
 Reading: 
-Griffiths, Chapter 7
+Griffiths, from Chapter 7:
+Page 300-307: you can skip examples, skip the proof on the bottom of page 307, and then pick back up the text on the bottom of page 308 “There is a sign ambiguity…” Read through 327 skipping the examples and the problems. 
 
 You may work together and get help from other students. Your solutions must be written in your own words, without looking at someone else's solutions while
 you write them.
@@ -21,14 +22,7 @@ ______________________________________________________________________________
 1.	Griffiths, Problem 7.3
 2.	Griffiths, Problem 7.11.
 3.	Griffiths, Problem 7.23.
-4.	Griffiths, Problem 7.50.
-
-	We will not start this problem in class, but it is still on your homework. Spend a half hour by yourself working on setting up the problem before you speak with any of your classmates or TAs or Andrea.
-
-5.	Griffiths, Problem 7.62. This type of transmission line is referred to by electrical engineers as a “strip line.”
-
-Extra problem for fun:	Suppose a solenoid has a uniform density of turns except near the ends where extra turns are added to obtain a higher magnetic field than that near the center. Show qualitatively that, if its axial velocity is not too large, a charged particle that spirals along the axis inside the solenoid will be reflected back when it reaches either end. The regions of higher magnetic field are called “magnetic mirrors,” and the entire device is called a “magnetic bottle” for obvious reasons.  The Van Allen radiation belts around the Earth consists of electrons and protons from the Sun that have been captured by the Earth’s magnetic field via this effect.
-
+4.	Griffiths, Problem 7.62. This type of transmission line is referred to by electrical engineers as a “strip line.”
 
 Some hints if you want them:
 
