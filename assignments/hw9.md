@@ -35,7 +35,7 @@ You usually find capacitance by assuming there’s a charge Q on each conductor.
 You do have to look up the density and conductivity of aluminum. If you express things in terms of the cross-sectional area of the loop (the cross-section lying in a plane perpendicular to the direction its falling) then the cross-sectional area cancels out.
 
 7.23
-First compute the mutual inductance M.  To do this, put I in the outer loop and compute the flux in the inner loop.  Check out 7.22 and then notice (7.24) that the mutual inductance is the same whether you’re asking about the flux induced in the big loop by the current in the small loop or the the other way around.  I believe Griffiths even calls that “cute.”
+First compute the mutual inductance M.  To do this, put I in the outer loop and compute the flux in the inner loop.  Check out 7.22 and then notice (7.24) that the mutual inductance is the same whether you’re asking about the flux induced in the big loop by the current in the small loop or the the other way around.  I believe Griffiths even calls that “cute.”  To make your life EVEN EASIER, instead of calculating the flux through the small loop due to the current in the large loop, only calculate the flux through the small loop due to the LOWER SIDE of the large loop, and then argue that the total flux through the small loop should be twice that by symmetry.
 
 7.62
 I’d use the parallel plate formula for capacitance. (You could also derive it from Gauss’s law and the definition of capacitance.). Then I’d combine 7.35 and 7.30 to get the inductance. 
