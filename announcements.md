@@ -12,5 +12,3 @@ What you should expect from the environment in physics.
 * integrity
 
 
-Summer Research meeting, Friday Jan 21, 3-4pm, Zoom
-
