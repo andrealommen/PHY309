@@ -5,9 +5,11 @@ permalink: /groups/
 author: Andrea Lommen
 ---
 
-Group1: Ethan, Shiksa, Helena, Nathan M, Elizabeth <br>
-Group2: Dan, Sam, Gerrit, Jon Frost <br>
-Group3: Jack M, Nathan W, Charlotte, Katharine, Dom <br>
-Group4: Colby, Dennis, Carter, Shoaib <br>
-Group5: Griffin, Jack H, Lizzie, Jesse <br>
-Group6: Anthony, Ayesha, Shufan, Linda, Luis <br>
+Group1: Can, Masa, Owen, Matt
+Group2: Zaid, Ellie, Veronica, Arbor
+Group3: Nora, Majdouline, Grace H
+Group4: Patrick, Manolya, Adrian, Giovanna
+Group5: Grace N, Heshu, Iris, Ishan
+Group6: Aidan, Yijin, Fabian, Viraj
+Group7: Star, Catherine, William, Leo
+
