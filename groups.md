@@ -13,3 +13,19 @@ Group5: Grace N, Heshu, Iris, Ishan
 Group6: Aidan, Yijin, Fabian, Viraj
 Group7: Star, Catherine, William, Leo
 
+
+Partners:
+Can/Zaid
+Masa/Majdouline
+Owen/Patrick
+Matt/Ellie
+Veronica/Grace H
+Arbor/Adrian
+Nora/Grace N
+Viraj/Aidan
+Manolya/Iris/Star
+Giovanna/Catherine
+Heshu/Leo
+Ishan/Yijin
+Fabian/William
+
