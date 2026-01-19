@@ -8,7 +8,7 @@ Instructor:  Andrea Lommen, KINSC L108, alommen 'at' haverford 'dot' edu
 
 Textbook:  Introduction to Electrodynamics by David J. Griffiths, 4th edition
 
-Thank you to Steve Boughn for his problem sets, and thanks to Kate Daniels for the format of this course. The text on this page in particular, was almost completely written by Kate (with a few changes) and I have her permission to use it here.
+Thank you to Steve Boughn for his problem sets, and thanks to Kate Daniels for the format of this course. Much of the text here is adapted from Kate's syllabus and I have her permission to use it here.
 
 The format of each class will be a very short (25 min) review lecture highlighting the important points of your reading. The rest of the time will be devoted to collaborative problem solving. Since not all the relevant material will be covered in the lectures, it is essential that the assigned reading be completed each Sunday. The textbook by Griffiths gives an excellent intermediate-level treatment of electrodynamics. It is well written in an informal style that lends itself well to self study. 
 
