@@ -7,10 +7,10 @@ author: Andrea Lommen
 
 Group1: Can, Masa, Owen, Matt\\
 Group2: Zaid, Ellie, Veronica, Arbor\\
-Group3: Nora, Majdouline, Grace H\\
+Group3: Nora, Majdouline, Grace H, Francis\\
 Group4: Patrick, Manolya, Adrian, Giovanna\\
 Group5: Grace N, Heshu, Iris, Ishan\\
-Group6: Aidan, Yijin, Fabian, Viraj\\
+Group6: Aidan, Yijin, Fabian, Viraj, Amol\\
 Group7: Star, Catherine, William, Leo  
 
 
