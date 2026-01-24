@@ -27,6 +27,11 @@ Giovanna/Catherine\\
 Heshu/Leo\\
 Ishan/Yijin\\
 Fabian/William\\
+Week 1:\\
 Manolya/Iris/Star\\
 (Manolya send to Iris, Iris send to Star, Star send to Manolya)
+Week 2:\\
+Manolya/Amol\\
+Iris/Star\\
+(and still need a partner for Francis)
 
