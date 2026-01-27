@@ -28,5 +28,5 @@ Fabian/William\\
 Iris/Star\\
 Viraj/Ellie\\
 Aidan/Manolya\\
-Amol/Matt\\
+Amol/Matt
 
