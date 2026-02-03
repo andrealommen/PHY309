@@ -44,6 +44,6 @@ c) Use Poisson's equation (or better yet, start with your answer to part b and t
 
 d) Use the integral form of Gauss's law to show that this overal charge distribution is not neutral. My suggestion is to integrate $$\rho$$ over a spherical volume of radius $$r$$, and then let $$r$$ tend toward infinity.  So how big a point charge do you need at the origin in order to make the charge distribution neutral? 
 
-e) Take a plot of the electric field due to the charge distribution $$\rho$$ both before and after you add the point charge.  (Hint: You already have a formula for $$Q_{enclosed}$$ from part d, so you're only moments away from knowing what the E-field due to that charge distribution is. You can superpose the E-field of a point charge on top of that.)
+e) Make a plot of the electric field due to the charge distribution $$\rho$$ both before and after you add the point charge.  (Hint: You already have a formula for $$Q_{enclosed}$$ from part d, so you're only moments away from knowing what the E-field due to that charge distribution is. You can superpose the E-field of a point charge on top of that.)
 
 
