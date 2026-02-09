@@ -36,7 +36,7 @@ hydrogen? The wavelength of a Lyman $$\alpha$$ photon is 121.6 nm.
 The Yukawa potential was created to model the Nuclear Force, which drops off very quickly with distance. That's why that exponential is there. 
 
 a) Make a plot of the Yukawa potential and the Coulomb potential 
-(A/r) on the same plot.  Show that the Yukawa potential is really close to the Coulumb potential for distances that are around $$a$$. Show that at long distances the Yukawa potential is very different than the Coulomb potential.  You might need two plots to show both these things.  
+(A/r) on the same plot.  Show that the Yukawa potential is really close to the Coulumb potential for short distances. Show that at long distances the Yukawa potential is very different than the Coulomb potential.  You might need two plots to show both these things.  
 
 b) Pretend the Yukawa potential obeys Maxwell's equations, and find the electric field given by this potential.
 
