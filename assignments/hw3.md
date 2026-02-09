@@ -42,8 +42,17 @@ b) Pretend the Yukawa potential obeys Maxwell's equations, and find the electric
 
 c) Use Poisson's equation (or better yet, start with your answer to part b and then use the differential form of Gauss' law) to find the charge density that would yield this potential. (Careful, $$\nabla^2$$ is the divergence of the gradient, so you need to look up the divergence in spherical coordinates.) 
 
-d) Use the integral form of Gauss's law to show that this overal charge distribution is not neutral. My suggestion is to integrate $$\rho$$ over a spherical volume of radius $$r$$, and then let $$r$$ tend toward infinity.  So how big a point charge do you need at the origin in order to make the charge distribution neutral? 
+d) (I changed the question a little because it was confusing, 
+but you can use all the same math did in the previous version of d. ) 
+Integrate $$\rho$$ over a spherical volume of radius $$r$$.
+Use Gauss' law to calculate the field at a radius $$r$$. It's not the same field you found in part (b) right?  
+In your "meaning" description, discuss how this violates Maxwell's equations
+and is therefore an unphysical field.
 
-e) Make a plot of the electric field due to the charge distribution $$\rho$$ both before and after you add the point charge.  (Hint: You already have a formula for $$Q_{enclosed}$$ from part d, so you're only moments away from knowing what the E-field due to that charge distribution is. You can superpose the E-field of a point charge on top of that.)
+e) Plot the field you found in part (b) and the field you found in part(d). Given what Yukawa was going for, which field was closer to what he wanted, i.e. which one shows a field that is closest to be "shielded" at distances similar to $$a$$? 
+
+previous version of d) Use the integral form of Gauss's law to show that this overal charge distribution is not neutral. My suggestion is to integrate $$\rho$$ over a spherical volume of radius $$r$$, and then let $$r$$ tend toward infinity.  So how big a point charge do you need at the origin in order to make the charge distribution neutral? 
+
+previous version of e) Make a plot of the electric field due to the charge distribution $$\rho$$ both before and after you add the point charge.  (Hint: You already have a formula for $$Q_{enclosed}$$ from part d, so you're only moments away from knowing what the E-field due to that charge distribution is. You can superpose the E-field of a point charge on top of that.)
 
 
