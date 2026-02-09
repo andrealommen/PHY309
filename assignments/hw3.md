@@ -46,10 +46,12 @@ d) (I changed the question a little because it was confusing,
 but you can use all the same math did in the previous version of d. ) 
 Integrate $$\rho$$ over a spherical volume of radius $$r$$.
 Use Gauss' law to calculate the field at a radius $$r$$. It's not the same field you found in part (b) right?  
-In your "meaning" description, discuss how this violates Maxwell's equations
-and is therefore an unphysical field.
+In your "meaning" description, discuss how Yukawa's potential violates Maxwell's equations
+and is therefore unphysical (not possible with E&M as we understand it.)
 
 e) Plot the field you found in part (b) and the field you found in part(d). Given what Yukawa was going for, which field was closer to what he wanted, i.e. which one shows a field that is closest to be "shielded" at distances similar to $$a$$? 
+
+Previous versions of (d) and (e) are shown below for posterity.
 
 previous version of d) Use the integral form of Gauss's law to show that this overal charge distribution is not neutral. My suggestion is to integrate $$\rho$$ over a spherical volume of radius $$r$$, and then let $$r$$ tend toward infinity.  So how big a point charge do you need at the origin in order to make the charge distribution neutral? 
 
