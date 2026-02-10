@@ -47,9 +47,11 @@ but you can use all the same math did in the previous version of d. )
 Integrate $$\rho$$ over a spherical volume of radius $$r$$.
 Use Gauss' law to calculate the field at a radius $$r$$. It's not the same field you found in part (b) right?  
 In your "meaning" description, discuss how Yukawa's potential violates Maxwell's equations
-and is therefore unphysical (not possible with E&M as we understand it.)
+and is therefore unphysical (not possible with E&M as we understand it.) 
+You may wish to discuss
+which way the field should point given the sign of the charge density you found in part (c), and which way the field points given the Yukawa potential (you can look at your answer to part (a) and/or remember that positive charges fall down in electric potential).  
 
-e) Plot the field you found in part (b) and the field you found in part(d). Given what Yukawa was going for, which field was closer to what he wanted, i.e. which one shows a field that is closest to be "shielded" at distances similar to $$a$$? 
+e) Plot the field you found in part (b) and the field you found in part(d). Given what Yukawa was going for, which field was closer to what he wanted, i.e. which one shows a field that is better "shielded" at short distances?    
 
 Previous versions of (d) and (e) are shown below for posterity.
 
