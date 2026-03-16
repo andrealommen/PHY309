@@ -5,13 +5,13 @@ permalink: /groups/
 author: Andrea Lommen
 ---
 
-Group1: Can, Masa, Owen, Matt\\
-Group2: Ellie, Veronica, Arbor\\
-Group3: Nora, Majdouline, Grace H, Francis\\
+Group1: Star, Masa, Ishan, Yijin\\
+Group2: Veronica, Can, Arbor, Iris\\
+Group3: Nora, Francis, William, Catherine\\
 Group4: Patrick, Manolya, Adrian, Giovanna\\
-Group5: Grace N, Heshu, Iris, Ishan\\
-Group6: Aidan, Yijin, Fabian, Viraj, Amol\\
-Group7: Star, Catherine, William, Leo  
+Group5: Grace N, Heshu, Matt, Aidan\\
+Group6: Majdouline, Grace H, Ellie, Viraj\\
+Group7: Fabian, Leo, Amol, Owen
 
 
 Partners:\\
