@@ -15,7 +15,7 @@ Group7: Fabian, Leo, Amol, Owen
 
 
 Partners:\\
-Can/Francis\\
+Can/Manolya\\
 Masa/Majdouline\\
 Owen/Patrick\\
 Veronica/Grace H\\
@@ -27,6 +27,6 @@ Ishan/Yijin\\
 Fabian/William\\
 Iris/Star\\
 Viraj/Ellie\\
-Aidan/Manolya\\
+Aidan/Francis\\
 Amol/Matt
 
